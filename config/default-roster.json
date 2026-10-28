@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "seven-female-v1",
+  "effective_date": "2026-10-18",
+  "authorization": "用户固定七位歌手及参考歌曲，后续默认沿用，除非用户手动指定。",
+  "based_on": [
+    "config/experiments/stage11-xinqiang.json",
+    "config/experiments/stage11-xiaoxingyun.json"
+  ],
+  "reference_policy": "Reuse these exact existing 15-second reference WAVs; validate SHA256 before generation. Never silently replace or reselect.",
+  "override_policy": "An explicit user request overrides that experiment only, unless the user explicitly changes global defaults.",
+  "steps": [
+    30
+  ],
+  "artists": [
+    {
+      "key": "stefanie",
+      "artist": "孙燕姿",
+      "reference_song": "我怀念的",
+      "reuse_reference_from": "work/stage9-stefanie-clips",
+      "reference_sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+      "reference_interval_seconds": [
+        202.307007,
+        217.307007
+      ]
+    },
+    {
+      "key": "jolin",
+      "artist": "蔡依林",
+      "reference_song": "天空",
+      "reuse_reference_from": "work/stage9-jolin-clips",
+      "reference_sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+      "reference_interval_seconds": [
+        200.127415,
+        215.127415
+      ]
+    },
+    {
+      "key": "elva",
+      "artist": "萧亚轩",
+      "reference_song": "错的人",
+      "reuse_reference_from": "work/stage9-elva-clips",
+      "reference_sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+      "reference_interval_seconds": [
+        189.094785,
+        204.094785
+      ]
+    },
+    {
+      "key": "fish",
+      "artist": "梁静茹",
+      "reference_song": "崇拜",
+      "reuse_reference_from": "work/stage9-fish-clips",
+      "reference_sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+      "reference_interval_seconds": [
+        228.574104,
+        243.574104
+      ]
+    },
+    {
+      "key": "angela",
+      "artist": "张韶涵",
+      "reference_song": "亲爱的那不是爱情",
+      "reuse_reference_from": "work/stage9-angela-clips",
+      "reference_sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+      "reference_interval_seconds": [
+        41.227755,
+        56.227755
+      ]
+    },
+    {
+      "key": "rainie",
+      "artist": "杨丞琳",
+      "reference_song": "雨爱",
+      "reuse_reference_from": "work/stage9-rainie-clips",
+      "reference_sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+      "reference_interval_seconds": [
+        180.589705,
+        195.589705
+      ]
+    },
+    {
+      "key": "cyndi",
+      "artist": "王心凌",
+      "reference_song": "我会好好的",
+      "reuse_reference_from": "work/stage11-cyndi-reference",
+      "reference_sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+      "reference_interval_seconds": [
+        247.215374,
+        262.215374
+      ]
+    }
+  ]
+}

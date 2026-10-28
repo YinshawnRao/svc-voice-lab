@@ -1,0 +1,167 @@
+[
+  {
+    "url": "https://files.pythonhosted.org/packages/7a/45/b0c389051ed02d77227202caf2c2abb1706ca4362781eb79bd6707359970/torch-2.14.1-cp310-cp310-macosx_14_0_arm64.whl",
+    "dest": ".cache/wheels/torch-2.14.1-cp310-cp310-macosx_14_0_arm64.whl",
+    "size_bytes": 127249640,
+    "sha256": "e24b9815001d18e73e76eae1ea25f8ef908c6103e857378ad20f8f6cf5c954f5",
+    "license": "Apache-2.0 AND Apache-2.0 WITH LLVM-exception AND BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND MIT",
+    "license_source": "https://pypi.org/pypi/torch/2.14.1/json",
+    "evidence": "https://github.com/Plachtaa/seed-vc/blob/51383efd921027683c89e5348211d93ff12ac2a8/requirements-mac.txt",
+    "purpose": "isolated preparation environment dependency",
+    "kind": "dependency"
+  },
+  {
+    "url": "https://files.pythonhosted.org/packages/20/f7/b24208eba89f9d1b58c1668bc6c8c4fd472b20c45573cb767f59d49fb0f6/numpy-1.26.4-cp310-cp310-macosx_11_0_arm64.whl",
+    "dest": ".cache/wheels/numpy-1.26.4-cp310-cp310-macosx_11_0_arm64.whl",
+    "size_bytes": 13966411,
+    "sha256": "2e4ee3380d6de9c9ec04745830fd9e2eccb3e6cf790d39d7b98ffd19b0dd754a",
+    "license": "License :: OSI Approved :: BSD License",
+    "license_source": "https://pypi.org/pypi/numpy/1.26.4/json",
+    "evidence": "https://github.com/Plachtaa/seed-vc/blob/51383efd921027683c89e5348211d93ff12ac2a8/requirements-mac.txt",
+    "purpose": "isolated preparation environment dependency",
+    "kind": "dependency"
+  },
+  {
+    "url": "https://files.pythonhosted.org/packages/d5/33/f1307601f492f764062ce7dd471a14750f3360e33cd0f8c614dae208492c/scipy-1.13.1-cp310-cp310-macosx_12_0_arm64.whl",
+    "dest": ".cache/wheels/scipy-1.13.1-cp310-cp310-macosx_12_0_arm64.whl",
+    "size_bytes": 30306232,
+    "sha256": "d605e9c23906d1994f55ace80e0125c587f96c020037ea6aa98d01b4bd2e222f",
+    "license": "License :: OSI Approved :: BSD License",
+    "license_source": "https://pypi.org/pypi/scipy/1.13.1/json",
+    "evidence": "https://github.com/Plachtaa/seed-vc/blob/51383efd921027683c89e5348211d93ff12ac2a8/requirements-mac.txt",
+    "purpose": "isolated preparation environment dependency",
+    "kind": "dependency"
+  },
+  {
+    "url": "https://files.pythonhosted.org/packages/71/87/31d2b9ed58975cec081858c01afaa3c43718eb0f62b5698a876d94739ad0/soundfile-0.12.1-py2.py3-none-macosx_11_0_arm64.whl",
+    "dest": ".cache/wheels/soundfile-0.12.1-py2.py3-none-macosx_11_0_arm64.whl",
+    "size_bytes": 1075977,
+    "sha256": "bceaab5c4febb11ea0554566784bcf4bc2e3977b53946dda2b12804b4fe524a8",
+    "license": "BSD 3-Clause License",
+    "license_source": "https://pypi.org/pypi/soundfile/0.12.1/json",
+    "evidence": "https://github.com/Plachtaa/seed-vc/blob/51383efd921027683c89e5348211d93ff12ac2a8/requirements-mac.txt",
+    "purpose": "isolated preparation environment dependency",
+    "kind": "dependency"
+  },
+  {
+    "url": "https://files.pythonhosted.org/packages/ee/86/032133892a5de43b5a98200b01aadcad68cc255e274a762f08b8a76d2912/filelock-4.1.0-py3-none-any.whl",
+    "dest": ".cache/wheels/filelock-4.1.0-py3-none-any.whl",
+    "size_bytes": 133003,
+    "sha256": "2ce9818e3e2d8f284c1a964414447ef148d42a5fd5e2a477a7118e574b293ec1",
+    "license": "MIT",
+    "license_source": "https://pypi.org/pypi/filelock/4.1.0/json",
+    "evidence": "https://github.com/Plachtaa/seed-vc/blob/51383efd921027683c89e5348211d93ff12ac2a8/requirements-mac.txt",
+    "purpose": "isolated preparation environment dependency",
+    "kind": "dependency"
+  },
+  {
+    "url": "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl",
+    "dest": ".cache/wheels/typing_extensions-4.16.0-py3-none-any.whl",
+    "size_bytes": 45571,
+    "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+    "license": "PSF-2.0",
+    "license_source": "https://pypi.org/pypi/typing-extensions/4.16.0/json",
+    "evidence": "https://github.com/Plachtaa/seed-vc/blob/51383efd921027683c89e5348211d93ff12ac2a8/requirements-mac.txt",
+    "purpose": "isolated preparation environment dependency",
+    "kind": "dependency"
+  },
+  {
+    "url": "https://files.pythonhosted.org/packages/95/9c/c510029fc6ef33a6275cd2c5d3cecd6613dfd6aa401d57c54f1c18852ccf/setuptools-84.0.0-py3-none-any.whl",
+    "dest": ".cache/wheels/setuptools-84.0.0-py3-none-any.whl",
+    "size_bytes": 818216,
+    "sha256": "51a52592b3b99e102b609654876bd65f19f999935166d1352678931132b0c670",
+    "license": "MIT",
+    "license_source": "https://pypi.org/pypi/setuptools/84.0.0/json",
+    "evidence": "https://github.com/Plachtaa/seed-vc/blob/51383efd921027683c89e5348211d93ff12ac2a8/requirements-mac.txt",
+    "purpose": "isolated preparation environment dependency",
+    "kind": "dependency"
+  },
+  {
+    "url": "https://files.pythonhosted.org/packages/a2/09/77d55d46fd61b4a135c444fc97158ef34a095e5681d0a6c10b75bf356191/sympy-1.14.0-py3-none-any.whl",
+    "dest": ".cache/wheels/sympy-1.14.0-py3-none-any.whl",
+    "size_bytes": 6299353,
+    "sha256": "e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5",
+    "license": "BSD",
+    "license_source": "https://pypi.org/pypi/sympy/1.14.0/json",
+    "evidence": "https://github.com/Plachtaa/seed-vc/blob/51383efd921027683c89e5348211d93ff12ac2a8/requirements-mac.txt",
+    "purpose": "isolated preparation environment dependency",
+    "kind": "dependency"
+  },
+  {
+    "url": "https://files.pythonhosted.org/packages/b9/54/dd730b32ea14ea797530a4479b2ed46a6fb250f682a9cfb997e968bf0261/networkx-3.4.2-py3-none-any.whl",
+    "dest": ".cache/wheels/networkx-3.4.2-py3-none-any.whl",
+    "size_bytes": 1723263,
+    "sha256": "df5d4365b724cf81b8c6a7312509d0c22386097011ad1abe274afd5e9d3bbc5f",
+    "license": "unknown",
+    "license_source": "https://pypi.org/pypi/networkx/3.4.2/json",
+    "evidence": "https://github.com/Plachtaa/seed-vc/blob/51383efd921027683c89e5348211d93ff12ac2a8/requirements-mac.txt",
+    "purpose": "isolated preparation environment dependency",
+    "kind": "dependency"
+  },
+  {
+    "url": "https://files.pythonhosted.org/packages/62/a1/3d680cbfd5f4b8f15abc1d571870c5fc3e594bb582bc3b64ea099db13e56/jinja2-3.1.6-py3-none-any.whl",
+    "dest": ".cache/wheels/jinja2-3.1.6-py3-none-any.whl",
+    "size_bytes": 134899,
+    "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+    "license": "unknown",
+    "license_source": "https://pypi.org/pypi/jinja2/3.1.6/json",
+    "evidence": "https://github.com/Plachtaa/seed-vc/blob/51383efd921027683c89e5348211d93ff12ac2a8/requirements-mac.txt",
+    "purpose": "isolated preparation environment dependency",
+    "kind": "dependency"
+  },
+  {
+    "url": "https://files.pythonhosted.org/packages/6c/c0/a98505f18594f1bce828bb159cec0fcf9860562f1a2c85913409fc8f3d9e/fsspec-2026.9.0-py3-none-any.whl",
+    "dest": ".cache/wheels/fsspec-2026.9.0-py3-none-any.whl",
+    "size_bytes": 221738,
+    "sha256": "8dd6e646e99ea382bd85f97a45e6b526a442d79423a7dc673f1e2756d05fcb5f",
+    "license": "BSD-3-Clause",
+    "license_source": "https://pypi.org/pypi/fsspec/2026.9.0/json",
+    "evidence": "https://github.com/Plachtaa/seed-vc/blob/51383efd921027683c89e5348211d93ff12ac2a8/requirements-mac.txt",
+    "purpose": "isolated preparation environment dependency",
+    "kind": "dependency"
+  },
+  {
+    "url": "https://files.pythonhosted.org/packages/94/1a/4b2f7c92293ba05cbd4a9a1b28faaf0326272d9488e6354657571c48a7aa/cffi-2.1.1-cp310-cp310-macosx_11_0_arm64.whl",
+    "dest": ".cache/wheels/cffi-2.1.1-cp310-cp310-macosx_11_0_arm64.whl",
+    "size_bytes": 184178,
+    "sha256": "ca82be1a1d406ecfe1d25dc16cb33488e5a16bf4438c9fb590484ea29d92478b",
+    "license": "MIT-0",
+    "license_source": "https://pypi.org/pypi/cffi/2.1.1/json",
+    "evidence": "https://github.com/Plachtaa/seed-vc/blob/51383efd921027683c89e5348211d93ff12ac2a8/requirements-mac.txt",
+    "purpose": "isolated preparation environment dependency",
+    "kind": "dependency"
+  },
+  {
+    "url": "https://files.pythonhosted.org/packages/13/f2/abeec3db71d221ccd3cd89d206be1fabf5a3ee7178862f5fba23a59607e0/mpmath-1.4.1-py3-none-any.whl",
+    "dest": ".cache/wheels/mpmath-1.4.1-py3-none-any.whl",
+    "size_bytes": 567787,
+    "sha256": "dc4f0ea2304480d4a9a48a94c1020571558ade522b44a6912efac63a586e140f",
+    "license": "BSD-3-Clause",
+    "license_source": "https://pypi.org/pypi/mpmath/1.4.1/json",
+    "evidence": "https://github.com/Plachtaa/seed-vc/blob/51383efd921027683c89e5348211d93ff12ac2a8/requirements-mac.txt",
+    "purpose": "isolated preparation environment dependency",
+    "kind": "dependency"
+  },
+  {
+    "url": "https://files.pythonhosted.org/packages/14/36/927999a34b7d1def6957de89153d327fedc4030061940b5a468584e6c5a8/markupsafe-3.0.4-cp310-cp310-macosx_11_0_arm64.whl",
+    "dest": ".cache/wheels/markupsafe-3.0.4-cp310-cp310-macosx_11_0_arm64.whl",
+    "size_bytes": 12066,
+    "sha256": "dff05cb7016dff1e9fd68f4122c127b65dfc59de5306cfb7ad92f956f230bee2",
+    "license": "BSD-3-Clause",
+    "license_source": "https://pypi.org/pypi/MarkupSafe/3.0.4/json",
+    "evidence": "https://github.com/Plachtaa/seed-vc/blob/51383efd921027683c89e5348211d93ff12ac2a8/requirements-mac.txt",
+    "purpose": "isolated preparation environment dependency",
+    "kind": "dependency"
+  },
+  {
+    "url": "https://files.pythonhosted.org/packages/90/11/0e6f11117525ff0eec40ebac3d313376f102df93ca44ad9e893ee85e4f89/pycparser-3.11-py3-none-any.whl",
+    "dest": ".cache/wheels/pycparser-3.11-py3-none-any.whl",
+    "size_bytes": 51178,
+    "sha256": "51d5a8ba2be0bbe440b99d2112604c95bbbc3c2748a64260186c541e1729cd80",
+    "license": "BSD-3-Clause",
+    "license_source": "https://pypi.org/pypi/pycparser/3.11/json",
+    "evidence": "https://github.com/Plachtaa/seed-vc/blob/51383efd921027683c89e5348211d93ff12ac2a8/requirements-mac.txt",
+    "purpose": "isolated preparation environment dependency",
+    "kind": "dependency"
+  }
+]

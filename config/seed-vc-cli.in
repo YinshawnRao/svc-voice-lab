@@ -1,0 +1,21 @@
+# CLI subset of the fixed upstream requirements-mac.txt, excluding Web UI,
+# real-time GUI and unused ASR frameworks. Stable matched Torch replaces nightly.
+torch==2.5.1
+torchaudio==2.5.1
+torchvision==0.20.1
+numpy==1.26.4
+scipy==1.13.1
+librosa==0.10.2
+huggingface-hub>=0.28.1,<1
+transformers==4.46.3
+munch==4.0.0
+einops==0.8.0
+descript-audio-codec==1.0.0
+soundfile==0.12.1
+accelerate
+pyyaml
+tqdm
+setuptools==70.3.0
+wheel==0.48.0
+# randomname 0.2.1 setup.py requires fire, omitted from its PyPI JSON metadata.
+fire

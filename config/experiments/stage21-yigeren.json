@@ -1,0 +1,496 @@
+{
+  "id": "stage21-yigeren",
+  "status": "POC_PASSED",
+  "created_at": "2026-10-19T08:43:53.054343+00:00",
+  "source_song": "一个人生活",
+  "source_artist": "林凡",
+  "source_url": "https://www.youtube.com/watch?v=hUJl1HwYIN8",
+  "source_acquisition_id": "stage21-source-yigeren",
+  "source_title_on_page": "林凡 Freya Lim【一個人生活 Living alone】Official Music Video (2012幸福蛻變版)",
+  "source_uploader": "滾石唱片 ROCK RECORDS",
+  "source_license": "unknown",
+  "steps": [
+    30
+  ],
+  "seed": 20261016,
+  "output_directory": "outputs/stage21-seven-yigeren",
+  "roster_id": "seven-female-v1",
+  "roster_config": "config/default-roster.json",
+  "roster_config_sha256": "c228d2daea315fa2b0509c6a9bd23e49c8796a38b2ab9fe9528ac3eb2f8f8f8a",
+  "roster_snapshot": "reports/evidence/stage21/default-roster.json",
+  "source_segment_policy": {
+    "effective_date": "2026-10-18",
+    "scope": "all_song_experiments",
+    "mode": "single_complete_chorus",
+    "fixed_duration_seconds": null,
+    "require_duration_confirmation": false,
+    "selection_policy": "Agent selects one complete chorus with intact phrases and a natural ending; record source start, end, duration and selection evidence in the experiment manifest.",
+    "shared_across_artists": true,
+    "override_policy": "An explicit user request for a full song, another segment or a duration overrides that experiment only, unless the user explicitly changes global defaults."
+  },
+  "authorization": {
+    "user_request": "开始一次全新的试验，本次让四大三小所有人演唱林凡的《一个人生活》",
+    "authorized_artist_keys": [
+      "stefanie",
+      "jolin",
+      "elva",
+      "fish",
+      "angela",
+      "rainie",
+      "cyndi"
+    ],
+    "excluded_original_artist": null,
+    "selection_basis": "一个人生活 is 林凡 song. 林凡 is outside the fixed seven, and the user asked for everyone, so all seven default references are used."
+  },
+  "source_selection": {
+    "chosen": {
+      "url": "https://www.youtube.com/watch?v=hUJl1HwYIN8",
+      "reason": "Rock Records official MV audio, exact opus 5037059 bytes. Full-vocal ASR is the song, not drama dialogue. Opening energy begins at 14s with the verse. 字幕by索兰娅 at the file end matches the known Whisper credit hallucination from stage20."
+    },
+    "rejected_without_download": [
+      {
+        "url": "https://www.youtube.com/watch?v=bWJNMit0B-g",
+        "reason": "cover by another singer"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=uuVwqQzPWcY",
+        "reason": "132 second clip, not a full song"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=6tt1MfjPqCw",
+        "reason": "concert recording"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=508ype14fRo",
+        "reason": "same Rock Records MV with English subtitles; not a second source"
+      }
+    ],
+    "opening_check": {
+      "transcript": "work/stage21-yigeren-asr/transcript.json",
+      "observation": "No speech before about 14 seconds. First recognized line is the verse 夜自在窗外, an ASR spelling of the opening lyric, not talk. ASR text is not lyrics truth."
+    }
+  },
+  "artists": [
+    {
+      "key": "stefanie",
+      "artist": "孙燕姿",
+      "reference_song": "我怀念的",
+      "reuse_reference_from": "work/stage9-stefanie-clips",
+      "reference_sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+      "reference_interval_seconds": [
+        202.307007,
+        217.307007
+      ],
+      "status": "POC_PASSED",
+      "clips": "work/stage21-yigeren-stefanie-clips",
+      "run_id": "stage21-yigeren-stefanie",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage21-seven-yigeren/孙燕姿_一个人生活_AI.wav",
+          "sha256": "a5905394034e5a3fdb1eab65f833b2f8d37ee65e1b884a64581a94d0b518e0ac",
+          "size_bytes": 5820496
+        },
+        "mix": {
+          "path": "outputs/stage21-seven-yigeren/孙燕姿_一个人生活_mix_AI.wav",
+          "sha256": "3c9433ec8d5ee9c5d8695de69650878894aa1e997404c4f51b29173b281a556c",
+          "size_bytes": 5821244
+        },
+        "reference": {
+          "path": "outputs/stage21-seven-yigeren/inputs/孙燕姿_参考_我怀念的.wav",
+          "sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 186.98,
+        "speaker_cosine": 0.7624531984329224,
+        "f0_pearson": 0.9985371356881158,
+        "common_voiced_coverage": 0.7584848484848485,
+        "mps_allocated_peak_gib": 3.566415786743164,
+        "mps_driver_peak_gib": 5.2520904541015625,
+        "CER": null
+      },
+      "human_audition": false
+    },
+    {
+      "key": "jolin",
+      "artist": "蔡依林",
+      "reference_song": "天空",
+      "reuse_reference_from": "work/stage9-jolin-clips",
+      "reference_sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+      "reference_interval_seconds": [
+        200.127415,
+        215.127415
+      ],
+      "status": "POC_PASSED",
+      "clips": "work/stage21-yigeren-jolin-clips",
+      "run_id": "stage21-yigeren-jolin",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage21-seven-yigeren/蔡依林_一个人生活_AI.wav",
+          "sha256": "5306863ef9e0da424ad0328391c1bc8650ac2d93e902ce22b868773d6de8223f",
+          "size_bytes": 5820496
+        },
+        "mix": {
+          "path": "outputs/stage21-seven-yigeren/蔡依林_一个人生活_mix_AI.wav",
+          "sha256": "cf020666f9ef9700ff4206421a5976bd0f43a9503c7034f613bae7508e2b35cf",
+          "size_bytes": 5821244
+        },
+        "reference": {
+          "path": "outputs/stage21-seven-yigeren/inputs/蔡依林_参考_天空.wav",
+          "sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 194.005,
+        "speaker_cosine": 0.8250488638877869,
+        "f0_pearson": 0.9980104853675431,
+        "common_voiced_coverage": 0.7539393939393939,
+        "mps_allocated_peak_gib": 3.559823751449585,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      },
+      "human_audition": false
+    },
+    {
+      "key": "elva",
+      "artist": "萧亚轩",
+      "reference_song": "错的人",
+      "reuse_reference_from": "work/stage9-elva-clips",
+      "reference_sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+      "reference_interval_seconds": [
+        189.094785,
+        204.094785
+      ],
+      "status": "POC_PASSED",
+      "clips": "work/stage21-yigeren-elva-clips",
+      "run_id": "stage21-yigeren-elva",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage21-seven-yigeren/萧亚轩_一个人生活_AI.wav",
+          "sha256": "69f33a75bb3ee3b692ecd06cf34713af05fe5b7eac7234b955791c6656f85a1c",
+          "size_bytes": 5820496
+        },
+        "mix": {
+          "path": "outputs/stage21-seven-yigeren/萧亚轩_一个人生活_mix_AI.wav",
+          "sha256": "347739d1daf9ffff27e3fb4262f8e95e7624f90cb872398ca26fcc9420a8d6d9",
+          "size_bytes": 5821244
+        },
+        "reference": {
+          "path": "outputs/stage21-seven-yigeren/inputs/萧亚轩_参考_错的人.wav",
+          "sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 197.413,
+        "speaker_cosine": 0.8212981820106506,
+        "f0_pearson": 0.99836746344328,
+        "common_voiced_coverage": 0.7584848484848485,
+        "mps_allocated_peak_gib": 3.573556900024414,
+        "mps_driver_peak_gib": 5.25213623046875,
+        "CER": null
+      },
+      "human_audition": false
+    },
+    {
+      "key": "fish",
+      "artist": "梁静茹",
+      "reference_song": "崇拜",
+      "reuse_reference_from": "work/stage9-fish-clips",
+      "reference_sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+      "reference_interval_seconds": [
+        228.574104,
+        243.574104
+      ],
+      "status": "POC_PASSED",
+      "clips": "work/stage21-yigeren-fish-clips",
+      "run_id": "stage21-yigeren-fish",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage21-seven-yigeren/梁静茹_一个人生活_AI.wav",
+          "sha256": "6155beb7cab30a62a94fdb6667db30b39332d152b9ffc4ca61acbfc260ecb4ef",
+          "size_bytes": 5820496
+        },
+        "mix": {
+          "path": "outputs/stage21-seven-yigeren/梁静茹_一个人生活_mix_AI.wav",
+          "sha256": "43672ea50b68db9cfe16004360f2417c3f4e22b23707f5785a82ccddebbc8ee8",
+          "size_bytes": 5821244
+        },
+        "reference": {
+          "path": "outputs/stage21-seven-yigeren/inputs/梁静茹_参考_崇拜.wav",
+          "sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 190.715,
+        "speaker_cosine": 0.7573866844177246,
+        "f0_pearson": 0.9979328385534982,
+        "common_voiced_coverage": 0.7603030303030303,
+        "mps_allocated_peak_gib": 3.588388442993164,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      },
+      "human_audition": false
+    },
+    {
+      "key": "angela",
+      "artist": "张韶涵",
+      "reference_song": "亲爱的那不是爱情",
+      "reuse_reference_from": "work/stage9-angela-clips",
+      "reference_sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+      "reference_interval_seconds": [
+        41.227755,
+        56.227755
+      ],
+      "status": "POC_PASSED",
+      "clips": "work/stage21-yigeren-angela-clips",
+      "run_id": "stage21-yigeren-angela",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage21-seven-yigeren/张韶涵_一个人生活_AI.wav",
+          "sha256": "2a873057e6d426e3fbcff68c45996dbdf397a8e021d6a4005087ae8ad3803e65",
+          "size_bytes": 5820496
+        },
+        "mix": {
+          "path": "outputs/stage21-seven-yigeren/张韶涵_一个人生活_mix_AI.wav",
+          "sha256": "9d6e77eb8d60352d7b31df3aa9fba0688231c39a8420e8807ba312156f55778c",
+          "size_bytes": 2910644,
+          "duration_seconds": 33.0,
+          "sample_rate": 44100,
+          "channels": 1,
+          "provenance": "user_provided_trained_RVC_mix_trim"
+        },
+        "reference": {
+          "path": "outputs/stage21-seven-yigeren/inputs/张韶涵_参考_亲爱的那不是爱情.wav",
+          "sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 190.164,
+        "speaker_cosine": 0.861144483089447,
+        "f0_pearson": 0.9984256053931069,
+        "common_voiced_coverage": 0.7560606060606061,
+        "mps_allocated_peak_gib": 3.555429458618164,
+        "mps_driver_peak_gib": 5.2520904541015625,
+        "CER": null
+      },
+      "human_audition": false,
+      "mix_replacement": {
+        "run_id": "stage21-angela-replacement-20261020T230206",
+        "completed_at": "2026-10-20T15:08:30.283136+00:00",
+        "operation": "lossless_sample_trim_of_user_provided_trained_RVC_mix",
+        "scope": "angela mix only; historical dry vocal retained and labeled",
+        "input_original": "/Users/yinshawnrao/explorer/cc-voice/outputs/默认模型成品_phase3/一个人生活-林凡.wav",
+        "input_copy": "work/stage21-angela-replacement-20261020T230206/input_copy.wav",
+        "input_sha256": "6601ca0455e60d4e292a1531af3e88addf87b8613a21027fd0883958f5e2be0f",
+        "input_interval_seconds": [
+          78.22421768707483,
+          111.22421768707483
+        ],
+        "source_interval_seconds": [
+          78.2,
+          111.2
+        ],
+        "duration_seconds": 33.0,
+        "offset_seconds": 0.024217687074823857,
+        "start_sample": 3449688,
+        "end_sample_exclusive": 4904988,
+        "resampling": false,
+        "time_stretch": false,
+        "gain_change": false,
+        "pcm_exact_match": true,
+        "verification": "work/stage21-angela-replacement-20261020T230206/audio-verification.json",
+        "backup_directory": "work/stage21-angela-replacement-20261020T230206/backup",
+        "report": "reports/28_yigeren_angela_replacement_20261020.md",
+        "historical_generation": {
+          "key": "angela",
+          "artist": "张韶涵",
+          "reference_song": "亲爱的那不是爱情",
+          "reuse_reference_from": "work/stage9-angela-clips",
+          "reference_sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+          "reference_interval_seconds": [
+            41.227755,
+            56.227755
+          ],
+          "status": "POC_PASSED",
+          "clips": "work/stage21-yigeren-angela-clips",
+          "run_id": "stage21-yigeren-angela",
+          "deliverables": {
+            "dry": {
+              "path": "outputs/stage21-seven-yigeren/张韶涵_一个人生活_AI.wav",
+              "sha256": "2a873057e6d426e3fbcff68c45996dbdf397a8e021d6a4005087ae8ad3803e65",
+              "size_bytes": 5820496
+            },
+            "mix": {
+              "path": "outputs/stage21-seven-yigeren/张韶涵_一个人生活_mix_AI.wav",
+              "sha256": "d23dece1b9d34bc030ad3f47368f9919e85257d0c155ee5b2ab6fde6c7014e0f",
+              "size_bytes": 5821244
+            },
+            "reference": {
+              "path": "outputs/stage21-seven-yigeren/inputs/张韶涵_参考_亲爱的那不是爱情.wav",
+              "sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+              "size_bytes": 1323078
+            }
+          },
+          "metrics": {
+            "inference_seconds": 190.164,
+            "speaker_cosine": 0.861144483089447,
+            "f0_pearson": 0.9984256053931069,
+            "common_voiced_coverage": 0.7560606060606061,
+            "mps_allocated_peak_gib": 3.555429458618164,
+            "mps_driver_peak_gib": 5.2520904541015625,
+            "CER": null
+          },
+          "human_audition": false
+        },
+        "new_mix_metrics": {
+          "speaker_cosine": null,
+          "f0_pearson": null,
+          "CER": null,
+          "human_audition": false,
+          "note": "Historical Seed-VC scores do not apply to the replacement mix."
+        }
+      },
+      "metrics_scope": "Historical Seed-VC dry vocal only, not current mix.",
+      "reference_scope": "Historical Seed-VC dry vocal only, not current mix."
+    },
+    {
+      "key": "rainie",
+      "artist": "杨丞琳",
+      "reference_song": "雨爱",
+      "reuse_reference_from": "work/stage9-rainie-clips",
+      "reference_sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+      "reference_interval_seconds": [
+        180.589705,
+        195.589705
+      ],
+      "status": "POC_PASSED",
+      "clips": "work/stage21-yigeren-rainie-clips",
+      "run_id": "stage21-yigeren-rainie",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage21-seven-yigeren/杨丞琳_一个人生活_AI.wav",
+          "sha256": "4124798591275800939ebe149f8f08be36a671688bdf59e0db2d662ccf2a2846",
+          "size_bytes": 5820496
+        },
+        "mix": {
+          "path": "outputs/stage21-seven-yigeren/杨丞琳_一个人生活_mix_AI.wav",
+          "sha256": "9e0f947a8fdaa7b5be15396b2cb0bc4b6e8a157d299e161f62799d7773b27f5e",
+          "size_bytes": 5821244
+        },
+        "reference": {
+          "path": "outputs/stage21-seven-yigeren/inputs/杨丞琳_参考_雨爱.wav",
+          "sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 194.837,
+        "speaker_cosine": 0.741267740726471,
+        "f0_pearson": 0.9985474778890485,
+        "common_voiced_coverage": 0.759090909090909,
+        "mps_allocated_peak_gib": 3.590585470199585,
+        "mps_driver_peak_gib": 5.25213623046875,
+        "CER": null
+      },
+      "human_audition": false
+    },
+    {
+      "key": "cyndi",
+      "artist": "王心凌",
+      "reference_song": "我会好好的",
+      "reuse_reference_from": "work/stage11-cyndi-reference",
+      "reference_sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+      "reference_interval_seconds": [
+        247.215374,
+        262.215374
+      ],
+      "status": "POC_PASSED",
+      "clips": "work/stage21-yigeren-cyndi-clips",
+      "run_id": "stage21-yigeren-cyndi",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage21-seven-yigeren/王心凌_一个人生活_AI.wav",
+          "sha256": "0abfecd47c10e8a5d066ea3c908929e5353830222b1b45d1e94d5c293f36e70c",
+          "size_bytes": 5820496
+        },
+        "mix": {
+          "path": "outputs/stage21-seven-yigeren/王心凌_一个人生活_mix_AI.wav",
+          "sha256": "8db5b51b2f14d391bcfb774be80350c156fc539962e1fc7fb48a7a35274cf67f",
+          "size_bytes": 5821244
+        },
+        "reference": {
+          "path": "outputs/stage21-seven-yigeren/inputs/王心凌_参考_我会好好的.wav",
+          "sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 197.816,
+        "speaker_cosine": 0.7623026967048645,
+        "f0_pearson": 0.9979634557674767,
+        "common_voiced_coverage": 0.7578787878787879,
+        "mps_allocated_peak_gib": 3.573556900024414,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      },
+      "human_audition": false
+    }
+  ],
+  "source_receipt": "work/acquisition/stage21-source-yigeren/receipt.json",
+  "source_sha256": "77a92c0fff80df3432305bb9362e0c11e4dcb619d0327ffe2e45130e4c30a3d2",
+  "source_raw": "data/source/stage21-source-yigeren.wav",
+  "source_stems": [
+    {
+      "path": "work/stage21-yigeren-prep/separated/UVR_Demucs_Model_1/stage21-source-yigeren/vocals.wav",
+      "sha256": "e546fe264b9d2191ecfa98cf540f82e6026a0c325a137be730db6a6d5c9ec4c8",
+      "duration": 282.01798185941044,
+      "sr": 44100,
+      "channels": 2
+    },
+    {
+      "path": "work/stage21-yigeren-prep/separated/UVR_Demucs_Model_1/stage21-source-yigeren/no_vocals.wav",
+      "sha256": "6bb8988ccd2df50aa8b980f28f69860b4830226c64cac56376c931d83e4c8cf9",
+      "duration": 282.01798185941044,
+      "sr": 44100,
+      "channels": 2
+    }
+  ],
+  "chorus_evidence": {
+    "selected_interval_seconds": [
+      78.2,
+      111.2
+    ],
+    "transcript": "work/stage21-yigeren-asr/transcript.json",
+    "method": "Offline Whisper phrase timestamps and vocal RMS boundaries; not human audition"
+  },
+  "source_start_seconds": 78.2,
+  "source_end_seconds": 111.2,
+  "duration_seconds": 33.0,
+  "started_at": "2026-10-19T08:48:17.073857+00:00",
+  "completed_at": "2026-10-19T09:12:20.374246+00:00",
+  "batch_elapsed_seconds": 1443.3260247498984,
+  "audition_sample": {
+    "seed": 20261016,
+    "artist_keys": [
+      "jolin",
+      "rainie",
+      "angela",
+      "fish",
+      "elva"
+    ],
+    "human_audition": false
+  },
+  "delivery_revisions": [
+    {
+      "run_id": "stage21-angela-replacement-20261020T230206",
+      "artist_key": "angela",
+      "mode": "mix",
+      "report": "reports/28_yigeren_angela_replacement_20261020.md"
+    }
+  ]
+}

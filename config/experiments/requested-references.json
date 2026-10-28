@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-16",
+  "id": "stage7-requested-references",
+  "status": "POC_PASSED; HUMAN_LISTENING_PENDING",
+  "source_song": "张惠妹 - 听海",
+  "source_interval_seconds": [
+    106,
+    136
+  ],
+  "variants": {
+    "A": 30,
+    "B": 50
+  },
+  "reference_duration_seconds": 15,
+  "seed": 20261016,
+  "user_authorized_overwrite": true,
+  "report": "reports/13_requested_references.md",
+  "artists": [
+    {
+      "key": "rainie",
+      "artist": "杨丞琳",
+      "reference_song": "雨爱",
+      "execution_run_id": "stage7-rainie-tinghai",
+      "prepared_inputs": "work/stage7-rainie-tinghai-clips/manifest.json",
+      "output_directory": "outputs/stage5-rainie-tinghai",
+      "configuration": "config/experiments/rainie-tinghai.json",
+      "status": "POC_PASSED"
+    },
+    {
+      "key": "angela",
+      "artist": "张韶涵",
+      "reference_song": "不痛",
+      "execution_run_id": "stage7-angela-tinghai",
+      "prepared_inputs": "work/stage7-angela-tinghai-clips/manifest.json",
+      "output_directory": "outputs/stage4-angela-tinghai",
+      "configuration": "config/experiments/angela-tinghai.json",
+      "status": "POC_PASSED"
+    },
+    {
+      "key": "jolin",
+      "artist": "蔡依林",
+      "reference_song": "天空",
+      "execution_run_id": "stage7-jolin-tinghai",
+      "prepared_inputs": "work/stage7-jolin-tinghai-clips/manifest.json",
+      "output_directory": "outputs/stage6-jolin-tinghai",
+      "configuration": "config/experiments/jolin-tinghai.json",
+      "status": "POC_PASSED"
+    }
+  ],
+  "deliverables": [
+    "outputs/stage5-rainie-tinghai/seed-vc_A_AI.wav",
+    "outputs/stage5-rainie-tinghai/seed-vc_A_mix_AI.wav",
+    "outputs/stage5-rainie-tinghai/seed-vc_B_AI.wav",
+    "outputs/stage5-rainie-tinghai/seed-vc_B_mix_AI.wav",
+    "outputs/stage4-angela-tinghai/seed-vc_A_AI.wav",
+    "outputs/stage4-angela-tinghai/seed-vc_A_mix_AI.wav",
+    "outputs/stage4-angela-tinghai/seed-vc_B_AI.wav",
+    "outputs/stage4-angela-tinghai/seed-vc_B_mix_AI.wav",
+    "outputs/stage6-jolin-tinghai/seed-vc_A_AI.wav",
+    "outputs/stage6-jolin-tinghai/seed-vc_A_mix_AI.wav",
+    "outputs/stage6-jolin-tinghai/seed-vc_B_AI.wav",
+    "outputs/stage6-jolin-tinghai/seed-vc_B_mix_AI.wav"
+  ],
+  "listening_pages": {
+    "rainie": "outputs/stage5-rainie-tinghai/listen.html",
+    "angela": "outputs/stage4-angela-tinghai/listen.html",
+    "jolin": "outputs/stage6-jolin-tinghai/listen.html"
+  },
+  "completed_at": "2026-10-16T14:16:58.924083+00:00"
+}

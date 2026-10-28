@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "root_policy": "repository_root",
+  "single_file_limit_bytes": 5000000000,
+  "total_download_limit_bytes": 30000000000,
+  "minimum_free_disk_bytes": 10000000000,
+  "random_seed": 20261016,
+  "seed_vc_default_steps": [
+    30
+  ],
+  "target_minimum_seconds": 600,
+  "reference_seconds": [
+    5,
+    15,
+    25
+  ],
+  "sample_rate": 44100,
+  "channels": 1,
+  "slice_min_seconds": 2.0,
+  "slice_max_seconds": 15.0,
+  "silence_db": -40,
+  "silence_min_seconds": 0.4,
+  "allowed_download_hosts": [
+    "files.pythonhosted.org",
+    "pypi.org",
+    "github.com",
+    "raw.githubusercontent.com",
+    "huggingface.co"
+  ],
+  "local_only": true,
+  "default_roster": "config/default-roster.json",
+  "default_source_segment": {
+    "effective_date": "2026-10-18",
+    "scope": "all_song_experiments",
+    "mode": "single_complete_chorus",
+    "fixed_duration_seconds": null,
+    "require_duration_confirmation": false,
+    "selection_policy": "Agent selects one complete chorus with intact phrases and a natural ending; record source start, end, duration and selection evidence in the experiment manifest.",
+    "shared_across_artists": true,
+    "override_policy": "An explicit user request for a full song, another segment or a duration overrides that experiment only, unless the user explicitly changes global defaults."
+  }
+}

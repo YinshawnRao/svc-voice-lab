@@ -1,0 +1,326 @@
+{
+  "id": "stage9-seven-ruguoniyetingshuo",
+  "status": "POC_PASSED",
+  "source_artist": "张惠妹",
+  "source_song": "如果你也听说",
+  "source_acquisition_id": "stage9-source-ruguoniyetingshuo",
+  "source_url": "https://www.bilibili.com/video/BV1Ky4y1J7nq/",
+  "duration_seconds": 33.3,
+  "source_start_seconds": 67.3,
+  "steps": [
+    30
+  ],
+  "seed": 20261016,
+  "output_directory": "outputs/stage9-seven-ruguoniyetingshuo",
+  "artists": [
+    {
+      "key": "stefanie",
+      "artist": "孙燕姿",
+      "reference_song": "我怀念的",
+      "run_id": "stage9-stefanie-ruguoniyetingshuo",
+      "clips": "work/stage9-stefanie-clips",
+      "status": "POC_PASSED",
+      "acquisition_id": "stage9-target-stefanie",
+      "reference_url": "https://www.bilibili.com/video/BV1Gwo5BqEyC/",
+      "reference_interval_seconds": [
+        202.307007,
+        217.307007
+      ],
+      "reference_sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage9-seven-ruguoniyetingshuo/孙燕姿_如果你也听说_AI.wav",
+          "sha256": "deda930fffdf214afd20f25a56e487f7da76f0cf8e9c19911e8065d298adb270",
+          "size_bytes": 5873744
+        },
+        "mix": {
+          "path": "outputs/stage9-seven-ruguoniyetingshuo/孙燕姿_如果你也听说_mix_AI.wav",
+          "sha256": "2438d40cd67686e58a442513b5c0a4fbbf1905c8cf3d369750b04f5fa8104199",
+          "size_bytes": 5874164
+        },
+        "reference": {
+          "path": "outputs/stage9-seven-ruguoniyetingshuo/inputs/孙燕姿_参考_我怀念的.wav",
+          "sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 200.958,
+        "speaker_cosine": 0.75734,
+        "f0_pearson": 0.99346,
+        "common_voiced_coverage": 0.7825825825825826,
+        "mps_allocated_peak_gib": 3.545,
+        "mps_driver_peak_gib": 5.252,
+        "CER": null
+      },
+      "human_audition": false
+    },
+    {
+      "key": "jolin",
+      "artist": "蔡依林",
+      "reference_song": "天空",
+      "run_id": "stage9-jolin-ruguoniyetingshuo",
+      "clips": "work/stage9-jolin-clips",
+      "status": "POC_PASSED",
+      "reuse_reference_from": "work/stage7-jolin-tinghai-clips",
+      "reference_interval_seconds": [
+        200.127415,
+        215.127415
+      ],
+      "reference_sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage9-seven-ruguoniyetingshuo/蔡依林_如果你也听说_AI.wav",
+          "sha256": "8966527706afd89cde658b2341d83751043de3d14be9af63368af6266100e9a7",
+          "size_bytes": 5873744
+        },
+        "mix": {
+          "path": "outputs/stage9-seven-ruguoniyetingshuo/蔡依林_如果你也听说_mix_AI.wav",
+          "sha256": "ef7539b99503ca2a444af736562747ce9dab147ab462b47ee68bcfb55f0a51c2",
+          "size_bytes": 5874164
+        },
+        "reference": {
+          "path": "outputs/stage9-seven-ruguoniyetingshuo/inputs/蔡依林_参考_天空.wav",
+          "sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 238.276,
+        "speaker_cosine": 0.818993,
+        "f0_pearson": 0.993583,
+        "common_voiced_coverage": 0.7813813813813814,
+        "mps_allocated_peak_gib": 3.556,
+        "mps_driver_peak_gib": 5.252,
+        "CER": null
+      },
+      "human_audition": false
+    },
+    {
+      "key": "elva",
+      "artist": "萧亚轩",
+      "reference_song": "错的人",
+      "run_id": "stage9-elva-ruguoniyetingshuo",
+      "clips": "work/stage9-elva-clips",
+      "status": "POC_PASSED",
+      "acquisition_id": "stage9-target-elva",
+      "reference_url": "https://www.bilibili.com/video/BV15R4y1u738/",
+      "reference_interval_seconds": [
+        189.094785,
+        204.094785
+      ],
+      "reference_sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage9-seven-ruguoniyetingshuo/萧亚轩_如果你也听说_AI.wav",
+          "sha256": "f30105413bb30f022f9347146f0f4e84cb4d1cb09b4662f47f36fd40ccb33b8d",
+          "size_bytes": 5873744
+        },
+        "mix": {
+          "path": "outputs/stage9-seven-ruguoniyetingshuo/萧亚轩_如果你也听说_mix_AI.wav",
+          "sha256": "91b2738c006cd68022eaafd0c0581823597773864597daab50fe8ee4d36ef243",
+          "size_bytes": 5874164
+        },
+        "reference": {
+          "path": "outputs/stage9-seven-ruguoniyetingshuo/inputs/萧亚轩_参考_错的人.wav",
+          "sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 217.692,
+        "speaker_cosine": 0.842452,
+        "f0_pearson": 0.993708,
+        "common_voiced_coverage": 0.781981981981982,
+        "mps_allocated_peak_gib": 3.551,
+        "mps_driver_peak_gib": 5.049,
+        "CER": null
+      },
+      "human_audition": false
+    },
+    {
+      "key": "fish",
+      "artist": "梁静茹",
+      "reference_song": "崇拜",
+      "run_id": "stage9-fish-ruguoniyetingshuo",
+      "clips": "work/stage9-fish-clips",
+      "status": "POC_PASSED",
+      "reuse_reference_from": "work/stage8-fish-tinghai-clips",
+      "reference_interval_seconds": [
+        228.574104,
+        243.574104
+      ],
+      "reference_sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage9-seven-ruguoniyetingshuo/梁静茹_如果你也听说_AI.wav",
+          "sha256": "9e88d5c0a5520b5c736af442706bcef71b817cccf647e2d36f67c5260da2ef1f",
+          "size_bytes": 5873744
+        },
+        "mix": {
+          "path": "outputs/stage9-seven-ruguoniyetingshuo/梁静茹_如果你也听说_mix_AI.wav",
+          "sha256": "412aadcb968ff6be7bbbf2ff7a21bef02986f3f59d15948e954a9a9aac6c68ae",
+          "size_bytes": 5874164
+        },
+        "reference": {
+          "path": "outputs/stage9-seven-ruguoniyetingshuo/inputs/梁静茹_参考_崇拜.wav",
+          "sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 198.847,
+        "speaker_cosine": 0.828821,
+        "f0_pearson": 0.993069,
+        "common_voiced_coverage": 0.7834834834834835,
+        "mps_allocated_peak_gib": 3.566,
+        "mps_driver_peak_gib": 5.252,
+        "CER": null
+      },
+      "human_audition": false
+    },
+    {
+      "key": "angela",
+      "artist": "张韶涵",
+      "reference_song": "亲爱的那不是爱情",
+      "run_id": "stage9-angela-ruguoniyetingshuo",
+      "clips": "work/stage9-angela-clips",
+      "status": "POC_PASSED",
+      "acquisition_id": "stage9-target-angela",
+      "reference_url": "https://www.bilibili.com/video/BV1dx411R7dB/",
+      "reference_interval_seconds": [
+        41.227755,
+        56.227755
+      ],
+      "reference_sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage9-seven-ruguoniyetingshuo/张韶涵_如果你也听说_AI.wav",
+          "sha256": "de9736bed269f885350d95e32ec64f86317c4f4bbb5d8f7560f30ad4f8720e47",
+          "size_bytes": 5873744
+        },
+        "mix": {
+          "path": "outputs/stage9-seven-ruguoniyetingshuo/张韶涵_如果你也听说_mix_AI.wav",
+          "sha256": "168a5755b2e769402273b6f0090bc70b15ffeab9a8ccb9e2f0bfa4eb530868a6",
+          "size_bytes": 5874164
+        },
+        "reference": {
+          "path": "outputs/stage9-seven-ruguoniyetingshuo/inputs/张韶涵_参考_亲爱的那不是爱情.wav",
+          "sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 190.37,
+        "speaker_cosine": 0.843871,
+        "f0_pearson": 0.992072,
+        "common_voiced_coverage": 0.7804804804804805,
+        "mps_allocated_peak_gib": 3.58,
+        "mps_driver_peak_gib": 5.252,
+        "CER": null
+      },
+      "human_audition": false
+    },
+    {
+      "key": "rainie",
+      "artist": "杨丞琳",
+      "reference_song": "雨爱",
+      "run_id": "stage9-rainie-ruguoniyetingshuo",
+      "clips": "work/stage9-rainie-clips",
+      "status": "POC_PASSED",
+      "reuse_reference_from": "work/stage7-rainie-tinghai-clips",
+      "reference_interval_seconds": [
+        180.589705,
+        195.589705
+      ],
+      "reference_sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage9-seven-ruguoniyetingshuo/杨丞琳_如果你也听说_AI.wav",
+          "sha256": "948e873f004b2e48f76d5f44197247ad176dc9e295aacb2eac9382237cdb3667",
+          "size_bytes": 5873744
+        },
+        "mix": {
+          "path": "outputs/stage9-seven-ruguoniyetingshuo/杨丞琳_如果你也听说_mix_AI.wav",
+          "sha256": "8e03980bafa5548d5005d1fb0b6d7df7fb9c527947ebd8f976b75810b817f7c2",
+          "size_bytes": 5874164
+        },
+        "reference": {
+          "path": "outputs/stage9-seven-ruguoniyetingshuo/inputs/杨丞琳_参考_雨爱.wav",
+          "sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 184.226,
+        "speaker_cosine": 0.791276,
+        "f0_pearson": 0.993535,
+        "common_voiced_coverage": 0.7813813813813814,
+        "mps_allocated_peak_gib": 3.512,
+        "mps_driver_peak_gib": 5.252,
+        "CER": null
+      },
+      "human_audition": false
+    },
+    {
+      "key": "cyndi",
+      "artist": "王心凌",
+      "reference_song": "变成陌生人",
+      "run_id": "stage9-cyndi-ruguoniyetingshuo",
+      "clips": "work/stage9-cyndi-clips",
+      "status": "POC_PASSED",
+      "reuse_reference_from": "work/stage8-cyndi-tinghai-clips",
+      "reference_interval_seconds": [
+        182.029252,
+        197.029252
+      ],
+      "reference_sha256": "43b1a2739ca20bc2f523a8dbd6ac5bff765152478e6feb21ae69e557a8b5f353",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage9-seven-ruguoniyetingshuo/王心凌_如果你也听说_AI.wav",
+          "sha256": "3c93b2026e059c17d4402b94b5a1c6fd81c9974a68a9fd7dfdc97465617b786e",
+          "size_bytes": 5873744
+        },
+        "mix": {
+          "path": "outputs/stage9-seven-ruguoniyetingshuo/王心凌_如果你也听说_mix_AI.wav",
+          "sha256": "0bb593d18f871949cc453edd162f7fd1e6bddc403a38ccce27e1db6576f4e708",
+          "size_bytes": 5874164
+        },
+        "reference": {
+          "path": "outputs/stage9-seven-ruguoniyetingshuo/inputs/王心凌_参考_变成陌生人.wav",
+          "sha256": "43b1a2739ca20bc2f523a8dbd6ac5bff765152478e6feb21ae69e557a8b5f353",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 186.235,
+        "speaker_cosine": 0.874165,
+        "f0_pearson": 0.993325,
+        "common_voiced_coverage": 0.7813813813813814,
+        "mps_allocated_peak_gib": 3.555,
+        "mps_driver_peak_gib": 5.252,
+        "CER": null
+      },
+      "human_audition": false
+    }
+  ],
+  "chorus_evidence": {
+    "method": "offline Whisper-small segments plus 100ms source vocal RMS boundary inspection; approximate, not human listening",
+    "transcripts": [
+      "work/stage9-chorus-asr/transcript.json",
+      "work/stage9-chorus-refine/transcript.json"
+    ],
+    "first_title_phrase_segment_seconds": [
+      67,
+      75
+    ],
+    "selected_interval_seconds": [
+      67.3,
+      100.6
+    ],
+    "boundary_note": "Starts just before vocal onset near67.6; ends at the stanza transition around100.6. Slightly longer than30s to retain the stanza."
+  },
+  "started_at": "2026-10-16T15:35:16.929346+00:00",
+  "completed_at": "2026-10-16T16:00:37.348087+00:00",
+  "batch_elapsed_seconds": 1520.1037634999957
+}

@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-16",
+  "id": "stage8-four-singers",
+  "status": "POC_PASSED",
+  "report": "reports/14_four_singers.md",
+  "source_artist": "张惠妹",
+  "source_song": "听海",
+  "source_interval_seconds": [
+    106,
+    136
+  ],
+  "seed": 20261016,
+  "variants": {
+    "A": 30,
+    "B": 50
+  },
+  "shared_parameters": {
+    "f0_condition": true,
+    "auto_f0_adjust": false,
+    "semi_tone_shift": 0,
+    "inference_cfg_rate": 0.7,
+    "length_adjust": 1,
+    "fp16": false
+  },
+  "artists": [
+    {
+      "key": "stefanie",
+      "artist": "孙燕姿",
+      "reference_song": "我不难过",
+      "song_slug": "wobunanguo",
+      "run_id": "stage8-stefanie-tinghai",
+      "status": "POC_PASSED",
+      "output_directory": "outputs/stage8-stefanie-tinghai",
+      "prepared_inputs": "work/stage8-stefanie-tinghai-clips/manifest.json",
+      "acquisition_id": "stage8-target-stefanie-wobunanguo",
+      "media_receipt": "work/acquisition/stage8-target-stefanie-wobunanguo/receipt.json",
+      "reference_source_url": "https://www.bilibili.com/video/BV1N44y1t7Er/",
+      "raw_sha256": "51c7610558aa7d5e6168f39c514ff9b765f899ab47fde0fd925e278b44e99da5",
+      "listening_page": "outputs/stage8-stefanie-tinghai/listen.html",
+      "reference_interval_seconds": [
+        92.456621,
+        107.456621
+      ],
+      "reference_sha256": "d96f7e5eecf101b3d877175cd35fc11d05ebf7b5a41589f91d2ae53f703fe4db",
+      "human_audition": false,
+      "deliverables": [
+        "outputs/stage8-stefanie-tinghai/seed-vc_A_AI.wav",
+        "outputs/stage8-stefanie-tinghai/seed-vc_A_mix_AI.wav",
+        "outputs/stage8-stefanie-tinghai/seed-vc_B_AI.wav",
+        "outputs/stage8-stefanie-tinghai/seed-vc_B_mix_AI.wav"
+      ]
+    },
+    {
+      "key": "elva",
+      "artist": "萧亚轩",
+      "reference_song": "最熟悉的陌生人",
+      "song_slug": "zuishuxidemoshengren",
+      "run_id": "stage8-elva-tinghai",
+      "status": "POC_PASSED",
+      "output_directory": "outputs/stage8-elva-tinghai",
+      "prepared_inputs": "work/stage8-elva-tinghai-clips/manifest.json",
+      "acquisition_id": "stage8-target-elva-zuishuxidemoshengren",
+      "media_receipt": "work/acquisition/stage8-target-elva-zuishuxidemoshengren/receipt.json",
+      "reference_source_url": "https://www.bilibili.com/video/BV1gE411q7aV/",
+      "raw_sha256": "fde183860f9e8a8a6311567778eb1107adbad5ae29d917789beb89e64de77525",
+      "listening_page": "outputs/stage8-elva-tinghai/listen.html",
+      "reference_interval_seconds": [
+        208.602245,
+        223.602245
+      ],
+      "reference_sha256": "5e3468909a3933c1d94749811fbcafd655fa45bc1c7be4fa379759b0672beebc",
+      "human_audition": false,
+      "deliverables": [
+        "outputs/stage8-elva-tinghai/seed-vc_A_AI.wav",
+        "outputs/stage8-elva-tinghai/seed-vc_A_mix_AI.wav",
+        "outputs/stage8-elva-tinghai/seed-vc_B_AI.wav",
+        "outputs/stage8-elva-tinghai/seed-vc_B_mix_AI.wav"
+      ]
+    },
+    {
+      "key": "fish",
+      "artist": "梁静茹",
+      "reference_song": "崇拜",
+      "song_slug": "chongbai",
+      "run_id": "stage8-fish-tinghai",
+      "status": "POC_PASSED",
+      "output_directory": "outputs/stage8-fish-tinghai",
+      "prepared_inputs": "work/stage8-fish-tinghai-clips/manifest.json",
+      "acquisition_id": "stage8-target-fish-chongbai",
+      "media_receipt": "work/acquisition/stage8-target-fish-chongbai/receipt.json",
+      "reference_source_url": "https://www.bilibili.com/video/BV11J411D7Kc/",
+      "raw_sha256": "d289530dc1934c852d0a645fc51661aad46ea9e85c9063e79b1b4997915b8193",
+      "listening_page": "outputs/stage8-fish-tinghai/listen.html",
+      "reference_interval_seconds": [
+        228.574104,
+        243.574104
+      ],
+      "reference_sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+      "human_audition": false,
+      "deliverables": [
+        "outputs/stage8-fish-tinghai/seed-vc_A_AI.wav",
+        "outputs/stage8-fish-tinghai/seed-vc_A_mix_AI.wav",
+        "outputs/stage8-fish-tinghai/seed-vc_B_AI.wav",
+        "outputs/stage8-fish-tinghai/seed-vc_B_mix_AI.wav"
+      ]
+    },
+    {
+      "key": "cyndi",
+      "artist": "王心凌",
+      "reference_song": "变成陌生人",
+      "song_slug": "bianchengmoshengren",
+      "run_id": "stage8-cyndi-tinghai",
+      "status": "POC_PASSED",
+      "output_directory": "outputs/stage8-cyndi-tinghai",
+      "prepared_inputs": "work/stage8-cyndi-tinghai-clips/manifest.json",
+      "acquisition_id": "stage8-target-cyndi-bianchengmoshengren",
+      "media_receipt": "work/acquisition/stage8-target-cyndi-bianchengmoshengren/receipt.json",
+      "reference_source_url": "https://www.bilibili.com/video/BV1Yb411S7Rm/",
+      "raw_sha256": "4b4ad683cdfbff55f6cc37703ed89bc49e43367f2c0c0bce098a7c8f5cd1700f",
+      "listening_page": "outputs/stage8-cyndi-tinghai/listen.html",
+      "reference_interval_seconds": [
+        182.029252,
+        197.029252
+      ],
+      "reference_sha256": "43b1a2739ca20bc2f523a8dbd6ac5bff765152478e6feb21ae69e557a8b5f353",
+      "human_audition": false,
+      "deliverables": [
+        "outputs/stage8-cyndi-tinghai/seed-vc_A_AI.wav",
+        "outputs/stage8-cyndi-tinghai/seed-vc_A_mix_AI.wav",
+        "outputs/stage8-cyndi-tinghai/seed-vc_B_AI.wav",
+        "outputs/stage8-cyndi-tinghai/seed-vc_B_mix_AI.wav"
+      ]
+    }
+  ],
+  "completed_at": "2026-10-16T14:57:46.326878+00:00",
+  "validation": "reports/evidence/stage8/final-summary.json"
+}

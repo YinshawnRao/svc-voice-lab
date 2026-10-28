@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-16",
+  "id": "stage5-rainie-tinghai",
+  "status": "POC_PASSED; HUMAN_LISTENING_PENDING",
+  "request": "Repeat independent 30-second chorus A30/B50 test with Rainie Yang target voice",
+  "target_artist": "杨丞琳",
+  "target_song": "雨爱",
+  "source_artist": "张惠妹",
+  "source_song": "听海",
+  "source_interval_seconds": [
+    106,
+    136
+  ],
+  "prepared_inputs": "work/stage7-rainie-tinghai-clips/manifest.json",
+  "target_reference": "work/stage7-rainie-tinghai-clips/target_reference_1.wav",
+  "upstream_sha": "51383efd921027683c89e5348211d93ff12ac2a8",
+  "seed": 20261016,
+  "variants": [
+    {
+      "id": "A",
+      "steps": 30
+    },
+    {
+      "id": "B",
+      "steps": 50
+    }
+  ],
+  "shared_parameters": {
+    "f0_condition": true,
+    "auto_f0_adjust": false,
+    "semi_tone_shift": 0,
+    "inference_cfg_rate": 0.7,
+    "length_adjust": 1,
+    "fp16": false
+  },
+  "human_listening": "PENDING",
+  "report": "reports/13_requested_references.md",
+  "previous_target_audio_used": true,
+  "source_tracks_byte_identical_to": "original Ting Hai 106-136s clips",
+  "actual_run": "outputs/stage5-rainie-tinghai/run.json",
+  "evaluation": "outputs/stage5-rainie-tinghai/evaluation.json",
+  "listening_page": "outputs/stage5-rainie-tinghai/listen.html",
+  "deliverables": [
+    "outputs/stage5-rainie-tinghai/seed-vc_A_AI.wav",
+    "outputs/stage5-rainie-tinghai/seed-vc_A_mix_AI.wav",
+    "outputs/stage5-rainie-tinghai/seed-vc_B_AI.wav",
+    "outputs/stage5-rainie-tinghai/seed-vc_B_mix_AI.wav"
+  ],
+  "execution_run_id": "stage7-rainie-tinghai",
+  "regeneration_report": "reports/13_requested_references.md",
+  "user_requested_overwrite": true,
+  "old_outputs_backup": "work/stage7-replaced/outputs/stage5-rainie-tinghai",
+  "other_artist_target_audio_used": false
+}

@@ -1,0 +1,346 @@
+{
+  "id": "stage13-pugongying",
+  "status": "POC_PASSED",
+  "created_at": "2026-10-18T08:33:19.546350+00:00",
+  "source_song": "蒲公英的约定",
+  "source_artist": "周杰伦",
+  "source_url": "https://www.youtube.com/watch?v=VitJnr3IySc",
+  "source_acquisition_id": "stage13-source-pugongying",
+  "source_start_seconds": 85.2,
+  "duration_seconds": 31.0,
+  "steps": [
+    30
+  ],
+  "seed": 20261016,
+  "output_directory": "outputs/stage13-seven-pugongying",
+  "roster_id": "seven-female-v1",
+  "roster_config": "config/default-roster.json",
+  "roster_config_sha256": "c228d2daea315fa2b0509c6a9bd23e49c8796a38b2ab9fe9528ac3eb2f8f8f8a",
+  "artists": [
+    {
+      "key": "stefanie",
+      "artist": "孙燕姿",
+      "reference_song": "我怀念的",
+      "reuse_reference_from": "work/stage9-stefanie-clips",
+      "reference_sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+      "reference_interval_seconds": [
+        202.307007,
+        217.307007
+      ],
+      "status": "POC_PASSED",
+      "clips": "work/stage13-pugongying-stefanie-clips",
+      "run_id": "stage13-pugongying-stefanie",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage13-seven-pugongying/孙燕姿_蒲公英的约定_AI.wav",
+          "sha256": "543de4ca916cb5c360949fededab52c3f6f7705f0776984058b59ddd0930c024",
+          "size_bytes": 5468240
+        },
+        "mix": {
+          "path": "outputs/stage13-seven-pugongying/孙燕姿_蒲公英的约定_mix_AI.wav",
+          "sha256": "66acd75e904a5ef4d182dafb9ab5adb4bb65bdc847f2bb4eee22efa91528eb0b",
+          "size_bytes": 5468444
+        },
+        "reference": {
+          "path": "outputs/stage13-seven-pugongying/inputs/孙燕姿_参考_我怀念的.wav",
+          "sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 178.832,
+        "speaker_cosine": 0.7814735174179077,
+        "f0_pearson": 0.9751327102799253,
+        "common_voiced_coverage": 0.8590322580645161,
+        "mps_allocated_peak_gib": 3.5835678577423096,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      },
+      "human_audition": false
+    },
+    {
+      "key": "jolin",
+      "artist": "蔡依林",
+      "reference_song": "天空",
+      "reuse_reference_from": "work/stage9-jolin-clips",
+      "reference_sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+      "reference_interval_seconds": [
+        200.127415,
+        215.127415
+      ],
+      "status": "POC_PASSED",
+      "clips": "work/stage13-pugongying-jolin-clips",
+      "run_id": "stage13-pugongying-jolin",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage13-seven-pugongying/蔡依林_蒲公英的约定_AI.wav",
+          "sha256": "2db99519a31aa236d06f8e5914576c62e5b76a19369cd5f3d439e10c23969673",
+          "size_bytes": 5468240
+        },
+        "mix": {
+          "path": "outputs/stage13-seven-pugongying/蔡依林_蒲公英的约定_mix_AI.wav",
+          "sha256": "34a0dabdc10c741e47a0d0f98410a0e8bacc299c450dc53c679fa6f10c152b53",
+          "size_bytes": 5468444
+        },
+        "reference": {
+          "path": "outputs/stage13-seven-pugongying/inputs/蔡依林_参考_天空.wav",
+          "sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 172.157,
+        "speaker_cosine": 0.7398133873939514,
+        "f0_pearson": 0.9742544591955964,
+        "common_voiced_coverage": 0.8570967741935483,
+        "mps_allocated_peak_gib": 3.5901596546173096,
+        "mps_driver_peak_gib": 5.252105712890625,
+        "CER": null
+      },
+      "human_audition": false
+    },
+    {
+      "key": "elva",
+      "artist": "萧亚轩",
+      "reference_song": "错的人",
+      "reuse_reference_from": "work/stage9-elva-clips",
+      "reference_sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+      "reference_interval_seconds": [
+        189.094785,
+        204.094785
+      ],
+      "status": "POC_PASSED",
+      "clips": "work/stage13-pugongying-elva-clips",
+      "run_id": "stage13-pugongying-elva",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage13-seven-pugongying/萧亚轩_蒲公英的约定_AI.wav",
+          "sha256": "cfc475b9c05a721812cdb62838ac130c6ef6d6708369106e5472ebe446ae0405",
+          "size_bytes": 5468240
+        },
+        "mix": {
+          "path": "outputs/stage13-seven-pugongying/萧亚轩_蒲公英的约定_mix_AI.wav",
+          "sha256": "57a66b7225358370b5c8e820443d14d70aa6bbeeff93b47a4921626edae781cb",
+          "size_bytes": 5468444
+        },
+        "reference": {
+          "path": "outputs/stage13-seven-pugongying/inputs/萧亚轩_参考_错的人.wav",
+          "sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 191.231,
+        "speaker_cosine": 0.8595525622367859,
+        "f0_pearson": 0.9646574434973609,
+        "common_voiced_coverage": 0.8590322580645161,
+        "mps_allocated_peak_gib": 3.5313825607299805,
+        "mps_driver_peak_gib": 5.25213623046875,
+        "CER": null
+      },
+      "human_audition": false
+    },
+    {
+      "key": "fish",
+      "artist": "梁静茹",
+      "reference_song": "崇拜",
+      "reuse_reference_from": "work/stage9-fish-clips",
+      "reference_sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+      "reference_interval_seconds": [
+        228.574104,
+        243.574104
+      ],
+      "status": "POC_PASSED",
+      "clips": "work/stage13-pugongying-fish-clips",
+      "run_id": "stage13-pugongying-fish",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage13-seven-pugongying/梁静茹_蒲公英的约定_AI.wav",
+          "sha256": "208833ce6c9ed9e1a02c06991bfbf6fff1ee66838a2e8f635b485f80aef51fdf",
+          "size_bytes": 5468240
+        },
+        "mix": {
+          "path": "outputs/stage13-seven-pugongying/梁静茹_蒲公英的约定_mix_AI.wav",
+          "sha256": "0b8c6e86429ec1c5901068898c56d71fc7b5449e2d738b4401255f340fe98b3f",
+          "size_bytes": 5468444
+        },
+        "reference": {
+          "path": "outputs/stage13-seven-pugongying/inputs/梁静茹_参考_崇拜.wav",
+          "sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 195.638,
+        "speaker_cosine": 0.7459006309509277,
+        "f0_pearson": 0.9739151787922008,
+        "common_voiced_coverage": 0.8590322580645161,
+        "mps_allocated_peak_gib": 3.5637922286987305,
+        "mps_driver_peak_gib": 5.252105712890625,
+        "CER": null
+      },
+      "human_audition": false
+    },
+    {
+      "key": "angela",
+      "artist": "张韶涵",
+      "reference_song": "亲爱的那不是爱情",
+      "reuse_reference_from": "work/stage9-angela-clips",
+      "reference_sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+      "reference_interval_seconds": [
+        41.227755,
+        56.227755
+      ],
+      "status": "POC_PASSED",
+      "clips": "work/stage13-pugongying-angela-clips",
+      "run_id": "stage13-pugongying-angela",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage13-seven-pugongying/张韶涵_蒲公英的约定_AI.wav",
+          "sha256": "50d9b8739d2e47886e5cc2f37da1f78009a599f61d43d3e4eba06a8d16108f1d",
+          "size_bytes": 5468240
+        },
+        "mix": {
+          "path": "outputs/stage13-seven-pugongying/张韶涵_蒲公英的约定_mix_AI.wav",
+          "sha256": "17b3e45f69c6f3bad1816f809f84cc46a0cd3d8a46e8aa786de9a4260b57c670",
+          "size_bytes": 5468444
+        },
+        "reference": {
+          "path": "outputs/stage13-seven-pugongying/inputs/张韶涵_参考_亲爱的那不是爱情.wav",
+          "sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 181.962,
+        "speaker_cosine": 0.8400838971138,
+        "f0_pearson": 0.9708842282653675,
+        "common_voiced_coverage": 0.8580645161290322,
+        "mps_allocated_peak_gib": 3.5791733264923096,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      },
+      "human_audition": false
+    },
+    {
+      "key": "rainie",
+      "artist": "杨丞琳",
+      "reference_song": "雨爱",
+      "reuse_reference_from": "work/stage9-rainie-clips",
+      "reference_sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+      "reference_interval_seconds": [
+        180.589705,
+        195.589705
+      ],
+      "status": "POC_PASSED",
+      "clips": "work/stage13-pugongying-rainie-clips",
+      "run_id": "stage13-pugongying-rainie",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage13-seven-pugongying/杨丞琳_蒲公英的约定_AI.wav",
+          "sha256": "ce7670b534b20cc4fafbeff6dae9398791315cd5e0b50cf048d846c7719b3a7e",
+          "size_bytes": 5468240
+        },
+        "mix": {
+          "path": "outputs/stage13-seven-pugongying/杨丞琳_蒲公英的约定_mix_AI.wav",
+          "sha256": "3d5d2614fdbd3ae184884592bd7fa2587aa5a53deca6249425b04c185ae2471d",
+          "size_bytes": 5468444
+        },
+        "reference": {
+          "path": "outputs/stage13-seven-pugongying/inputs/杨丞琳_参考_雨爱.wav",
+          "sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 186.403,
+        "speaker_cosine": 0.7566089034080505,
+        "f0_pearson": 0.9675948735314789,
+        "common_voiced_coverage": 0.8590322580645161,
+        "mps_allocated_peak_gib": 3.5659894943237305,
+        "mps_driver_peak_gib": 5.2520904541015625,
+        "CER": null
+      },
+      "human_audition": false
+    },
+    {
+      "key": "cyndi",
+      "artist": "王心凌",
+      "reference_song": "我会好好的",
+      "reuse_reference_from": "work/stage11-cyndi-reference",
+      "reference_sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+      "reference_interval_seconds": [
+        247.215374,
+        262.215374
+      ],
+      "status": "POC_PASSED",
+      "clips": "work/stage13-pugongying-cyndi-clips",
+      "run_id": "stage13-pugongying-cyndi",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage13-seven-pugongying/王心凌_蒲公英的约定_AI.wav",
+          "sha256": "37e530a23f2d4c1508132096a7cf4805f52d5ee2909ee1726c0a29085624b472",
+          "size_bytes": 5468240
+        },
+        "mix": {
+          "path": "outputs/stage13-seven-pugongying/王心凌_蒲公英的约定_mix_AI.wav",
+          "sha256": "616379857a398fea2f37776b467510e618506b353f4f17d77ce4e5a0923f1d1f",
+          "size_bytes": 5468444
+        },
+        "reference": {
+          "path": "outputs/stage13-seven-pugongying/inputs/王心凌_参考_我会好好的.wav",
+          "sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 207.257,
+        "speaker_cosine": 0.6916440725326538,
+        "f0_pearson": 0.9592967564708204,
+        "common_voiced_coverage": 0.86,
+        "mps_allocated_peak_gib": 3.5637922286987305,
+        "mps_driver_peak_gib": 5.252105712890625,
+        "CER": null
+      },
+      "human_audition": false
+    }
+  ],
+  "human_audition": false,
+  "user_duration_choice": "完整一段副歌，延续最近几轮",
+  "generation_policy": "Same 30-step singing parameters; F0 enabled, auto F0 disabled, zero semitone shift; retain source pitch.",
+  "source_receipt": "work/acquisition/stage13-source-pugongying/receipt.json",
+  "source_sha256": "2dc7499964ae365786d243d27f70769050f6d51e44710a76223569c87797a668",
+  "source_raw": "data/source/stage13-source-pugongying.wav",
+  "source_stems": [
+    {
+      "path": "work/stage13-pugongying-prep/separated/UVR_Demucs_Model_1/stage13-source-pugongying/vocals.wav",
+      "sha256": "23ecc33ab458bd17b9c2fd1394856d160fa6ba742ffe07cfebe92d21f3ff8514",
+      "duration": 247.78015873015872,
+      "sr": 44100,
+      "channels": 2
+    },
+    {
+      "path": "work/stage13-pugongying-prep/separated/UVR_Demucs_Model_1/stage13-source-pugongying/no_vocals.wav",
+      "sha256": "f7fb48ff58c898cada58360e41f8decd4ceab9da5d1a41c596f446f4c3aaad29",
+      "duration": 247.78015873015872,
+      "sr": 44100,
+      "channels": 2
+    }
+  ],
+  "chorus_evidence": {
+    "selected_interval_seconds": [
+      85.2,
+      116.2
+    ],
+    "transcript": "work/stage13-pugongying-asr/transcript.json",
+    "method": "Offline Whisper phrase timestamps and vocal RMS boundaries; not human audition",
+    "refined_transcript": "work/stage13-pugongying-asr-refine/transcript.json",
+    "onset_check": "work/stage13-pugongying-asr-onset/transcript.json",
+    "original_audio_check": "work/stage13-pugongying-asr-chorus-check/transcript.json",
+    "rms_evidence": "reports/evidence/stage13/pugongying-boundary-rms.json",
+    "selection_note": "31s first chorus85.2-116.2. Discard early timestamps from50s ASR window: about8s early.16s onset window places preceding lyric through85.24; original-audio30s window begins with chorus. Vocal energy onset85.4; tail<.001 RMS after115.6. Machine evidence only, not human audition."
+  },
+  "started_at": "2026-10-18T08:40:42.872951+00:00",
+  "completed_at": "2026-10-18T09:04:07.796586+00:00",
+  "batch_elapsed_seconds": 1404.9683222090243
+}

@@ -1,0 +1,370 @@
+{
+  "id": "stage11-xinqiang",
+  "status": "POC_PASSED",
+  "created_at": "2026-10-18T05:15:49.378222+00:00",
+  "source_song": "心墙",
+  "source_artist": "郭静",
+  "source_url": "https://www.bilibili.com/video/BV1cE411a7us/",
+  "source_acquisition_id": "stage10-source-xinqiang-bili",
+  "source_start_seconds": 65.3,
+  "duration_seconds": 31.4,
+  "steps": [
+    30
+  ],
+  "seed": 20261016,
+  "output_directory": "outputs/stage10-xinqiang",
+  "artists": [
+    {
+      "key": "angela",
+      "artist": "张韶涵",
+      "reference_song": "亲爱的那不是爱情",
+      "reference_sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+      "reference_interval_seconds": [
+        41.227755,
+        56.227755
+      ],
+      "reference_url": "https://www.bilibili.com/video/BV1dx411R7dB/",
+      "status": "POC_PASSED",
+      "reuse_reference_from": "work/stage9-angela-clips",
+      "clips": "work/stage10-xinqiang-angela-clips",
+      "run_id": "stage10-xinqiang-angela",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage10-xinqiang/张韶涵_心墙_AI.wav",
+          "sha256": "5f57be0b4b0691d0f598a5c1f07de1563bb32a1336a3a39efb2f74ee4daed1f7",
+          "size_bytes": 5537872
+        },
+        "mix": {
+          "path": "outputs/stage10-xinqiang/张韶涵_心墙_mix_AI.wav",
+          "sha256": "7733a8bbb60eeb74e76283338aa2f98bfb09424be7704b2a0de9b620c47a583d",
+          "size_bytes": 5539004
+        },
+        "reference": {
+          "path": "outputs/stage10-xinqiang/inputs/张韶涵_参考_亲爱的那不是爱情.wav",
+          "sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 179.885,
+        "speaker_cosine": 0.8784940242767334,
+        "f0_pearson": 0.9785057251911422,
+        "common_voiced_coverage": 0.8079617834394904,
+        "mps_allocated_peak_gib": 3.56877064704895,
+        "mps_driver_peak_gib": 5.252105712890625,
+        "CER": null
+      },
+      "human_audition": false,
+      "generation_stage": "stage10",
+      "user_audition": "APPROVED_IN_THIS_SCOPE",
+      "user_feedback": "这2首歌我觉得效果都很好"
+    },
+    {
+      "key": "elva",
+      "artist": "萧亚轩",
+      "reference_song": "错的人",
+      "reference_sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+      "reference_interval_seconds": [
+        189.094785,
+        204.094785
+      ],
+      "reference_url": "https://www.bilibili.com/video/BV15R4y1u738/",
+      "status": "POC_PASSED",
+      "reuse_reference_from": "work/stage9-elva-clips",
+      "clips": "work/stage10-xinqiang-elva-clips",
+      "run_id": "stage10-xinqiang-elva",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage10-xinqiang/萧亚轩_心墙_AI.wav",
+          "sha256": "0a7f14fede3ee0546b0bf129590abaa2b8674cb7f89c804942ae24b7fe7137a3",
+          "size_bytes": 5537872
+        },
+        "mix": {
+          "path": "outputs/stage10-xinqiang/萧亚轩_心墙_mix_AI.wav",
+          "sha256": "bb1f830ca75ed57f7e6299d2d75ed73e2efb35a46d1e9f072e2cbae3948e6d29",
+          "size_bytes": 5539004
+        },
+        "reference": {
+          "path": "outputs/stage10-xinqiang/inputs/萧亚轩_参考_错的人.wav",
+          "sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 176.304,
+        "speaker_cosine": 0.864051103591919,
+        "f0_pearson": 0.9687065615875186,
+        "common_voiced_coverage": 0.8038216560509555,
+        "mps_allocated_peak_gib": 3.555037498474121,
+        "mps_driver_peak_gib": 5.252105712890625,
+        "CER": null
+      },
+      "human_audition": false,
+      "generation_stage": "stage10",
+      "user_audition": "APPROVED_IN_THIS_SCOPE",
+      "user_feedback": "这2首歌我觉得效果都很好"
+    },
+    {
+      "key": "stefanie",
+      "artist": "孙燕姿",
+      "reference_song": "我怀念的",
+      "status": "POC_PASSED",
+      "generation_stage": "stage11",
+      "run_id": "stage11-xinqiang-stefanie",
+      "clips": "work/stage11-xinqiang-stefanie-clips",
+      "human_audition": false,
+      "reference_sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+      "reference_interval_seconds": [
+        202.307007,
+        217.307007
+      ],
+      "reuse_reference_from": "work/stage9-stefanie-clips",
+      "reference_provenance_config": "config/experiments/seven-ruguoniyetingshuo.json",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage10-xinqiang/孙燕姿_心墙_AI.wav",
+          "sha256": "02f5d5887c75ac9e73e84fb7266a364a8e92b8e13e7be819389b8bb623232a6f",
+          "size_bytes": 5537872
+        },
+        "mix": {
+          "path": "outputs/stage10-xinqiang/孙燕姿_心墙_mix_AI.wav",
+          "sha256": "21057398347b53657e40228405acd904ac13b4387b71fd184ed02664e9cf3c5a",
+          "size_bytes": 5539004
+        },
+        "reference": {
+          "path": "outputs/stage10-xinqiang/inputs/孙燕姿_参考_我怀念的.wav",
+          "sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 195.501,
+        "speaker_cosine": 0.772466242313385,
+        "f0_pearson": 0.975735210534404,
+        "common_voiced_coverage": 0.8063694267515924,
+        "mps_allocated_peak_gib": 3.5814049243927,
+        "mps_driver_peak_gib": 5.0489654541015625,
+        "CER": null
+      }
+    },
+    {
+      "key": "jolin",
+      "artist": "蔡依林",
+      "reference_song": "天空",
+      "status": "POC_PASSED",
+      "generation_stage": "stage11",
+      "run_id": "stage11-xinqiang-jolin",
+      "clips": "work/stage11-xinqiang-jolin-clips",
+      "human_audition": false,
+      "reference_sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+      "reference_interval_seconds": [
+        200.127415,
+        215.127415
+      ],
+      "reuse_reference_from": "work/stage9-jolin-clips",
+      "reference_provenance_config": "config/experiments/seven-ruguoniyetingshuo.json",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage10-xinqiang/蔡依林_心墙_AI.wav",
+          "sha256": "aa25fff19cacbd2a4efa41d21f342c4d88ced64c430d5b0162544938e0609772",
+          "size_bytes": 5537872
+        },
+        "mix": {
+          "path": "outputs/stage10-xinqiang/蔡依林_心墙_mix_AI.wav",
+          "sha256": "2575a0b944cb6b7c68f1d1d2fe81774748934c10d219902f48d9c42e25cad515",
+          "size_bytes": 5539004
+        },
+        "reference": {
+          "path": "outputs/stage10-xinqiang/inputs/蔡依林_参考_天空.wav",
+          "sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 178.672,
+        "speaker_cosine": 0.8432409763336182,
+        "f0_pearson": 0.9451338913389196,
+        "common_voiced_coverage": 0.8054140127388535,
+        "mps_allocated_peak_gib": 3.5326530933380127,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      }
+    },
+    {
+      "key": "fish",
+      "artist": "梁静茹",
+      "reference_song": "崇拜",
+      "status": "POC_PASSED",
+      "generation_stage": "stage11",
+      "run_id": "stage11-xinqiang-fish",
+      "clips": "work/stage11-xinqiang-fish-clips",
+      "human_audition": false,
+      "reference_sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+      "reference_interval_seconds": [
+        228.574104,
+        243.574104
+      ],
+      "reuse_reference_from": "work/stage9-fish-clips",
+      "reference_provenance_config": "config/experiments/seven-ruguoniyetingshuo.json",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage10-xinqiang/梁静茹_心墙_AI.wav",
+          "sha256": "d73fca825f101ecd8a0dc236e87cae8b0ef6c497da9ed919039f1856e7809533",
+          "size_bytes": 5537872
+        },
+        "mix": {
+          "path": "outputs/stage10-xinqiang/梁静茹_心墙_mix_AI.wav",
+          "sha256": "a635a7921f6a022606c105d4cb50c9565d6c5fd90da4efaa3d6146abca69708b",
+          "size_bytes": 5539004
+        },
+        "reference": {
+          "path": "outputs/stage10-xinqiang/inputs/梁静茹_参考_崇拜.wav",
+          "sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 191.329,
+        "speaker_cosine": 0.8240113854408264,
+        "f0_pearson": 0.9760209700361839,
+        "common_voiced_coverage": 0.8111464968152866,
+        "mps_allocated_peak_gib": 3.5814049243927,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      }
+    },
+    {
+      "key": "cyndi",
+      "artist": "王心凌",
+      "reference_song": "我会好好的",
+      "status": "POC_PASSED",
+      "generation_stage": "stage11",
+      "run_id": "stage11-xinqiang-cyndi",
+      "clips": "work/stage11-xinqiang-cyndi-clips",
+      "human_audition": false,
+      "acquisition_id": "stage11-target-cyndi-bili",
+      "reference_url": "https://www.bilibili.com/video/BV15v8U6BEJo/",
+      "source_note": "Public full MV repost from 星辉音乐, AAC stream about65.7kbps; title does not prove licensing. Official YouTube transfer timed out.",
+      "reference_sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+      "reference_interval_seconds": [
+        247.215374,
+        262.215374
+      ],
+      "reuse_reference_from": "work/stage11-cyndi-reference",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage10-xinqiang/王心凌_心墙_AI.wav",
+          "sha256": "b33c62de23a2a35b73218670196437d29a020c3a8074093ada32270e9d6d1925",
+          "size_bytes": 5537872
+        },
+        "mix": {
+          "path": "outputs/stage10-xinqiang/王心凌_心墙_mix_AI.wav",
+          "sha256": "0e1f655ce44aea4bd4a17f9d428731586223a99954c4e5cb604a4198830513ff",
+          "size_bytes": 5539004
+        },
+        "reference": {
+          "path": "outputs/stage10-xinqiang/inputs/王心凌_参考_我会好好的.wav",
+          "sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 170.484,
+        "speaker_cosine": 0.7432215809822083,
+        "f0_pearson": 0.9756572924160348,
+        "common_voiced_coverage": 0.806687898089172,
+        "mps_allocated_peak_gib": 3.5836021900177,
+        "mps_driver_peak_gib": 5.2520904541015625,
+        "CER": null
+      }
+    },
+    {
+      "key": "rainie",
+      "artist": "杨丞琳",
+      "reference_song": "雨爱",
+      "status": "POC_PASSED",
+      "generation_stage": "stage11",
+      "run_id": "stage11-xinqiang-rainie",
+      "clips": "work/stage11-xinqiang-rainie-clips",
+      "human_audition": false,
+      "reference_sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+      "reference_interval_seconds": [
+        180.589705,
+        195.589705
+      ],
+      "reuse_reference_from": "work/stage9-rainie-clips",
+      "reference_provenance_config": "config/experiments/seven-ruguoniyetingshuo.json",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage10-xinqiang/杨丞琳_心墙_AI.wav",
+          "sha256": "c7d30b756126013266ae39f75335276c40adc771486e11d7d2773db601abc40c",
+          "size_bytes": 5537872
+        },
+        "mix": {
+          "path": "outputs/stage10-xinqiang/杨丞琳_心墙_mix_AI.wav",
+          "sha256": "315618f9d14a71ead3b50b82e9d5777278c61491ce912ef132ead27b3f37e5a1",
+          "size_bytes": 5539004
+        },
+        "reference": {
+          "path": "outputs/stage10-xinqiang/inputs/杨丞琳_参考_雨爱.wav",
+          "sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 170.936,
+        "speaker_cosine": 0.820206880569458,
+        "f0_pearson": 0.977395113278839,
+        "common_voiced_coverage": 0.8073248407643312,
+        "mps_allocated_peak_gib": 3.5901939868927,
+        "mps_driver_peak_gib": 5.252105712890625,
+        "CER": null
+      }
+    }
+  ],
+  "source_selection_note": "Official YouTube streams timed out; use this public MV repost. Uploader name/title does not establish official status.",
+  "source_receipt": "work/acquisition/stage10-source-xinqiang-bili/receipt.json",
+  "source_sha256": "b26e1105f44b1571eb9f5ed18e97186b362c1370951a607cc9d484e1422014ad",
+  "source_raw": "data/source/stage10-source-xinqiang-bili.wav",
+  "source_stems": [
+    {
+      "path": "work/stage10-xinqiang-prep/separated/UVR_Demucs_Model_1/stage10-source-xinqiang-bili/vocals.wav",
+      "sha256": "a965b1b3fe5753182e0141a61b24af24177551f7607f94ee3a115158f7ab5af4",
+      "duration": 232.55467120181405,
+      "sr": 44100,
+      "channels": 2
+    },
+    {
+      "path": "work/stage10-xinqiang-prep/separated/UVR_Demucs_Model_1/stage10-source-xinqiang-bili/no_vocals.wav",
+      "sha256": "88ab24572b1987aec53daf765ac5a8150639b84b9c20db1dd1a9cc973af94bbc",
+      "duration": 232.55467120181405,
+      "sr": 44100,
+      "channels": 2
+    }
+  ],
+  "chorus_evidence": {
+    "selected_interval_seconds": [
+      65.3,
+      96.7
+    ],
+    "transcript": "work/stage10-xinqiang-asr/transcript.json",
+    "method": "Offline Whisper phrase timestamps and vocal RMS boundaries; not human audition"
+  },
+  "parent_experiment": "config/experiments/stage10-xinqiang.json",
+  "extension_created_at": "2026-10-18T05:47:50.481046+00:00",
+  "user_feedback": {
+    "date": "2026-10-18",
+    "scope": [
+      "stage10-xinqiang:angela,elva",
+      "stage10-xiaoxingyun:angela,elva"
+    ],
+    "user_statement": "这2首歌我觉得效果都很好",
+    "authorization": "补充两首歌其余五位，使用本轮指定参考；新生成尚未试听认可"
+  },
+  "parent_batch_elapsed_seconds": 381.1236510000308,
+  "parent_started_at": "2026-10-18T05:21:10.271806+00:00",
+  "parent_completed_at": "2026-10-18T05:27:31.396775+00:00",
+  "extension_started_at": "2026-10-18T05:58:02.336056+00:00",
+  "extension_completed_at": "2026-10-18T06:14:11.027006+00:00",
+  "extension_elapsed_seconds": 968.6883099169936
+}

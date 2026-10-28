@@ -1,0 +1,407 @@
+{
+  "id": "stage22-nianlun",
+  "status": "POC_PASSED",
+  "created_at": "2026-10-20T14:53:52.158032+00:00",
+  "source_song": "年轮说",
+  "source_artist": "杨丞琳",
+  "source_url": "https://www.bilibili.com/video/BV1js411t7N6/",
+  "source_acquisition_id": "stage22-source-nianlun-bili",
+  "source_title_on_page": "楊丞琳 Rainie Yang - 年輪說 (Official HD MV)",
+  "source_uploader": "莫呼洛迦",
+  "source_license": "unknown",
+  "steps": [
+    30
+  ],
+  "seed": 20261016,
+  "output_directory": "outputs/stage22-six-nianlun",
+  "roster_id": "seven-female-v1",
+  "roster_config": "config/default-roster.json",
+  "roster_config_sha256": "c228d2daea315fa2b0509c6a9bd23e49c8796a38b2ab9fe9528ac3eb2f8f8f8a",
+  "roster_snapshot": "reports/evidence/stage22/default-roster.json",
+  "source_segment_policy": {
+    "effective_date": "2026-10-18",
+    "scope": "all_song_experiments",
+    "mode": "single_complete_chorus",
+    "fixed_duration_seconds": null,
+    "require_duration_confirmation": false,
+    "selection_policy": "Agent selects one complete chorus with intact phrases and a natural ending; record source start, end, duration and selection evidence in the experiment manifest.",
+    "shared_across_artists": true,
+    "override_policy": "An explicit user request for a full song, another segment or a duration overrides that experiment only, unless the user explicitly changes global defaults."
+  },
+  "authorization": {
+    "user_request": "开始一轮新的试验，让四大三小的6个人演唱杨丞琳的“年轮说”",
+    "authorized_artist_keys": [
+      "stefanie",
+      "jolin",
+      "elva",
+      "fish",
+      "angela",
+      "cyndi"
+    ],
+    "excluded_original_artist": "rainie",
+    "selection_basis": "年轮说 is 杨丞琳 song; exclude original singer and use the other six default roster references"
+  },
+  "source_selection": {
+    "chosen": {
+      "url": "https://www.bilibili.com/video/BV1js411t7N6/",
+      "reason": "Same 266s duration as the official YouTube MV. Uploader 莫呼洛迦 is a reupload, not the label. m4a exact 4149439 bytes after HEAD. YouTube official GET transferred 0 bytes."
+    },
+    "rejected": [
+      {
+        "url": "https://www.youtube.com/watch?v=anurOHpo0aY",
+        "acquisition_id": "stage22-source-nianlun",
+        "reason": "Official channel probe saw opus exact 4690490 bytes. Cookie GET timed out with 0 bytes. Directory retained. Not retried the same way."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=anurOHpo0aY",
+        "reason": "Public mode without cookies returned BLOCKED_ACCESS before transfer. No acquisition directory."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=hC9w0QHBJT4",
+        "acquisition_id": "stage22-source-nianlun-lyric",
+        "declared_bytes": 4556147,
+        "reason": "Lyric upload GET returned HTTP 403 with 0 bytes. Directory retained. Not retried the same way."
+      }
+    ],
+    "rejected_without_download": [
+      {
+        "url": "https://www.youtube.com/watch?v=uOZiRo_G2YY",
+        "reason": "concert"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=aVNrnG3NE-Y",
+        "reason": "duet with 李荣浩"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=TKv9KkiZ7-E",
+        "reason": "MV behind-the-scenes, not the song"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=yOnL-mDpIfY",
+        "reason": "television performance clip, 206 seconds"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Lok9EeZ3Vo8",
+        "reason": "remix"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=VMF-6Cj2XZY",
+        "reason": "karaoke instrumental"
+      },
+      {
+        "url": "https://www.bilibili.com/video/BV1dK4y127kF/",
+        "reason": "live"
+      },
+      {
+        "url": "https://www.bilibili.com/video/BV1PE411k7cP/",
+        "reason": "live chart show"
+      },
+      {
+        "url": "https://www.bilibili.com/video/BV1Tx411R78k/",
+        "reason": "live duet"
+      },
+      {
+        "url": "https://www.bilibili.com/video/BV1gd4y1v7r3/",
+        "reason": "room playback, not a direct studio file"
+      }
+    ]
+  },
+  "artists": [
+    {
+      "key": "stefanie",
+      "artist": "孙燕姿",
+      "reference_song": "我怀念的",
+      "reuse_reference_from": "work/stage9-stefanie-clips",
+      "reference_sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+      "reference_interval_seconds": [
+        202.307007,
+        217.307007
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage22-nianlun-stefanie-clips",
+      "run_id": "stage22-nianlun-stefanie",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage22-six-nianlun/孙燕姿_年轮说_AI.wav",
+          "sha256": "0c2d9b339b4c3afafb59bc0678208d861b862c0a83dcf7011c1a4f1185ef85a2",
+          "size_bytes": 10653776
+        },
+        "mix": {
+          "path": "outputs/stage22-six-nianlun/孙燕姿_年轮说_mix_AI.wav",
+          "sha256": "86d458250fee09c597d494cfe08cdc261955a9e6a81d22e181d58e7986bc8660",
+          "size_bytes": 10654604
+        },
+        "reference": {
+          "path": "outputs/stage22-six-nianlun/inputs/孙燕姿_参考_我怀念的.wav",
+          "sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 340.187,
+        "speaker_cosine": 0.829125702381134,
+        "f0_pearson": 0.9770315842959575,
+        "common_voiced_coverage": 0.7175496688741722,
+        "mps_allocated_peak_gib": 3.617417097091675,
+        "mps_driver_peak_gib": 5.2521514892578125,
+        "CER": null
+      }
+    },
+    {
+      "key": "jolin",
+      "artist": "蔡依林",
+      "reference_song": "天空",
+      "reuse_reference_from": "work/stage9-jolin-clips",
+      "reference_sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+      "reference_interval_seconds": [
+        200.127415,
+        215.127415
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage22-nianlun-jolin-clips",
+      "run_id": "stage22-nianlun-jolin",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage22-six-nianlun/蔡依林_年轮说_AI.wav",
+          "sha256": "d05f4127a7d5e432413e63f52ab18d3598e492b7153ececf41a34a1f626346ec",
+          "size_bytes": 10653776
+        },
+        "mix": {
+          "path": "outputs/stage22-six-nianlun/蔡依林_年轮说_mix_AI.wav",
+          "sha256": "11f086d347d4b1f057b8dede02b43eb3cdc2f74725cec56f93184585d3aaf4d2",
+          "size_bytes": 10654604
+        },
+        "reference": {
+          "path": "outputs/stage22-six-nianlun/inputs/蔡依林_参考_天空.wav",
+          "sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 374.384,
+        "speaker_cosine": 0.8162599802017212,
+        "f0_pearson": 0.9787520562636284,
+        "common_voiced_coverage": 0.7165562913907285,
+        "mps_allocated_peak_gib": 3.5800633430480957,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      }
+    },
+    {
+      "key": "elva",
+      "artist": "萧亚轩",
+      "reference_song": "错的人",
+      "reuse_reference_from": "work/stage9-elva-clips",
+      "reference_sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+      "reference_interval_seconds": [
+        189.094785,
+        204.094785
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage22-nianlun-elva-clips",
+      "run_id": "stage22-nianlun-elva",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage22-six-nianlun/萧亚轩_年轮说_AI.wav",
+          "sha256": "2b0a7fb7fc87953e122cd1cfe9d819822aefede8e6e23f8bf539a331f910885b",
+          "size_bytes": 10653776
+        },
+        "mix": {
+          "path": "outputs/stage22-six-nianlun/萧亚轩_年轮说_mix_AI.wav",
+          "sha256": "9fa9b0bc4a366a61f52cb1c7ca0f33e262db3b56fdf3499138e37d32aacee4f7",
+          "size_bytes": 10654604
+        },
+        "reference": {
+          "path": "outputs/stage22-six-nianlun/inputs/萧亚轩_参考_错的人.wav",
+          "sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 389.034,
+        "speaker_cosine": 0.8870920538902283,
+        "f0_pearson": 0.9699429434126363,
+        "common_voiced_coverage": 0.7173841059602649,
+        "mps_allocated_peak_gib": 3.608628034591675,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      }
+    },
+    {
+      "key": "fish",
+      "artist": "梁静茹",
+      "reference_song": "崇拜",
+      "reuse_reference_from": "work/stage9-fish-clips",
+      "reference_sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+      "reference_interval_seconds": [
+        228.574104,
+        243.574104
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage22-nianlun-fish-clips",
+      "run_id": "stage22-nianlun-fish",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage22-six-nianlun/梁静茹_年轮说_AI.wav",
+          "sha256": "157e2a7b5564078815742d4f7a2be3e871ec6e66f1f5d45243495f3d1d6f50e5",
+          "size_bytes": 10653776
+        },
+        "mix": {
+          "path": "outputs/stage22-six-nianlun/梁静茹_年轮说_mix_AI.wav",
+          "sha256": "10224c6f02fb111926f6afc822d4350320aa32b410fb2e00915be5da6f0920f5",
+          "size_bytes": 10654604
+        },
+        "reference": {
+          "path": "outputs/stage22-six-nianlun/inputs/梁静茹_参考_崇拜.wav",
+          "sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 364.697,
+        "speaker_cosine": 0.8028938174247742,
+        "f0_pearson": 0.9806623113946019,
+        "common_voiced_coverage": 0.7180463576158941,
+        "mps_allocated_peak_gib": 3.615219831466675,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      }
+    },
+    {
+      "key": "angela",
+      "artist": "张韶涵",
+      "reference_song": "亲爱的那不是爱情",
+      "reuse_reference_from": "work/stage9-angela-clips",
+      "reference_sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+      "reference_interval_seconds": [
+        41.227755,
+        56.227755
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage22-nianlun-angela-clips",
+      "run_id": "stage22-nianlun-angela",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage22-six-nianlun/张韶涵_年轮说_AI.wav",
+          "sha256": "7270c8731168cded03319b15c168533b01340271409dca88a28dc68e46e3965d",
+          "size_bytes": 10653776
+        },
+        "mix": {
+          "path": "outputs/stage22-six-nianlun/张韶涵_年轮说_mix_AI.wav",
+          "sha256": "6ff2c7507bff970ee95094c09f420e33017411174078beb3f5f2ae588db7a247",
+          "size_bytes": 10654604
+        },
+        "reference": {
+          "path": "outputs/stage22-six-nianlun/inputs/张韶涵_参考_亲爱的那不是爱情.wav",
+          "sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 403.77,
+        "speaker_cosine": 0.8919129371643066,
+        "f0_pearson": 0.9771566908457316,
+        "common_voiced_coverage": 0.7147350993377484,
+        "mps_allocated_peak_gib": 3.613571882247925,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      }
+    },
+    {
+      "key": "cyndi",
+      "artist": "王心凌",
+      "reference_song": "我会好好的",
+      "reuse_reference_from": "work/stage11-cyndi-reference",
+      "reference_sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+      "reference_interval_seconds": [
+        247.215374,
+        262.215374
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage22-nianlun-cyndi-clips",
+      "run_id": "stage22-nianlun-cyndi",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage22-six-nianlun/王心凌_年轮说_AI.wav",
+          "sha256": "63e9105dad9390f112c31f4988f1aa82c7b478c083b769e59dcf6c8a85e11347",
+          "size_bytes": 10653776
+        },
+        "mix": {
+          "path": "outputs/stage22-six-nianlun/王心凌_年轮说_mix_AI.wav",
+          "sha256": "0dd8cd643cec297488f442508cfe1de3c0e19de7d6c144d856f497b9f6cdd125",
+          "size_bytes": 10654604
+        },
+        "reference": {
+          "path": "outputs/stage22-six-nianlun/inputs/王心凌_参考_我会好好的.wav",
+          "sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 414.052,
+        "speaker_cosine": 0.7839694619178772,
+        "f0_pearson": 0.9760846825820768,
+        "common_voiced_coverage": 0.7163907284768212,
+        "mps_allocated_peak_gib": 3.5976414680480957,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      }
+    }
+  ],
+  "source_receipt": "work/acquisition/stage22-source-nianlun-bili/receipt.json",
+  "source_sha256": "ce7cb342ef221550bfcb8a0bcb240b828a21484387bc107ff472113703fc55f7",
+  "source_raw": "data/source/stage22-source-nianlun-bili.wav",
+  "source_stems": [
+    {
+      "path": "work/stage22-nianlun-prep/separated/UVR_Demucs_Model_1/stage22-source-nianlun-bili/vocals.wav",
+      "sha256": "32aae4d06397280ac8d55d15bc774cbacd70313446aeb94ab848a4879c178a90",
+      "duration": 266.0310204081633,
+      "sr": 44100,
+      "channels": 2
+    },
+    {
+      "path": "work/stage22-nianlun-prep/separated/UVR_Demucs_Model_1/stage22-source-nianlun-bili/no_vocals.wav",
+      "sha256": "333c6b849d51c28dfb150808104084fac536a1f17028fe619e6ae526d65eb6ec",
+      "duration": 266.0310204081633,
+      "sr": 44100,
+      "channels": 2
+    }
+  ],
+  "source_start_seconds": 78.2,
+  "source_end_seconds": 138.6,
+  "duration_seconds": 60.4,
+  "chorus_evidence": {
+    "selected_interval_seconds": [
+      78.2,
+      138.6
+    ],
+    "transcript": "work/stage22-nianlun-asr/transcript.json",
+    "method": "Offline Whisper phrase timestamps and vocal RMS boundaries; not human audition",
+    "selection_basis": "Full-vocal ASR and a 70-86s window place the preceding line through about 79.08s and the first chorus from there. Vocal RMS is under 0.001 from 76.20s to 78.35s; the onset is 0.0098 at 78.55s, so the cut starts at 78.20s. A 118-146s window keeps the last chorus line inside 118-129s and places the next line at 139.0s. Energy stays above the floor through 137.6s and is near the floor at 138.75s, before the next attack at 139.30s, so the cut ends at 138.60s. No internal gap of 0.8s or longer. ASR wording is not lyrics truth.",
+    "boundary_evidence": "reports/evidence/stage22/nianlun-boundary-rms.json",
+    "short_windows": [
+      "work/stage22-nianlun-bound-start/transcript.json",
+      "work/stage22-nianlun-bound-end/transcript.json"
+    ]
+  },
+  "audition_sample": {
+    "seed": 20261016,
+    "artist_keys": [
+      "jolin",
+      "angela",
+      "fish",
+      "elva",
+      "cyndi"
+    ],
+    "human_audition": false
+  },
+  "started_at": "2026-10-20T14:59:30.016170+00:00",
+  "completed_at": "2026-10-20T15:39:22.014553+00:00",
+  "batch_elapsed_seconds": 2391.978453125106
+}

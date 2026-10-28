@@ -1,0 +1,359 @@
+{
+  "id": "stage25-ainibushiliangsantian",
+  "status": "POC_PASSED",
+  "created_at": "2026-10-24T13:58:16.080861+00:00",
+  "source_song": "爱你不是两三天",
+  "source_artist": "梁静茹",
+  "source_url": "https://www.youtube.com/watch?v=sPCKERuXiAo",
+  "source_acquisition_id": "stage25-source-ainibushiliangsantian-youtube",
+  "steps": [
+    30
+  ],
+  "seed": 20261016,
+  "output_directory": "outputs/stage25-six-ainibushiliangsantian",
+  "roster_id": "seven-female-v1",
+  "roster_config": "config/default-roster.json",
+  "roster_config_sha256": "c228d2daea315fa2b0509c6a9bd23e49c8796a38b2ab9fe9528ac3eb2f8f8f8a",
+  "roster_snapshot": "reports/evidence/stage25/default-roster.json",
+  "source_segment_policy": {
+    "effective_date": "2026-10-18",
+    "scope": "all_song_experiments",
+    "mode": "single_complete_chorus",
+    "fixed_duration_seconds": null,
+    "require_duration_confirmation": false,
+    "selection_policy": "Agent selects one complete chorus with intact phrases and a natural ending; record source start, end, duration and selection evidence in the experiment manifest.",
+    "shared_across_artists": true,
+    "override_policy": "An explicit user request for a full song, another segment or a duration overrides that experiment only, unless the user explicitly changes global defaults."
+  },
+  "authorization": {
+    "user_request": "开始一轮全新的试验，让四大三小的6个人演唱梁静茹的“爱你不是两三天”",
+    "authorized_artist_keys": [
+      "stefanie",
+      "jolin",
+      "elva",
+      "angela",
+      "rainie",
+      "cyndi"
+    ],
+    "excluded_original_artist": "fish",
+    "selection_basis": "Use other six default roster singers, excluding original artist 梁静茹"
+  },
+  "artists": [
+    {
+      "key": "stefanie",
+      "artist": "孙燕姿",
+      "reference_song": "我怀念的",
+      "reuse_reference_from": "work/stage9-stefanie-clips",
+      "reference_sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+      "reference_interval_seconds": [
+        202.307007,
+        217.307007
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage25-ainibushiliangsantian-stefanie-clips",
+      "run_id": "stage25-ainibushiliangsantian-stefanie",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage25-six-ainibushiliangsantian/孙燕姿_爱你不是两三天_AI.wav",
+          "sha256": "2bc20791b4fc130edbbcbdd9ef3270425dd95101c0bc0090145e1c1e775a2a9e",
+          "size_bytes": 5705808
+        },
+        "mix": {
+          "path": "outputs/stage25-six-ainibushiliangsantian/孙燕姿_爱你不是两三天_mix_AI.wav",
+          "sha256": "5c15ecb05b77e5d231459fcca7685a6fc6182759b136886edf5e0fbda2d18512",
+          "size_bytes": 5706584
+        },
+        "reference": {
+          "path": "outputs/stage25-six-ainibushiliangsantian/inputs/孙燕姿_参考_我怀念的.wav",
+          "sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 275.63,
+        "speaker_cosine": 0.8098272085189819,
+        "f0_pearson": 0.9924682516180983,
+        "common_voiced_coverage": 0.7616692426584235,
+        "mps_allocated_peak_gib": 3.534005880355835,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      }
+    },
+    {
+      "key": "jolin",
+      "artist": "蔡依林",
+      "reference_song": "天空",
+      "reuse_reference_from": "work/stage9-jolin-clips",
+      "reference_sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+      "reference_interval_seconds": [
+        200.127415,
+        215.127415
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage25-ainibushiliangsantian-jolin-clips",
+      "run_id": "stage25-ainibushiliangsantian-jolin",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage25-six-ainibushiliangsantian/蔡依林_爱你不是两三天_AI.wav",
+          "sha256": "db75459ff8938284f40c6c7ae16286fd861615810e12345323448340d81cd5b2",
+          "size_bytes": 5705808
+        },
+        "mix": {
+          "path": "outputs/stage25-six-ainibushiliangsantian/蔡依林_爱你不是两三天_mix_AI.wav",
+          "sha256": "1228264b95e190b2f4a99fc70579398c1ea5c010de41d22be350fe62c04a4752",
+          "size_bytes": 5706584
+        },
+        "reference": {
+          "path": "outputs/stage25-six-ainibushiliangsantian/inputs/蔡依林_参考_天空.wav",
+          "sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 236.593,
+        "speaker_cosine": 0.8457306623458862,
+        "f0_pearson": 0.9899755766836192,
+        "common_voiced_coverage": 0.7585780525502318,
+        "mps_allocated_peak_gib": 3.571359634399414,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      }
+    },
+    {
+      "key": "elva",
+      "artist": "萧亚轩",
+      "reference_song": "错的人",
+      "reuse_reference_from": "work/stage9-elva-clips",
+      "reference_sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+      "reference_interval_seconds": [
+        189.094785,
+        204.094785
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage25-ainibushiliangsantian-elva-clips",
+      "run_id": "stage25-ainibushiliangsantian-elva",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage25-six-ainibushiliangsantian/萧亚轩_爱你不是两三天_AI.wav",
+          "sha256": "c5edc7f4c6f35a0dbaaf88e71db312134f539b05da0a455db62ec8bb745f88f4",
+          "size_bytes": 5705808
+        },
+        "mix": {
+          "path": "outputs/stage25-six-ainibushiliangsantian/萧亚轩_爱你不是两三天_mix_AI.wav",
+          "sha256": "0c7fc18608d55afa1033ee21c99047f42c3984c661c3a7d784c3023021f368f6",
+          "size_bytes": 5706584
+        },
+        "reference": {
+          "path": "outputs/stage25-six-ainibushiliangsantian/inputs/萧亚轩_参考_错的人.wav",
+          "sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 272.55,
+        "speaker_cosine": 0.8426780700683594,
+        "f0_pearson": 0.9871280831695246,
+        "common_voiced_coverage": 0.7604327666151468,
+        "mps_allocated_peak_gib": 3.575754165649414,
+        "mps_driver_peak_gib": 5.0489959716796875,
+        "CER": null
+      }
+    },
+    {
+      "key": "angela",
+      "artist": "张韶涵",
+      "reference_song": "亲爱的那不是爱情",
+      "reuse_reference_from": "work/stage9-angela-clips",
+      "reference_sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+      "reference_interval_seconds": [
+        41.227755,
+        56.227755
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage25-ainibushiliangsantian-angela-clips",
+      "run_id": "stage25-ainibushiliangsantian-angela",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage25-six-ainibushiliangsantian/张韶涵_爱你不是两三天_AI.wav",
+          "sha256": "d84cf625b0115f801e94f15d5a55da5c470743c97a842a289523e38a9c96bbc4",
+          "size_bytes": 5705808
+        },
+        "mix": {
+          "path": "outputs/stage25-six-ainibushiliangsantian/张韶涵_爱你不是两三天_mix_AI.wav",
+          "sha256": "6b061b5845232571f532882fce72ba721472b8e50ecd8456be650c2f9747e2e2",
+          "size_bytes": 5706584
+        },
+        "reference": {
+          "path": "outputs/stage25-six-ainibushiliangsantian/inputs/张韶涵_参考_亲爱的那不是爱情.wav",
+          "sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 242.731,
+        "speaker_cosine": 0.8775206208229065,
+        "f0_pearson": 0.9911904728302888,
+        "common_voiced_coverage": 0.7591962905718702,
+        "mps_allocated_peak_gib": 3.564218282699585,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      }
+    },
+    {
+      "key": "rainie",
+      "artist": "杨丞琳",
+      "reference_song": "雨爱",
+      "reuse_reference_from": "work/stage9-rainie-clips",
+      "reference_sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+      "reference_interval_seconds": [
+        180.589705,
+        195.589705
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage25-ainibushiliangsantian-rainie-clips",
+      "run_id": "stage25-ainibushiliangsantian-rainie",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage25-six-ainibushiliangsantian/杨丞琳_爱你不是两三天_AI.wav",
+          "sha256": "8635021636ae3e209c818774c7c04b6ec7896c0e2e71f7c88f39b19dd60887fd",
+          "size_bytes": 5705808
+        },
+        "mix": {
+          "path": "outputs/stage25-six-ainibushiliangsantian/杨丞琳_爱你不是两三天_mix_AI.wav",
+          "sha256": "ba6ead24f573fe45b3913a8a94d96b02da4799b4a2b42d4887adb2a64a3b4bae",
+          "size_bytes": 5706584
+        },
+        "reference": {
+          "path": "outputs/stage25-six-ainibushiliangsantian/inputs/杨丞琳_参考_雨爱.wav",
+          "sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 235.44,
+        "speaker_cosine": 0.8002380728721619,
+        "f0_pearson": 0.9911987768350521,
+        "common_voiced_coverage": 0.7595054095826893,
+        "mps_allocated_peak_gib": 3.588388442993164,
+        "mps_driver_peak_gib": 5.252105712890625,
+        "CER": null
+      }
+    },
+    {
+      "key": "cyndi",
+      "artist": "王心凌",
+      "reference_song": "我会好好的",
+      "reuse_reference_from": "work/stage11-cyndi-reference",
+      "reference_sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+      "reference_interval_seconds": [
+        247.215374,
+        262.215374
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage25-ainibushiliangsantian-cyndi-clips",
+      "run_id": "stage25-ainibushiliangsantian-cyndi",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage25-six-ainibushiliangsantian/王心凌_爱你不是两三天_AI.wav",
+          "sha256": "a21e47bf8c24988e7839071734046e0a17b4633f72afcfbc5589fc559800edad",
+          "size_bytes": 5705808
+        },
+        "mix": {
+          "path": "outputs/stage25-six-ainibushiliangsantian/王心凌_爱你不是两三天_mix_AI.wav",
+          "sha256": "bf36311a845bf28d697cf1f3bef601f27334d0e0c6d94e34141b118569cdf791",
+          "size_bytes": 5706584
+        },
+        "reference": {
+          "path": "outputs/stage25-six-ainibushiliangsantian/inputs/王心凌_参考_我会好好的.wav",
+          "sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 272.916,
+        "speaker_cosine": 0.7606250047683716,
+        "f0_pearson": 0.9935759540746009,
+        "common_voiced_coverage": 0.7595054095826893,
+        "mps_allocated_peak_gib": 3.557626485824585,
+        "mps_driver_peak_gib": 5.252166748046875,
+        "CER": null
+      }
+    }
+  ],
+  "audition_sample": {
+    "seed": 20261016,
+    "artist_keys": [
+      "jolin",
+      "rainie",
+      "angela",
+      "elva",
+      "cyndi"
+    ],
+    "human_audition": false
+  },
+  "source_title_on_page": "梁靜茹 Fish Leong【愛你不是兩三天 Love You More Than Two Or Three Days】Official Music Video (新版)",
+  "source_uploader": "滾石唱片 ROCK RECORDS",
+  "source_license": "unknown",
+  "source_selection": {
+    "chosen": {
+      "url": "https://www.youtube.com/watch?v=sPCKERuXiAo",
+      "reason": "Official 滾石唱片 ROCK RECORDS MV; explicit song and artist metadata, 288.055167 second decoded audio; exact stream size 4996337 bytes verified."
+    },
+    "alternatives_not_downloaded": [
+      {
+        "url": "https://www.bilibili.com/video/BV1jY4y1c7yj/",
+        "reason": "Unofficial remaster uploader; official source succeeded"
+      }
+    ]
+  },
+  "source_receipt": "work/acquisition/stage25-source-ainibushiliangsantian-youtube/receipt.json",
+  "queue_policy": "Wait for verified live stage26 generation parent and children; no concurrent heavy models",
+  "source_sha256": "47fc5c0c509f9107d09b1edc815b5423ca0bcef7b5c3652cee3bef6c04ea1f79",
+  "source_raw": "data/source/stage25-source-ainibushiliangsantian-youtube.wav",
+  "source_stems": [
+    {
+      "path": "work/stage25-ainibushiliangsantian-prep/separated/UVR_Demucs_Model_1/stage25-source-ainibushiliangsantian-youtube/vocals.wav",
+      "sha256": "c54edf9b1ddbcd82528427b21f8e7abe142bba7b9b3316a3e5e87598e93ff248",
+      "duration": 288.0551700680272,
+      "sr": 44100,
+      "channels": 2
+    },
+    {
+      "path": "work/stage25-ainibushiliangsantian-prep/separated/UVR_Demucs_Model_1/stage25-source-ainibushiliangsantian-youtube/no_vocals.wav",
+      "sha256": "94908acfeaa2b63351f5b00885165b69bb2e8b28898f349104862fb09283ef6a",
+      "duration": 288.0551700680272,
+      "sr": 44100,
+      "channels": 2
+    }
+  ],
+  "source_start_seconds": 68.45,
+  "source_end_seconds": 100.8,
+  "duration_seconds": 32.35,
+  "chorus_evidence": {
+    "selected_interval_seconds": [
+      68.45,
+      100.8
+    ],
+    "transcript": "work/stage25-ainibushiliangsantian-asr/transcript.json",
+    "method": "Offline Whisper phrase timestamps and vocal RMS boundaries; not human audition",
+    "boundary_transcripts": [
+      "work/stage25-chorus-start/transcript.json",
+      "work/stage25-chorus-end/transcript.json",
+      "work/stage25-chorus-entry-check/transcript.json"
+    ],
+    "rms_evidence": "reports/evidence/stage25/chorus-boundary-rms.json",
+    "structure_reference_url": "https://www.youtube.com/watch?v=sPCKERuXiAo",
+    "selection_reason": "First complete chorus with both consecutive refrain sections and closing phrase. Short-window entry check at 68.45s starts with the opening refrain; preceding phrase decays by 68.35s, 68.45s is a low-energy boundary and the strong new onset is around 69.0s. Short-window ending locates the closing phrase, while RMS retains the subsequent vocal tail through 99.7s and decays below .0005 after 100.6s. End at 100.80s. Full-track ASR has drift and instrumental hallucinations and is not used as precise boundary evidence.",
+    "human_audition": false,
+    "lyrics_ground_truth": false
+  },
+  "started_at": "2026-10-24T14:46:02.981612+00:00",
+  "completed_at": "2026-10-24T15:13:13.123915+00:00",
+  "batch_elapsed_seconds": 1630.183286166999
+}

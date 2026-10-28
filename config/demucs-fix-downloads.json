@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://files.pythonhosted.org/packages/33/6b/21496316c9b8242749ee2a9064406271efdf979e91d440e8a3806b5e84bf/torch-2.2.2-cp310-none-macosx_11_0_arm64.whl",
+    "dest": ".cache/wheels/torch-2.2.2-cp310-none-macosx_11_0_arm64.whl",
+    "size_bytes": 59707286,
+    "sha256": "877b3e6593b5e00b35bbe111b7057464e76a7dd186a287280d941b564b0563c2",
+    "license": "BSD-3",
+    "license_source": "https://pypi.org/pypi/torch/2.2.2/json",
+    "evidence": "https://pypi.org/project/demucs/4.0.1/",
+    "purpose": "isolated preparation environment dependency",
+    "kind": "dependency",
+    "distribution_type": "bdist_wheel"
+  },
+  {
+    "url": "https://files.pythonhosted.org/packages/78/ec/db37472480a4bd541ca6229b55add2f166dfe5a1c5491e62cb9dbaf7a8be/torchaudio-2.2.2-cp310-cp310-macosx_11_0_arm64.whl",
+    "dest": ".cache/wheels/torchaudio-2.2.2-cp310-cp310-macosx_11_0_arm64.whl",
+    "size_bytes": 1806601,
+    "sha256": "a520e14ea0ba89d9dc27922eb4609f9eac5c01c279830e0f216b9c9e017d438b",
+    "license": "unknown",
+    "license_source": "https://pypi.org/pypi/torchaudio/2.2.2/json",
+    "evidence": "https://pypi.org/project/demucs/4.0.1/",
+    "purpose": "isolated preparation environment dependency",
+    "kind": "dependency",
+    "distribution_type": "bdist_wheel"
+  }
+]

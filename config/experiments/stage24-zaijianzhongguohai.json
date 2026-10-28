@@ -1,0 +1,390 @@
+{
+  "id": "stage24-zaijianzhongguohai",
+  "status": "POC_PASSED",
+  "created_at": "2026-10-21T10:33:39.962803+00:00",
+  "source_song": "再见中国海",
+  "source_artist": "4 In Love",
+  "source_url": "https://www.bilibili.com/video/BV1RXMe6VE9Y/",
+  "source_acquisition_id": "stage24-source-zaijianzhongguohai-bili",
+  "steps": [
+    30
+  ],
+  "seed": 20261016,
+  "output_directory": "outputs/stage24-seven-zaijianzhongguohai",
+  "roster_id": "seven-female-v1",
+  "roster_config": "config/default-roster.json",
+  "roster_config_sha256": "c228d2daea315fa2b0509c6a9bd23e49c8796a38b2ab9fe9528ac3eb2f8f8f8a",
+  "roster_snapshot": "reports/evidence/stage24/default-roster.json",
+  "source_segment_policy": {
+    "effective_date": "2026-10-18",
+    "scope": "all_song_experiments",
+    "mode": "single_complete_chorus",
+    "fixed_duration_seconds": null,
+    "require_duration_confirmation": false,
+    "selection_policy": "Agent selects one complete chorus with intact phrases and a natural ending; record source start, end, duration and selection evidence in the experiment manifest.",
+    "shared_across_artists": true,
+    "override_policy": "An explicit user request for a full song, another segment or a duration overrides that experiment only, unless the user explicitly changes global defaults."
+  },
+  "authorization": {
+    "user_request": "开启一轮新试验，让四大三小7个人演唱《再见中国海》",
+    "authorized_artist_keys": [
+      "stefanie",
+      "jolin",
+      "elva",
+      "fish",
+      "angela",
+      "rainie",
+      "cyndi"
+    ],
+    "excluded_original_artist": null,
+    "selection_basis": "Explicitly requested all seven default singers; retain 杨丞琳"
+  },
+  "artists": [
+    {
+      "key": "stefanie",
+      "artist": "孙燕姿",
+      "reference_song": "我怀念的",
+      "reuse_reference_from": "work/stage9-stefanie-clips",
+      "reference_sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+      "reference_interval_seconds": [
+        202.307007,
+        217.307007
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage24-zaijianzhongguohai-stefanie-clips",
+      "run_id": "stage24-zaijianzhongguohai-stefanie",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage24-seven-zaijianzhongguohai/孙燕姿_再见中国海_AI.wav",
+          "sha256": "e90c5443ba35655286e7983fb365c5a04ddbb00cac51373b2fe3dc7205e864da",
+          "size_bytes": 8978512
+        },
+        "mix": {
+          "path": "outputs/stage24-seven-zaijianzhongguohai/孙燕姿_再见中国海_mix_AI.wav",
+          "sha256": "4386528cec2f5d85fc2e5f960e6fb973ad343ba995c00ff46f0a544e8693d9f9",
+          "size_bytes": 8978804
+        },
+        "reference": {
+          "path": "outputs/stage24-seven-zaijianzhongguohai/inputs/孙燕姿_参考_我怀念的.wav",
+          "sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 250.412,
+        "speaker_cosine": 0.7749084830284119,
+        "f0_pearson": 0.9892969040371157,
+        "common_voiced_coverage": 0.8420432220039292,
+        "mps_allocated_peak_gib": 3.5502147674560547,
+        "mps_driver_peak_gib": 5.252105712890625,
+        "CER": null
+      }
+    },
+    {
+      "key": "jolin",
+      "artist": "蔡依林",
+      "reference_song": "天空",
+      "reuse_reference_from": "work/stage9-jolin-clips",
+      "reference_sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+      "reference_interval_seconds": [
+        200.127415,
+        215.127415
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage24-zaijianzhongguohai-jolin-clips",
+      "run_id": "stage24-zaijianzhongguohai-jolin",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage24-seven-zaijianzhongguohai/蔡依林_再见中国海_AI.wav",
+          "sha256": "261980981630024b0c44696d98c20b33ce24033c56b498da5f21fd75991c26c7",
+          "size_bytes": 8978512
+        },
+        "mix": {
+          "path": "outputs/stage24-seven-zaijianzhongguohai/蔡依林_再见中国海_mix_AI.wav",
+          "sha256": "8eefb3fe128bf6e8773b29511a27a0c633161f05ea76398eaee10a2474cf2502",
+          "size_bytes": 8978804
+        },
+        "reference": {
+          "path": "outputs/stage24-seven-zaijianzhongguohai/inputs/蔡依林_参考_天空.wav",
+          "sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 252.055,
+        "speaker_cosine": 0.8481494188308716,
+        "f0_pearson": 0.98996100699938,
+        "common_voiced_coverage": 0.8388998035363457,
+        "mps_allocated_peak_gib": 3.5584542751312256,
+        "mps_driver_peak_gib": 5.252105712890625,
+        "CER": null
+      }
+    },
+    {
+      "key": "elva",
+      "artist": "萧亚轩",
+      "reference_song": "错的人",
+      "reuse_reference_from": "work/stage9-elva-clips",
+      "reference_sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+      "reference_interval_seconds": [
+        189.094785,
+        204.094785
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage24-zaijianzhongguohai-elva-clips",
+      "run_id": "stage24-zaijianzhongguohai-elva",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage24-seven-zaijianzhongguohai/萧亚轩_再见中国海_AI.wav",
+          "sha256": "b506f843bfb0879c8b83d18db9c83272977fffd59252d9208db75dede8711768",
+          "size_bytes": 8978512
+        },
+        "mix": {
+          "path": "outputs/stage24-seven-zaijianzhongguohai/萧亚轩_再见中国海_mix_AI.wav",
+          "sha256": "bd4ae1d0593121fc22a3a3622648371373054a01ee9fb662f38fbc7af6130cfe",
+          "size_bytes": 8978804
+        },
+        "reference": {
+          "path": "outputs/stage24-seven-zaijianzhongguohai/inputs/萧亚轩_参考_错的人.wav",
+          "sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 249.545,
+        "speaker_cosine": 0.8247020244598389,
+        "f0_pearson": 0.9890080771553278,
+        "common_voiced_coverage": 0.8396856581532417,
+        "mps_allocated_peak_gib": 3.582212209701538,
+        "mps_driver_peak_gib": 5.252105712890625,
+        "CER": null
+      }
+    },
+    {
+      "key": "fish",
+      "artist": "梁静茹",
+      "reference_song": "崇拜",
+      "reuse_reference_from": "work/stage9-fish-clips",
+      "reference_sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+      "reference_interval_seconds": [
+        228.574104,
+        243.574104
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage24-zaijianzhongguohai-fish-clips",
+      "run_id": "stage24-zaijianzhongguohai-fish",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage24-seven-zaijianzhongguohai/梁静茹_再见中国海_AI.wav",
+          "sha256": "0ee4e22127c7be50e021e271be8ba00a2d2393b2d8c068399c11ead73e472377",
+          "size_bytes": 8978512
+        },
+        "mix": {
+          "path": "outputs/stage24-seven-zaijianzhongguohai/梁静茹_再见中国海_mix_AI.wav",
+          "sha256": "439ed9dacc23ac0c26e9ab361d368573032b7f2b155031f1c69b866333b6ed6e",
+          "size_bytes": 8978804
+        },
+        "reference": {
+          "path": "outputs/stage24-seven-zaijianzhongguohai/inputs/梁静茹_参考_崇拜.wav",
+          "sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 247.704,
+        "speaker_cosine": 0.7591627836227417,
+        "f0_pearson": 0.9879062058764324,
+        "common_voiced_coverage": 0.8416502946954814,
+        "mps_allocated_peak_gib": 3.5430734157562256,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      }
+    },
+    {
+      "key": "angela",
+      "artist": "张韶涵",
+      "reference_song": "亲爱的那不是爱情",
+      "reuse_reference_from": "work/stage9-angela-clips",
+      "reference_sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+      "reference_interval_seconds": [
+        41.227755,
+        56.227755
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage24-zaijianzhongguohai-angela-clips",
+      "run_id": "stage24-zaijianzhongguohai-angela",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage24-seven-zaijianzhongguohai/张韶涵_再见中国海_AI.wav",
+          "sha256": "6c3816560fbff2cdc79f502513d8bd15879cea2130974a65c881aa0a0025281d",
+          "size_bytes": 8978512
+        },
+        "mix": {
+          "path": "outputs/stage24-seven-zaijianzhongguohai/张韶涵_再见中国海_mix_AI.wav",
+          "sha256": "c18b8001517c39e2527adb37302807837ba514e67fcbdcc340b0e77ff9729889",
+          "size_bytes": 8978804
+        },
+        "reference": {
+          "path": "outputs/stage24-seven-zaijianzhongguohai/inputs/张韶涵_参考_亲爱的那不是爱情.wav",
+          "sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 245.896,
+        "speaker_cosine": 0.8412951231002808,
+        "f0_pearson": 0.9839433064333655,
+        "common_voiced_coverage": 0.8381139489194499,
+        "mps_allocated_peak_gib": 3.5584545135498047,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      }
+    },
+    {
+      "key": "rainie",
+      "artist": "杨丞琳",
+      "reference_song": "雨爱",
+      "reuse_reference_from": "work/stage9-rainie-clips",
+      "reference_sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+      "reference_interval_seconds": [
+        180.589705,
+        195.589705
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage24-zaijianzhongguohai-rainie-clips",
+      "run_id": "stage24-zaijianzhongguohai-rainie",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage24-seven-zaijianzhongguohai/杨丞琳_再见中国海_AI.wav",
+          "sha256": "a33a99448b5f6712295d268c8a1cf90c7b491c82333ae4fc47740bbf0e8219db",
+          "size_bytes": 8978512
+        },
+        "mix": {
+          "path": "outputs/stage24-seven-zaijianzhongguohai/杨丞琳_再见中国海_mix_AI.wav",
+          "sha256": "4d11cff1206bdaea5c4c573c62623578f9d61a12f0aac58a07161465a56b91c5",
+          "size_bytes": 8978804
+        },
+        "reference": {
+          "path": "outputs/stage24-seven-zaijianzhongguohai/inputs/杨丞琳_参考_雨爱.wav",
+          "sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 245.145,
+        "speaker_cosine": 0.7884665131568909,
+        "f0_pearson": 0.9885256173125041,
+        "common_voiced_coverage": 0.8394891944990177,
+        "mps_allocated_peak_gib": 3.5480175018310547,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      }
+    },
+    {
+      "key": "cyndi",
+      "artist": "王心凌",
+      "reference_song": "我会好好的",
+      "reuse_reference_from": "work/stage11-cyndi-reference",
+      "reference_sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+      "reference_interval_seconds": [
+        247.215374,
+        262.215374
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage24-zaijianzhongguohai-cyndi-clips",
+      "run_id": "stage24-zaijianzhongguohai-cyndi",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage24-seven-zaijianzhongguohai/王心凌_再见中国海_AI.wav",
+          "sha256": "6e9ddc951d78083391cba76540a5f3d3c7f5f4b727ba2a0f4748b0ff83cb1de4",
+          "size_bytes": 8978512
+        },
+        "mix": {
+          "path": "outputs/stage24-seven-zaijianzhongguohai/王心凌_再见中国海_mix_AI.wav",
+          "sha256": "675742516d05b6d7b9dc123743ebb62b7cb004ee36f86e73bdaefb01a6544f8b",
+          "size_bytes": 8978804
+        },
+        "reference": {
+          "path": "outputs/stage24-seven-zaijianzhongguohai/inputs/王心凌_参考_我会好好的.wav",
+          "sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 247.881,
+        "speaker_cosine": 0.7408918738365173,
+        "f0_pearson": 0.9871226278007702,
+        "common_voiced_coverage": 0.8379174852652259,
+        "mps_allocated_peak_gib": 3.5584545135498047,
+        "mps_driver_peak_gib": 5.252105712890625,
+        "CER": null
+      }
+    }
+  ],
+  "human_audition": false,
+  "audition_sample": {
+    "seed": 20261016,
+    "artist_keys": [
+      "jolin",
+      "rainie",
+      "angela",
+      "fish",
+      "elva"
+    ],
+    "human_audition": false
+  },
+  "source_identity_evidence": {
+    "catalog_url": "https://music.apple.com/us/song/1320812081",
+    "catalog_artist": "4 In Love",
+    "catalog_title": "再見中國海",
+    "selected_upload_uploader": "感动心灵音乐之声",
+    "official_upload": false,
+    "license": "unknown",
+    "note": "Catalog corroborates title and artist; the selected public upload is not an authenticated label master"
+  },
+  "source_receipt": "work/acquisition/stage24-source-zaijianzhongguohai-bili/receipt.json",
+  "source_sha256": "a39451aa64c9ab0025ae52bcfdfb0fdad4051ead53365ac64fd72fe378a2d7d1",
+  "source_raw": "data/source/stage24-source-zaijianzhongguohai-bili.wav",
+  "source_stems": [
+    {
+      "path": "work/stage24-zaijianzhongguohai-prep/separated/UVR_Demucs_Model_1/stage24-source-zaijianzhongguohai-bili/vocals.wav",
+      "sha256": "6a7cfd2a4b9643690b26ddddcb156cf252a239b41437c29f43d041161770aec6",
+      "duration": 300.9066666666667,
+      "sr": 44100,
+      "channels": 2
+    },
+    {
+      "path": "work/stage24-zaijianzhongguohai-prep/separated/UVR_Demucs_Model_1/stage24-source-zaijianzhongguohai-bili/no_vocals.wav",
+      "sha256": "9ab6434582b04a06a86e2758950a7cabe4c5ea07106083850f106cc028481e6f",
+      "duration": 300.9066666666667,
+      "sr": 44100,
+      "channels": 2
+    }
+  ],
+  "chorus_evidence": {
+    "short_window_transcript": "work/stage24-chorus-boundaries/transcript.json",
+    "boundary_energy": "reports/evidence/stage24/chorus-boundary-rms.json",
+    "selection_basis": "First complete chorus, including both consecutive refrain sections. Short-window ASR locates entry near 69.72 and final phrase at 111-118 s; energy shows onset at 70.0 s and sustained final vocal/reverb through 119.7 s, decaying below 0.0004 RMS after 120.6 s. Select 69.90-120.80 s to preserve attack and natural tail. Whole-track ASR hallucinations in instrumental sections are excluded from timing decisions.",
+    "human_audition": false,
+    "lyrics_truth": "N/A",
+    "selected_interval_seconds": [
+      69.9,
+      120.8
+    ],
+    "transcript": "work/stage24-zaijianzhongguohai-asr/transcript.json",
+    "method": "Offline Whisper phrase timestamps and vocal RMS boundaries; not human audition"
+  },
+  "source_start_seconds": 69.9,
+  "source_end_seconds": 120.8,
+  "duration_seconds": 50.9,
+  "started_at": "2026-10-21T10:38:52.865460+00:00",
+  "completed_at": "2026-10-21T11:09:04.114117+00:00",
+  "batch_elapsed_seconds": 1811.2132489579963
+}

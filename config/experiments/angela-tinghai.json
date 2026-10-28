@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-16",
+  "id": "stage4-angela-tinghai",
+  "status": "POC_PASSED; HUMAN_LISTENING_PENDING",
+  "request": "Independent test: Angela Chang voice singing A-mei Ting Hai, 30-second chorus, two versions",
+  "target_artist": "张韶涵",
+  "target_song": "不痛",
+  "source_artist": "张惠妹",
+  "source_song": "听海",
+  "source_interval_seconds": [
+    106,
+    136
+  ],
+  "prepared_inputs": "work/stage7-angela-tinghai-clips/manifest.json",
+  "target_reference": "work/stage7-angela-tinghai-clips/target_reference_1.wav",
+  "upstream_sha": "51383efd921027683c89e5348211d93ff12ac2a8",
+  "seed": 20261016,
+  "variants": [
+    {
+      "id": "A",
+      "steps": 30
+    },
+    {
+      "id": "B",
+      "steps": 50
+    }
+  ],
+  "shared_parameters": {
+    "f0_condition": true,
+    "auto_f0_adjust": false,
+    "semi_tone_shift": 0,
+    "inference_cfg_rate": 0.7,
+    "length_adjust": 1,
+    "fp16": false
+  },
+  "human_listening": "PENDING",
+  "previous_artist_audio_used": false,
+  "report": "reports/13_requested_references.md",
+  "actual_run": "outputs/stage4-angela-tinghai/run.json",
+  "evaluation": "outputs/stage4-angela-tinghai/evaluation.json",
+  "listening_page": "outputs/stage4-angela-tinghai/listen.html",
+  "deliverables": [
+    "outputs/stage4-angela-tinghai/seed-vc_A_AI.wav",
+    "outputs/stage4-angela-tinghai/seed-vc_A_mix_AI.wav",
+    "outputs/stage4-angela-tinghai/seed-vc_B_AI.wav",
+    "outputs/stage4-angela-tinghai/seed-vc_B_mix_AI.wav"
+  ],
+  "execution_run_id": "stage7-angela-tinghai",
+  "regeneration_report": "reports/13_requested_references.md",
+  "source_tracks_byte_identical_to": "original Ting Hai 106-136s clips",
+  "user_requested_overwrite": true,
+  "old_outputs_backup": "work/stage7-replaced/outputs/stage4-angela-tinghai",
+  "previous_target_audio_used": false,
+  "other_artist_target_audio_used": false
+}

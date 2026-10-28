@@ -1,0 +1,28 @@
+[
+  {
+    "url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR_Demucs_Model_1.yaml",
+    "dest": "models/demucs-uvr/UVR_Demucs_Model_1.yaml",
+    "size_bytes": 33,
+    "license": "MIT (UVR README model attribution)",
+    "license_source": "https://github.com/Anjok07/ultimatevocalremovergui#license",
+    "evidence": "https://github.com/Anjok07/ultimatevocalremovergui#installation",
+    "dependency_evidence": "https://github.com/Anjok07/ultimatevocalremovergui/blob/master/gui_data/constants.py#L103",
+    "purpose": "UVR-trained Demucs two-stem vocal separation",
+    "kind": "model",
+    "official_owner_verified": true,
+    "sha256": "40dd1254be3d410a0ab18522c40f535b0a9fcb5691a7224449fae35b83f5b382"
+  },
+  {
+    "url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/ebf34a2db.th",
+    "dest": "models/demucs-uvr/ebf34a2db.th",
+    "size_bytes": 167390507,
+    "license": "MIT (UVR README model attribution)",
+    "license_source": "https://github.com/Anjok07/ultimatevocalremovergui#license",
+    "evidence": "https://github.com/Anjok07/ultimatevocalremovergui#installation",
+    "dependency_evidence": "https://github.com/Anjok07/ultimatevocalremovergui/blob/master/gui_data/constants.py#L103",
+    "purpose": "UVR-trained Demucs two-stem vocal separation",
+    "kind": "model",
+    "official_owner_verified": true,
+    "sha256": "dbdd521017d706829716055df8a86e7ee5d05a590508488c82ffb551c6edb918"
+  }
+]

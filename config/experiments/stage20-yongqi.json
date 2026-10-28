@@ -1,0 +1,399 @@
+{
+  "id": "stage20-yongqi",
+  "status": "POC_PASSED",
+  "created_at": "2026-10-18T14:06:24.495112+00:00",
+  "source_song": "勇气",
+  "source_artist": "梁静茹",
+  "source_url": "https://www.youtube.com/watch?v=BVpXUyXPKOg",
+  "source_acquisition_id": "stage20-source-yongqi-alt",
+  "source_title_on_page": "梁靜茹 - 勇氣",
+  "source_uploader": "fishleunglike33",
+  "source_license": "unknown",
+  "steps": [
+    30
+  ],
+  "seed": 20261016,
+  "output_directory": "outputs/stage20-six-yongqi",
+  "roster_id": "seven-female-v1",
+  "roster_config": "config/default-roster.json",
+  "roster_config_sha256": "c228d2daea315fa2b0509c6a9bd23e49c8796a38b2ab9fe9528ac3eb2f8f8f8a",
+  "roster_snapshot": "reports/evidence/stage20/default-roster.json",
+  "source_segment_policy": {
+    "effective_date": "2026-10-18",
+    "scope": "all_song_experiments",
+    "mode": "single_complete_chorus",
+    "fixed_duration_seconds": null,
+    "require_duration_confirmation": false,
+    "selection_policy": "Agent selects one complete chorus with intact phrases and a natural ending; record source start, end, duration and selection evidence in the experiment manifest.",
+    "shared_across_artists": true,
+    "override_policy": "An explicit user request for a full song, another segment or a duration overrides that experiment only, unless the user explicitly changes global defaults."
+  },
+  "authorization": {
+    "user_request": "开始一次全新的试验，本次让四大三小的6个人演唱《勇气》",
+    "authorized_artist_keys": [
+      "stefanie",
+      "jolin",
+      "elva",
+      "angela",
+      "rainie",
+      "cyndi"
+    ],
+    "excluded_original_artist": "fish",
+    "selection_basis": "勇气 is 梁静茹 song; exclude original singer and use the other six default roster references"
+  },
+  "source_selection": {
+    "chosen": {
+      "url": "https://www.youtube.com/watch?v=nDchQNPuA0k",
+      "reason": "Rock Records official MV audio, exact opus filesize, not a concert or duet"
+    },
+    "rejected_without_download": [
+      {
+        "url": "https://www.bilibili.com/video/BV1nxadzREcx/",
+        "reason": "live concert"
+      },
+      {
+        "url": "https://www.bilibili.com/video/BV1sT4y1y7Ms/",
+        "reason": "live fan-sign"
+      },
+      {
+        "url": "https://www.bilibili.com/video/BV1UAJz6GELk/",
+        "reason": "concert"
+      },
+      {
+        "url": "https://www.bilibili.com/video/BV1Xy4y1t7aD/",
+        "reason": "live"
+      },
+      {
+        "url": "https://www.bilibili.com/video/BV1iK4y1A7pV/",
+        "reason": "crowd singalong"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=wUh9-E6KncA",
+        "reason": "official live"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NZXeBgWv4ms",
+        "reason": "live"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=PPO1fSdT4cM",
+        "reason": "live"
+      }
+    ],
+    "opening_check": {
+      "transcript": "work/stage20-yongqi-alt-opening/transcript.json",
+      "observation": "First 23 seconds are instrumental (Whisper label Zither Harp is not lyrics). Verse line 终于做了这个决定 starts at 23.0 seconds. No crowd talk. ASR text is not lyrics truth."
+    },
+    "rejected": [
+      {
+        "url": "https://www.youtube.com/watch?v=nDchQNPuA0k",
+        "acquisition_id": "stage20-source-yongqi",
+        "reason": "Rock Records official MV audio downloaded and separated. Vocal ASR shows drama dialogue over the song, including inside both choruses. Full file and stems retained under data/source/stage20-source-yongqi.wav and work/stage20-yongqi-mv-prep. Not used for conversion."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=KfwJhh0MLLU",
+        "acquisition_id": "stage20-source-yongqi-studio",
+        "declared_bytes": 4095267,
+        "reason": "Lyric upload GET returned HTTP 403 with 0 bytes transferred. Directory retained. Not retried the same way."
+      }
+    ]
+  },
+  "artists": [
+    {
+      "key": "stefanie",
+      "artist": "孙燕姿",
+      "reference_song": "我怀念的",
+      "reuse_reference_from": "work/stage9-stefanie-clips",
+      "reference_sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+      "reference_interval_seconds": [
+        202.307007,
+        217.307007
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage20-yongqi-stefanie-clips",
+      "run_id": "stage20-yongqi-stefanie",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage20-six-yongqi/孙燕姿_勇气_AI.wav",
+          "sha256": "278d9dd4f62bf2b88914b602a321a30d32ae01073f1058a3e56e1489a3a80577",
+          "size_bytes": 7020624
+        },
+        "mix": {
+          "path": "outputs/stage20-six-yongqi/孙燕姿_勇气_mix_AI.wav",
+          "sha256": "14144e54bc1b3207ea10265c85773ff187cd066a6d1a259e7864f052bbb9faeb",
+          "size_bytes": 7020764
+        },
+        "reference": {
+          "path": "outputs/stage20-six-yongqi/inputs/孙燕姿_参考_我怀念的.wav",
+          "sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 222.449,
+        "speaker_cosine": 0.8088427186012268,
+        "f0_pearson": 0.9949781694371963,
+        "common_voiced_coverage": 0.7733668341708543,
+        "mps_allocated_peak_gib": 3.597482204437256,
+        "mps_driver_peak_gib": 5.25213623046875,
+        "CER": null
+      }
+    },
+    {
+      "key": "jolin",
+      "artist": "蔡依林",
+      "reference_song": "天空",
+      "reuse_reference_from": "work/stage9-jolin-clips",
+      "reference_sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+      "reference_interval_seconds": [
+        200.127415,
+        215.127415
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage20-yongqi-jolin-clips",
+      "run_id": "stage20-yongqi-jolin",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage20-six-yongqi/蔡依林_勇气_AI.wav",
+          "sha256": "1978df19cc03c2da47cf737df92f1edab6af5152963356c9b09011455f346ea6",
+          "size_bytes": 7020624
+        },
+        "mix": {
+          "path": "outputs/stage20-six-yongqi/蔡依林_勇气_mix_AI.wav",
+          "sha256": "68383fbe9bc720642e165072c8806286cc519ca9ae2549358c3ed75579e2a03c",
+          "size_bytes": 7020764
+        },
+        "reference": {
+          "path": "outputs/stage20-six-yongqi/inputs/蔡依林_参考_天空.wav",
+          "sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 216.026,
+        "speaker_cosine": 0.8347540497779846,
+        "f0_pearson": 0.9922680589120755,
+        "common_voiced_coverage": 0.7731155778894472,
+        "mps_allocated_peak_gib": 3.600961208343506,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      }
+    },
+    {
+      "key": "elva",
+      "artist": "萧亚轩",
+      "reference_song": "错的人",
+      "reuse_reference_from": "work/stage9-elva-clips",
+      "reference_sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+      "reference_interval_seconds": [
+        189.094785,
+        204.094785
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage20-yongqi-elva-clips",
+      "run_id": "stage20-yongqi-elva",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage20-six-yongqi/萧亚轩_勇气_AI.wav",
+          "sha256": "c060c21853eda5b9c19cbffbc01ab8d3b2a3d8b3a7e44921b71f54fc76d3ee95",
+          "size_bytes": 7020624
+        },
+        "mix": {
+          "path": "outputs/stage20-six-yongqi/萧亚轩_勇气_mix_AI.wav",
+          "sha256": "4a5201db0c1335543216c7f23df8e305324e6ce4b7625f50f9296e11a1cbfafa",
+          "size_bytes": 7020764
+        },
+        "reference": {
+          "path": "outputs/stage20-six-yongqi/inputs/萧亚轩_参考_错的人.wav",
+          "sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 215.877,
+        "speaker_cosine": 0.8603599071502686,
+        "f0_pearson": 0.9924255792223495,
+        "common_voiced_coverage": 0.7728643216080402,
+        "mps_allocated_peak_gib": 3.600961208343506,
+        "mps_driver_peak_gib": 5.252105712890625,
+        "CER": null
+      }
+    },
+    {
+      "key": "angela",
+      "artist": "张韶涵",
+      "reference_song": "亲爱的那不是爱情",
+      "reuse_reference_from": "work/stage9-angela-clips",
+      "reference_sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+      "reference_interval_seconds": [
+        41.227755,
+        56.227755
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage20-yongqi-angela-clips",
+      "run_id": "stage20-yongqi-angela",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage20-six-yongqi/张韶涵_勇气_AI.wav",
+          "sha256": "03ae1199f4f4666b8fec531f3629f285776fcd986e65acc4a4348e93cafdbc5b",
+          "size_bytes": 7020624
+        },
+        "mix": {
+          "path": "outputs/stage20-six-yongqi/张韶涵_勇气_mix_AI.wav",
+          "sha256": "bf871d9bc7e9d89f3c4be21614b253b4327251753427276d24948ace78353437",
+          "size_bytes": 7020764
+        },
+        "reference": {
+          "path": "outputs/stage20-six-yongqi/inputs/张韶涵_参考_亲爱的那不是爱情.wav",
+          "sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 204.927,
+        "speaker_cosine": 0.8856846690177917,
+        "f0_pearson": 0.9902020074168132,
+        "common_voiced_coverage": 0.7723618090452261,
+        "mps_allocated_peak_gib": 3.600961208343506,
+        "mps_driver_peak_gib": 5.2521514892578125,
+        "CER": null
+      }
+    },
+    {
+      "key": "rainie",
+      "artist": "杨丞琳",
+      "reference_song": "雨爱",
+      "reuse_reference_from": "work/stage9-rainie-clips",
+      "reference_sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+      "reference_interval_seconds": [
+        180.589705,
+        195.589705
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage20-yongqi-rainie-clips",
+      "run_id": "stage20-yongqi-rainie",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage20-six-yongqi/杨丞琳_勇气_AI.wav",
+          "sha256": "a6f20ea521c9a3a57ceeb649713a7a75912eee04f9b348dcfe0ec13d9102d39a",
+          "size_bytes": 7020624
+        },
+        "mix": {
+          "path": "outputs/stage20-six-yongqi/杨丞琳_勇气_mix_AI.wav",
+          "sha256": "5abfc1de596db11d8acc0d73028f3ebf555ba92005e99f0191dcbd060d8f1b26",
+          "size_bytes": 7020764
+        },
+        "reference": {
+          "path": "outputs/stage20-six-yongqi/inputs/杨丞琳_参考_雨爱.wav",
+          "sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 199.815,
+        "speaker_cosine": 0.791283369064331,
+        "f0_pearson": 0.994513716089765,
+        "common_voiced_coverage": 0.7728643216080402,
+        "mps_allocated_peak_gib": 3.5460293292999268,
+        "mps_driver_peak_gib": 5.25213623046875,
+        "CER": null
+      }
+    },
+    {
+      "key": "cyndi",
+      "artist": "王心凌",
+      "reference_song": "我会好好的",
+      "reuse_reference_from": "work/stage11-cyndi-reference",
+      "reference_sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+      "reference_interval_seconds": [
+        247.215374,
+        262.215374
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage20-yongqi-cyndi-clips",
+      "run_id": "stage20-yongqi-cyndi",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage20-six-yongqi/王心凌_勇气_AI.wav",
+          "sha256": "ab16a8a0fd0d3ac7cb3b3f6f24caec6a6d40ecd3b4bf8ba049aa136ff1e41f6e",
+          "size_bytes": 7020624
+        },
+        "mix": {
+          "path": "outputs/stage20-six-yongqi/王心凌_勇气_mix_AI.wav",
+          "sha256": "b787031f0b7325a26c68b5242a17cb1ea19898b6dec7faf444c9755a227b1c33",
+          "size_bytes": 7020764
+        },
+        "reference": {
+          "path": "outputs/stage20-six-yongqi/inputs/王心凌_参考_我会好好的.wav",
+          "sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 202.685,
+        "speaker_cosine": 0.7822719216346741,
+        "f0_pearson": 0.9945880149022888,
+        "common_voiced_coverage": 0.770854271356784,
+        "mps_allocated_peak_gib": 3.594369411468506,
+        "mps_driver_peak_gib": 5.252105712890625,
+        "CER": null
+      }
+    }
+  ],
+  "source_receipt": "work/acquisition/stage20-source-yongqi-alt/receipt.json",
+  "source_sha256": "5a7df748547b2360eb44a96e9dcadfcf101e6e52b6ab90a7451adb1f6710e3b4",
+  "source_raw": "data/source/stage20-source-yongqi-alt.wav",
+  "source_stems": [
+    {
+      "path": "work/stage20-yongqi-prep/separated/UVR_Demucs_Model_1/stage20-source-yongqi-alt/vocals.wav",
+      "sha256": "62033116b1f3d0eb65cd373fcfef7a5dcb8a7686ac4193ddc7800ad84c6c843d",
+      "duration": 240.29172335600907,
+      "sr": 44100,
+      "channels": 2
+    },
+    {
+      "path": "work/stage20-yongqi-prep/separated/UVR_Demucs_Model_1/stage20-source-yongqi-alt/no_vocals.wav",
+      "sha256": "6d344d1ca9e572d498dce6d1d0ccf22ab6d924b1c74e739d9e3eedd3d3c3e7a7",
+      "duration": 240.29172335600907,
+      "sr": 44100,
+      "channels": 2
+    }
+  ],
+  "source_start_seconds": 52.2,
+  "source_end_seconds": 92.0,
+  "duration_seconds": 39.8,
+  "chorus_evidence": {
+    "selected_interval_seconds": [
+      52.2,
+      92.0
+    ],
+    "transcript": "work/stage20-yongqi-asr/transcript.json",
+    "method": "Offline Whisper phrase timestamps and vocal RMS boundaries; not human audition",
+    "selection_basis": "Full-vocal ASR places the preceding line through 48.24s and the first chorus from 52.24s. Vocal RMS is under 0.001 from 48.25s to 52.35s and the chorus attack is at 52.40s, so the cut starts at 52.20s. The last phrase energy falls below 0.001 at 89.45s and the next verse attacks at 100.05s, so the cut ends at 92.00s. A 46-58s window that dated the chorus at 46-48s was rejected because that energy belongs to the preceding line. ASR wording is not lyrics truth. See reports/evidence/stage20/yongqi-boundary-rms.json.",
+    "boundary_evidence": "reports/evidence/stage20/yongqi-boundary-rms.json",
+    "short_windows": [
+      "work/stage20-yongqi-bound-start/transcript.json",
+      "work/stage20-yongqi-bound-end/transcript.json"
+    ]
+  },
+  "started_at": "2026-10-18T14:16:51.592566+00:00",
+  "completed_at": "2026-10-18T14:39:13.418584+00:00",
+  "batch_elapsed_seconds": 1341.9541301249992,
+  "audition_sample": {
+    "seed": 20261016,
+    "artist_keys": [
+      "jolin",
+      "rainie",
+      "angela",
+      "elva",
+      "cyndi"
+    ],
+    "human_audition": false
+  }
+}

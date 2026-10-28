@@ -1,0 +1,370 @@
+{
+  "id": "stage15-shouxin",
+  "status": "POC_PASSED",
+  "created_at": "2026-10-18T09:43:42.596934+00:00",
+  "source_song": "手心的太阳",
+  "source_artist": "张韶涵",
+  "source_url": "https://www.bilibili.com/video/BV1Bf4y177vw/",
+  "source_acquisition_id": "stage14-source-shouxin-bili",
+  "source_start_seconds": 109.4,
+  "duration_seconds": 35.5,
+  "steps": [
+    30
+  ],
+  "seed": 20261016,
+  "output_directory": "outputs/stage14-seven-shouxindetaiyang",
+  "roster_id": "seven-female-v1",
+  "roster_config": "config/default-roster.json",
+  "roster_config_sha256": "c228d2daea315fa2b0509c6a9bd23e49c8796a38b2ab9fe9528ac3eb2f8f8f8a",
+  "roster_snapshot": "reports/evidence/stage15/default-roster.json",
+  "source_segment_policy": {
+    "effective_date": "2026-10-18",
+    "scope": "all_song_experiments",
+    "mode": "single_complete_chorus",
+    "fixed_duration_seconds": null,
+    "require_duration_confirmation": false,
+    "selection_policy": "Agent selects one complete chorus with intact phrases and a natural ending; record source start, end, duration and selection evidence in the experiment manifest.",
+    "shared_across_artists": true,
+    "override_policy": "An explicit user request for a full song, another segment or a duration overrides that experiment only, unless the user explicitly changes global defaults."
+  },
+  "authorization": {
+    "phase": "four_singer_extension",
+    "authorized_artist_keys": [
+      "stefanie",
+      "jolin",
+      "elva",
+      "fish",
+      "rainie",
+      "cyndi"
+    ],
+    "new_artist_keys": [
+      "stefanie",
+      "jolin",
+      "fish",
+      "rainie"
+    ],
+    "preserve_artist_keys": [
+      "elva",
+      "cyndi"
+    ],
+    "excluded_original_artist": "angela",
+    "remaining_artist_keys": [],
+    "expansion_requires_user_feedback": false,
+    "user_feedback": {
+      "date": "2026-10-18",
+      "quote": "效果还挺好，现在继续生成剩下的4个人的版本，在同一个目录",
+      "approved_artist_keys": [
+        "elva",
+        "cyndi"
+      ],
+      "new_artist_audition": "PENDING"
+    }
+  },
+  "artists": [
+    {
+      "key": "stefanie",
+      "artist": "孙燕姿",
+      "reference_song": "我怀念的",
+      "reuse_reference_from": "work/stage9-stefanie-clips",
+      "reference_sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+      "reference_interval_seconds": [
+        202.307007,
+        217.307007
+      ],
+      "generation_stage": "stage15",
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage15-shouxin-stefanie-clips",
+      "run_id": "stage15-shouxin-stefanie",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage14-seven-shouxindetaiyang/孙燕姿_手心的太阳_AI.wav",
+          "sha256": "7c41b6c2b4634eaadc22105902592bd5a2860a6411bdca79b798b1eec7bf56c1",
+          "size_bytes": 6260816
+        },
+        "mix": {
+          "path": "outputs/stage14-seven-shouxindetaiyang/孙燕姿_手心的太阳_mix_AI.wav",
+          "sha256": "4ecdd58b30b9c8cffa9329f8bfdd89dd2684918b1e0f4d5b32e07eb47f88b2b0",
+          "size_bytes": 6262244
+        },
+        "reference": {
+          "path": "outputs/stage14-seven-shouxindetaiyang/inputs/孙燕姿_参考_我怀念的.wav",
+          "sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 196.507,
+        "speaker_cosine": 0.8046528100967407,
+        "f0_pearson": 0.9808596363839325,
+        "common_voiced_coverage": 0.7732394366197183,
+        "mps_allocated_peak_gib": 3.579599380493164,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      }
+    },
+    {
+      "key": "jolin",
+      "artist": "蔡依林",
+      "reference_song": "天空",
+      "reuse_reference_from": "work/stage9-jolin-clips",
+      "reference_sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+      "reference_interval_seconds": [
+        200.127415,
+        215.127415
+      ],
+      "generation_stage": "stage15",
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage15-shouxin-jolin-clips",
+      "run_id": "stage15-shouxin-jolin",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage14-seven-shouxindetaiyang/蔡依林_手心的太阳_AI.wav",
+          "sha256": "de310aa75d5ed97078ea199ffc8cc85fe62700259fb80a623594192f9bcd99f0",
+          "size_bytes": 6260816
+        },
+        "mix": {
+          "path": "outputs/stage14-seven-shouxindetaiyang/蔡依林_手心的太阳_mix_AI.wav",
+          "sha256": "fcb827cbd5987ccb26102e3a703a4177d01a966b8eb45fc139978068afd11420",
+          "size_bytes": 6262244
+        },
+        "reference": {
+          "path": "outputs/stage14-seven-shouxindetaiyang/inputs/蔡依林_参考_天空.wav",
+          "sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 185.889,
+        "speaker_cosine": 0.8193209767341614,
+        "f0_pearson": 0.9796566011968538,
+        "common_voiced_coverage": 0.7718309859154929,
+        "mps_allocated_peak_gib": 3.573007583618164,
+        "mps_driver_peak_gib": 5.25213623046875,
+        "CER": null
+      }
+    },
+    {
+      "key": "elva",
+      "artist": "萧亚轩",
+      "reference_song": "错的人",
+      "reuse_reference_from": "work/stage9-elva-clips",
+      "reference_sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+      "reference_interval_seconds": [
+        189.094785,
+        204.094785
+      ],
+      "status": "POC_PASSED",
+      "clips": "work/stage14-shouxin-elva-clips",
+      "run_id": "stage14-shouxin-elva",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage14-seven-shouxindetaiyang/萧亚轩_手心的太阳_AI.wav",
+          "sha256": "cf38044d07f00a3eedc49b9aa2d4a10703282121ad5c6f414260c6da3f1a230e",
+          "size_bytes": 6260816
+        },
+        "mix": {
+          "path": "outputs/stage14-seven-shouxindetaiyang/萧亚轩_手心的太阳_mix_AI.wav",
+          "sha256": "9cdb10f7aa8efc95a01b45263f11b7b06d3ed27fe6cea44795157d0e10425883",
+          "size_bytes": 6262244
+        },
+        "reference": {
+          "path": "outputs/stage14-seven-shouxindetaiyang/inputs/萧亚轩_参考_错的人.wav",
+          "sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 275.71,
+        "speaker_cosine": 0.8706344962120056,
+        "f0_pearson": 0.9791007141058505,
+        "common_voiced_coverage": 0.772394366197183,
+        "mps_allocated_peak_gib": 3.542245626449585,
+        "mps_driver_peak_gib": 5.252105712890625,
+        "CER": null
+      },
+      "human_audition": true,
+      "generation_stage": "stage14",
+      "user_audition": "APPROVED_IN_THIS_SCOPE"
+    },
+    {
+      "key": "fish",
+      "artist": "梁静茹",
+      "reference_song": "崇拜",
+      "reuse_reference_from": "work/stage9-fish-clips",
+      "reference_sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+      "reference_interval_seconds": [
+        228.574104,
+        243.574104
+      ],
+      "generation_stage": "stage15",
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage15-shouxin-fish-clips",
+      "run_id": "stage15-shouxin-fish",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage14-seven-shouxindetaiyang/梁静茹_手心的太阳_AI.wav",
+          "sha256": "ea165993f5196e8e4747c4f5e7809359880161fb77b6df50532860e3577c303e",
+          "size_bytes": 6260816
+        },
+        "mix": {
+          "path": "outputs/stage14-seven-shouxindetaiyang/梁静茹_手心的太阳_mix_AI.wav",
+          "sha256": "46a230519ea38656c9fb82e1a82c1fe3a283c21235d1c5174ac3727d5889e190",
+          "size_bytes": 6262244
+        },
+        "reference": {
+          "path": "outputs/stage14-seven-shouxindetaiyang/inputs/梁静茹_参考_崇拜.wav",
+          "sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 185.816,
+        "speaker_cosine": 0.8361658453941345,
+        "f0_pearson": 0.9792121962548763,
+        "common_voiced_coverage": 0.7709859154929577,
+        "mps_allocated_peak_gib": 3.590585708618164,
+        "mps_driver_peak_gib": 5.252105712890625,
+        "CER": null
+      }
+    },
+    {
+      "key": "rainie",
+      "artist": "杨丞琳",
+      "reference_song": "雨爱",
+      "reuse_reference_from": "work/stage9-rainie-clips",
+      "reference_sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+      "reference_interval_seconds": [
+        180.589705,
+        195.589705
+      ],
+      "generation_stage": "stage15",
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage15-shouxin-rainie-clips",
+      "run_id": "stage15-shouxin-rainie",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage14-seven-shouxindetaiyang/杨丞琳_手心的太阳_AI.wav",
+          "sha256": "d898b694f484f4d4ff04b1070a1726efe2daa6e8ada9f4db0d6c1c3008bf573f",
+          "size_bytes": 6260816
+        },
+        "mix": {
+          "path": "outputs/stage14-seven-shouxindetaiyang/杨丞琳_手心的太阳_mix_AI.wav",
+          "sha256": "041aa96f92307f5d3fa779a2be50dabc2e3afe1c434b649900b3806ca1f48091",
+          "size_bytes": 6262244
+        },
+        "reference": {
+          "path": "outputs/stage14-seven-shouxindetaiyang/inputs/杨丞琳_参考_雨爱.wav",
+          "sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 182.644,
+        "speaker_cosine": 0.833970308303833,
+        "f0_pearson": 0.9784278707802005,
+        "common_voiced_coverage": 0.7718309859154929,
+        "mps_allocated_peak_gib": 3.580148696899414,
+        "mps_driver_peak_gib": 5.252105712890625,
+        "CER": null
+      }
+    },
+    {
+      "key": "cyndi",
+      "artist": "王心凌",
+      "reference_song": "我会好好的",
+      "reuse_reference_from": "work/stage11-cyndi-reference",
+      "reference_sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+      "reference_interval_seconds": [
+        247.215374,
+        262.215374
+      ],
+      "status": "POC_PASSED",
+      "clips": "work/stage14-shouxin-cyndi-clips",
+      "run_id": "stage14-shouxin-cyndi",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage14-seven-shouxindetaiyang/王心凌_手心的太阳_AI.wav",
+          "sha256": "35d60162f097f09b15defe94fd96641be738ba38e29db54a9c9dde32f990703f",
+          "size_bytes": 6260816
+        },
+        "mix": {
+          "path": "outputs/stage14-seven-shouxindetaiyang/王心凌_手心的太阳_mix_AI.wav",
+          "sha256": "78b132bfae4565ec3af46844549971306e2c4746df2d59e2cfedbff1753f51cb",
+          "size_bytes": 6262244
+        },
+        "reference": {
+          "path": "outputs/stage14-seven-shouxindetaiyang/inputs/王心凌_参考_我会好好的.wav",
+          "sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 229.91,
+        "speaker_cosine": 0.7861285209655762,
+        "f0_pearson": 0.9785134814543066,
+        "common_voiced_coverage": 0.772112676056338,
+        "mps_allocated_peak_gib": 3.573007583618164,
+        "mps_driver_peak_gib": 5.0489959716796875,
+        "CER": null
+      },
+      "human_audition": true,
+      "generation_stage": "stage14",
+      "user_audition": "APPROVED_IN_THIS_SCOPE"
+    }
+  ],
+  "source_selection": {
+    "official_page": "https://www.youtube.com/watch?v=LbDVqYaQboY",
+    "official_download": "BLOCKED_ACCESS http_403; transferred 0; conservatively charged 5386588 bytes",
+    "selected_uploader": "舒言星",
+    "license": "unknown",
+    "reason": "Public MV backup with higher bitrate audio than the other probed backup; not official uploader"
+  },
+  "source_receipt": "work/acquisition/stage14-source-shouxin-bili/receipt.json",
+  "source_sha256": "4aba0003d1d60cdc263e91def19bac9d3244767c326eab575c0e11e00ab4c2ac",
+  "source_raw": "data/source/stage14-source-shouxin-bili.wav",
+  "source_stems": [
+    {
+      "path": "work/stage14-shouxin-prep/separated/UVR_Demucs_Model_1/stage14-source-shouxin-bili/vocals.wav",
+      "sha256": "bc91f8b863c0c4b6edea8be63067b1466d4c3d0b06b9fe61eae203c14df18476",
+      "duration": 307.4773469387755,
+      "sr": 44100,
+      "channels": 2
+    },
+    {
+      "path": "work/stage14-shouxin-prep/separated/UVR_Demucs_Model_1/stage14-source-shouxin-bili/no_vocals.wav",
+      "sha256": "f27e5b9917fbdaea42017d024b2662d31eb0a348ed35b745e6a89d8d48563bff",
+      "duration": 307.4773469387755,
+      "sr": 44100,
+      "channels": 2
+    }
+  ],
+  "source_end_seconds": 144.9,
+  "chorus_evidence": {
+    "selected_interval_seconds": [
+      109.4,
+      144.9
+    ],
+    "transcript": "work/stage14-shouxin-asr/transcript.json",
+    "method": "Offline Whisper phrase timestamps and vocal RMS boundaries; not human audition",
+    "refinement_transcript": "work/stage14-shouxin-asr-refine/transcript.json",
+    "tail_original_mix_transcript": "work/stage14-shouxin-asr-tail/transcript.json",
+    "rms_evidence": "reports/evidence/stage14/shouxin-boundary-rms.json",
+    "selection_basis": "First complete chorus: ASR onset 109.6s, quiet 109.4s lead-in (RMS 0.0021); refined vocal and original-mix tail ASR agree final phrase ends ~143.0s. Preserve decay until 144.9s (RMS 0.0122 after stronger 144.5-144.7s tail).",
+    "limitations": "ASR has lyric recognition errors and approximate timestamps; no human audition or verified lyric transcript."
+  },
+  "pilot_experiment": "config/experiments/stage14-shouxin.json",
+  "pilot_batch_elapsed_seconds": 547.1584689160809,
+  "shared_clips": "work/stage14-shouxin-shared",
+  "started_at": "2026-10-18T10:04:08.230320+00:00",
+  "completed_at": "2026-10-18T10:17:28.475653+00:00",
+  "batch_elapsed_seconds": 800.199449207983,
+  "output_relocation": {
+    "from": "outputs/stage14-shouxin",
+    "to": "outputs/stage14-seven-shouxindetaiyang",
+    "evidence": "reports/evidence/stage15/output-relocation.json"
+  }
+}

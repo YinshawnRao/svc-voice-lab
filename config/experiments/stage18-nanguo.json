@@ -1,0 +1,375 @@
+{
+  "id": "stage18-nanguo",
+  "status": "POC_PASSED",
+  "created_at": "2026-10-18T11:11:06.492958+00:00",
+  "source_song": "我知道你很难过",
+  "source_artist": "蔡依林",
+  "source_url": "https://www.youtube.com/watch?v=wcl8NMTSPWY",
+  "source_acquisition_id": "stage18-source-nanguo-hq",
+  "source_title_on_page": "【高音質】蔡依林-我知道你很難過",
+  "steps": [
+    30
+  ],
+  "seed": 20261016,
+  "output_directory": "outputs/stage18-six-nanguo",
+  "roster_id": "seven-female-v1",
+  "roster_config": "config/default-roster.json",
+  "roster_config_sha256": "c228d2daea315fa2b0509c6a9bd23e49c8796a38b2ab9fe9528ac3eb2f8f8f8a",
+  "roster_snapshot": "reports/evidence/stage18/default-roster.json",
+  "source_segment_policy": {
+    "effective_date": "2026-10-18",
+    "scope": "all_song_experiments",
+    "mode": "single_complete_chorus",
+    "fixed_duration_seconds": null,
+    "require_duration_confirmation": false,
+    "selection_policy": "Agent selects one complete chorus with intact phrases and a natural ending; record source start, end, duration and selection evidence in the experiment manifest.",
+    "shared_across_artists": true,
+    "override_policy": "An explicit user request for a full song, another segment or a duration overrides that experiment only, unless the user explicitly changes global defaults."
+  },
+  "authorization": {
+    "user_request": "开启一期新实验，让四大三小的其中6个人演唱“我知道你很难过”",
+    "authorized_artist_keys": [
+      "stefanie",
+      "elva",
+      "fish",
+      "angela",
+      "rainie",
+      "cyndi"
+    ],
+    "excluded_original_artist": "jolin",
+    "selection_basis": "Follow prior six-singer experiments: exclude original singer 蔡依林; six remaining default roster artists"
+  },
+  "artists": [
+    {
+      "key": "stefanie",
+      "artist": "孙燕姿",
+      "reference_song": "我怀念的",
+      "reuse_reference_from": "work/stage9-stefanie-clips",
+      "reference_sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+      "reference_interval_seconds": [
+        202.307007,
+        217.307007
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage18-nanguo-stefanie-clips",
+      "run_id": "stage18-nanguo-stefanie",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage18-six-nanguo/孙燕姿_我知道你很难过_AI.wav",
+          "sha256": "42df69d25969f7ff9f354cbfcb5462198b68dd577a985ada9b3154773fbc17e7",
+          "size_bytes": 6402128
+        },
+        "mix": {
+          "path": "outputs/stage18-six-nanguo/孙燕姿_我知道你很难过_mix_AI.wav",
+          "sha256": "52a77bb66a4394d5397bedbd110f255089ddaaa6827a7245f0d27859f4d209ff",
+          "size_bytes": 6403364
+        },
+        "reference": {
+          "path": "outputs/stage18-six-nanguo/inputs/孙燕姿_参考_我怀念的.wav",
+          "sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 200.17,
+        "speaker_cosine": 0.7919151782989502,
+        "f0_pearson": 0.9982189534188295,
+        "common_voiced_coverage": 0.7702479338842976,
+        "mps_allocated_peak_gib": 3.561403274536133,
+        "mps_driver_peak_gib": 5.25213623046875,
+        "CER": null
+      }
+    },
+    {
+      "key": "elva",
+      "artist": "萧亚轩",
+      "reference_song": "错的人",
+      "reuse_reference_from": "work/stage9-elva-clips",
+      "reference_sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+      "reference_interval_seconds": [
+        189.094785,
+        204.094785
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage18-nanguo-elva-clips",
+      "run_id": "stage18-nanguo-elva",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage18-six-nanguo/萧亚轩_我知道你很难过_AI.wav",
+          "sha256": "d6ea92322ee430159155136fdb53c11ee9c884aeb284f8b5373fe50153d486a5",
+          "size_bytes": 6402128
+        },
+        "mix": {
+          "path": "outputs/stage18-six-nanguo/萧亚轩_我知道你很难过_mix_AI.wav",
+          "sha256": "ed5f7fac7e268ebabea11e9ad174ddcc67bf9b86aede2ea6b6132afda6eea079",
+          "size_bytes": 6403364
+        },
+        "reference": {
+          "path": "outputs/stage18-six-nanguo/inputs/萧亚轩_参考_错的人.wav",
+          "sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 190.75,
+        "speaker_cosine": 0.8337094783782959,
+        "f0_pearson": 0.9980086273412108,
+        "common_voiced_coverage": 0.7691460055096419,
+        "mps_allocated_peak_gib": 3.552614212036133,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      }
+    },
+    {
+      "key": "fish",
+      "artist": "梁静茹",
+      "reference_song": "崇拜",
+      "reuse_reference_from": "work/stage9-fish-clips",
+      "reference_sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+      "reference_interval_seconds": [
+        228.574104,
+        243.574104
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage18-nanguo-fish-clips",
+      "run_id": "stage18-nanguo-fish",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage18-six-nanguo/梁静茹_我知道你很难过_AI.wav",
+          "sha256": "0d895271b24d4d0597e9f1fb353c9c68487d39ac5353a1270d538c1595d6b138",
+          "size_bytes": 6402128
+        },
+        "mix": {
+          "path": "outputs/stage18-six-nanguo/梁静茹_我知道你很难过_mix_AI.wav",
+          "sha256": "da5c82e398a1bd5a3d9cf6a6e05337600eedfbb95292546dc9dd7bd6d90c8b5a",
+          "size_bytes": 6403364
+        },
+        "reference": {
+          "path": "outputs/stage18-six-nanguo/inputs/梁静茹_参考_崇拜.wav",
+          "sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 190.035,
+        "speaker_cosine": 0.7542151808738708,
+        "f0_pearson": 0.9979391560084986,
+        "common_voiced_coverage": 0.7721763085399449,
+        "mps_allocated_peak_gib": 3.589235305786133,
+        "mps_driver_peak_gib": 5.252105712890625,
+        "CER": null
+      }
+    },
+    {
+      "key": "angela",
+      "artist": "张韶涵",
+      "reference_song": "亲爱的那不是爱情",
+      "reuse_reference_from": "work/stage9-angela-clips",
+      "reference_sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+      "reference_interval_seconds": [
+        41.227755,
+        56.227755
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage18-nanguo-angela-clips",
+      "run_id": "stage18-nanguo-angela",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage18-six-nanguo/张韶涵_我知道你很难过_AI.wav",
+          "sha256": "43eb4c06c74d3cc6c86a80c914a92b6a4474158c87a94621aed6ed7c01c78ba6",
+          "size_bytes": 6402128
+        },
+        "mix": {
+          "path": "outputs/stage18-six-nanguo/张韶涵_我知道你很难过_mix_AI.wav",
+          "sha256": "d2ad5c0046fd11b7c1171134479eb1003997005cd02dadc6f8a4a3b460085d6c",
+          "size_bytes": 6403364
+        },
+        "reference": {
+          "path": "outputs/stage18-six-nanguo/inputs/张韶涵_参考_亲爱的那不是爱情.wav",
+          "sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 190.063,
+        "speaker_cosine": 0.865166425704956,
+        "f0_pearson": 0.9982038046847458,
+        "common_voiced_coverage": 0.7683195592286501,
+        "mps_allocated_peak_gib": 3.589235305786133,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      }
+    },
+    {
+      "key": "rainie",
+      "artist": "杨丞琳",
+      "reference_song": "雨爱",
+      "reuse_reference_from": "work/stage9-rainie-clips",
+      "reference_sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+      "reference_interval_seconds": [
+        180.589705,
+        195.589705
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage18-nanguo-rainie-clips",
+      "run_id": "stage18-nanguo-rainie",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage18-six-nanguo/杨丞琳_我知道你很难过_AI.wav",
+          "sha256": "c2973531e04f0147a5d969161f94b5f72b6202e4092705dcaf9b3694d5ddd848",
+          "size_bytes": 6402128
+        },
+        "mix": {
+          "path": "outputs/stage18-six-nanguo/杨丞琳_我知道你很难过_mix_AI.wav",
+          "sha256": "cb0377de11701702cf91b0c34a53bd09251ad413dad8ab00b6372675881d2979",
+          "size_bytes": 6403364
+        },
+        "reference": {
+          "path": "outputs/stage18-six-nanguo/inputs/杨丞琳_参考_雨爱.wav",
+          "sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 193.966,
+        "speaker_cosine": 0.7717736959457397,
+        "f0_pearson": 0.9981365886234965,
+        "common_voiced_coverage": 0.7702479338842976,
+        "mps_allocated_peak_gib": 3.589235305786133,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      }
+    },
+    {
+      "key": "cyndi",
+      "artist": "王心凌",
+      "reference_song": "我会好好的",
+      "reuse_reference_from": "work/stage11-cyndi-reference",
+      "reference_sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+      "reference_interval_seconds": [
+        247.215374,
+        262.215374
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage18-nanguo-cyndi-clips",
+      "run_id": "stage18-nanguo-cyndi",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage18-six-nanguo/王心凌_我知道你很难过_AI.wav",
+          "sha256": "05d63892158d8ffadc9ef1d7d4babeb842aea176eb881b274cef9b9526a4ac99",
+          "size_bytes": 6402128
+        },
+        "mix": {
+          "path": "outputs/stage18-six-nanguo/王心凌_我知道你很难过_mix_AI.wav",
+          "sha256": "bf1713466eb79742167fdc0230abb40c5cfdddc4a16b09cf4adcc41b981b5fdb",
+          "size_bytes": 6403364
+        },
+        "reference": {
+          "path": "outputs/stage18-six-nanguo/inputs/王心凌_参考_我会好好的.wav",
+          "sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 186.544,
+        "speaker_cosine": 0.771613359451294,
+        "f0_pearson": 0.9977653100630074,
+        "common_voiced_coverage": 0.7669421487603306,
+        "mps_allocated_peak_gib": 3.596559524536133,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      }
+    }
+  ],
+  "audition_sample": {
+    "seed": 20261016,
+    "method": "random.Random(seed).sample(authorized_artist_keys, 5)",
+    "artist_keys": [
+      "elva",
+      "rainie",
+      "angela",
+      "fish",
+      "cyndi"
+    ],
+    "human_audition": "PENDING",
+    "all_six_available": true
+  },
+  "source_selection": {
+    "uploader": "Peculiar音樂",
+    "license": "unknown",
+    "reason": "265-second upload whose opening is the title line then the first verse, without the live audience address found in the label-channel file. Uploader is not an official label. Exact opus size 4372614 bytes.",
+    "rejected_live_source": {
+      "acquisition_id": "stage18-source-nanguo",
+      "url": "https://www.youtube.com/watch?v=3b6fqTMNaU4",
+      "uploader": "華納音樂 Warner Music Taiwan",
+      "reason": "Offline ASR of separated vocals begins with audience address and a mass singalong, not a studio vocal. Stems retained and not used.",
+      "transcript": "work/stage18-nanguo-asr/transcript.json",
+      "stems": [
+        {
+          "path": "work/stage18-nanguo-prep/separated/UVR_Demucs_Model_1/stage18-source-nanguo/vocals.wav",
+          "sha256": "1c68dbc95086723ec03ac47f0258b1542cbd31dad8798029e9fa7cf4fb53607b",
+          "duration": 246.23603174603176,
+          "sr": 44100,
+          "channels": 2
+        },
+        {
+          "path": "work/stage18-nanguo-prep/separated/UVR_Demucs_Model_1/stage18-source-nanguo/no_vocals.wav",
+          "sha256": "d0bf7026ea4fd9123e2fdb5232cd295cb35bcf760484967fd0b04053878f2d38",
+          "duration": 246.23603174603176,
+          "sr": 44100,
+          "channels": 2
+        }
+      ],
+      "sha256": "0d65d6bb6dd772372a3239f8b658f25d78fe9a23122705693bcc7c51b28e818f"
+    },
+    "lyrics_video_probed": "https://www.youtube.com/watch?v=ppEp4uShYuQ",
+    "lyrics_video_note": "Golden Era lyrics video probed. First GET timed out at 0 bytes; retry returned HTTP 403. Not downloaded."
+  },
+  "source_receipt": "work/acquisition/stage18-source-nanguo-hq/receipt.json",
+  "source_sha256": "09a931bc605714ebdfe00838b1fa86693be20afdffdc2f43c54be06b96b17c4f",
+  "source_raw": "data/source/stage18-source-nanguo-hq.wav",
+  "source_stems": [
+    {
+      "path": "work/stage18-nanguo-prep/separated/UVR_Demucs_Model_1/stage18-source-nanguo-hq/vocals.wav",
+      "sha256": "5b14132f1262ea1b1d2d58f007af166d598273acfa30531831f05cf0c38056dc",
+      "duration": 265.00936507936507,
+      "sr": 44100,
+      "channels": 2
+    },
+    {
+      "path": "work/stage18-nanguo-prep/separated/UVR_Demucs_Model_1/stage18-source-nanguo-hq/no_vocals.wav",
+      "sha256": "83791ac8d4426d542c246a4c50d719d086b9a8879a4afbd5a6d6aac46a3b872b",
+      "duration": 265.00936507936507,
+      "sr": 44100,
+      "channels": 2
+    }
+  ],
+  "source_start_seconds": 81.1,
+  "source_end_seconds": 117.4,
+  "duration_seconds": 36.3,
+  "chorus_evidence": {
+    "selected_interval_seconds": [
+      81.1,
+      117.4
+    ],
+    "duration_seconds": 36.3,
+    "transcript": "work/stage18-nanguo-asr-hq/transcript.json",
+    "method": "Offline Whisper phrase timestamps and vocal RMS boundaries; not human audition",
+    "onset_transcript": "work/stage18-nanguo-asr-onset/transcript.json",
+    "tail_transcript": "work/stage18-nanguo-asr-tail/transcript.json",
+    "last_line_transcript": "work/stage18-nanguo-asr-lastline/transcript.json",
+    "next_verse_transcript": "work/stage18-nanguo-asr-nextverse/transcript.json",
+    "rms_evidence": "reports/evidence/stage18/nanguo-boundary-rms.json",
+    "selection_basis": "First complete chorus. Opening 0-20s is only the title line plus vocalizations, not a full chorus. Short onset window shows the preceding verse line ending by 81.04s; vocal RMS falls to the noise floor from 80.5s and the chorus attack is at 81.3s, so the cut starts at 81.10s. Last chorus line is identified through 116.28s. RMS is below 0.001 from 116.6s until renewed activity near 125s, and the next-verse window from 122s identifies the following verse. End at 117.40s keeps the decay and excludes that verse. Duration 36.3s; no fixed 30s cut.",
+    "limitations": "Machine ASR is approximate and contains character errors, not human audition or independently verified lyrics. CER=N/A."
+  },
+  "started_at": "2026-10-18T11:31:19.861544+00:00",
+  "completed_at": "2026-10-18T11:51:42.980540+00:00",
+  "batch_elapsed_seconds": 1223.088717082981
+}

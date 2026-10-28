@@ -1,0 +1,360 @@
+{
+  "id": "stage27-yuyan",
+  "status": "POC_PASSED",
+  "created_at": "2026-10-28T06:28:43.589306+00:00",
+  "source_song": "寓言",
+  "source_artist": "张韶涵",
+  "source_url": "https://www.bilibili.com/video/BV1wH4y157yR/",
+  "source_acquisition_id": "stage27-source-yuyan-bili",
+  "steps": [
+    30
+  ],
+  "seed": 20261016,
+  "output_directory": "outputs/stage27-six-yuyan",
+  "roster_id": "seven-female-v1",
+  "roster_config": "config/default-roster.json",
+  "roster_config_sha256": "c228d2daea315fa2b0509c6a9bd23e49c8796a38b2ab9fe9528ac3eb2f8f8f8a",
+  "roster_snapshot": "reports/evidence/stage27/default-roster.json",
+  "source_segment_policy": {
+    "effective_date": "2026-10-18",
+    "scope": "all_song_experiments",
+    "mode": "single_complete_chorus",
+    "fixed_duration_seconds": null,
+    "require_duration_confirmation": false,
+    "selection_policy": "Agent selects one complete chorus with intact phrases and a natural ending; record source start, end, duration and selection evidence in the experiment manifest.",
+    "shared_across_artists": true,
+    "override_policy": "An explicit user request for a full song, another segment or a duration overrides that experiment only, unless the user explicitly changes global defaults."
+  },
+  "authorization": {
+    "user_request": "开启一轮新的试验，让四大三小的6个人演唱张韶涵的“寓言”",
+    "authorized_artist_keys": [
+      "stefanie",
+      "jolin",
+      "elva",
+      "fish",
+      "rainie",
+      "cyndi"
+    ],
+    "excluded_original_artist": "angela",
+    "selection_basis": "Use other six default roster singers, excluding original artist 张韶涵"
+  },
+  "artists": [
+    {
+      "key": "stefanie",
+      "artist": "孙燕姿",
+      "reference_song": "我怀念的",
+      "reuse_reference_from": "work/stage9-stefanie-clips",
+      "reference_sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+      "reference_interval_seconds": [
+        202.307007,
+        217.307007
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage27-yuyan-stefanie-clips",
+      "run_id": "stage27-yuyan-stefanie",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage27-six-yuyan/孙燕姿_寓言_AI.wav",
+          "sha256": "0bef8860a15f312d05fa50a70d66da40d442c925a1d4c1589c823c4e90bc1f61",
+          "size_bytes": 3379280
+        },
+        "mix": {
+          "path": "outputs/stage27-six-yuyan/孙燕姿_寓言_mix_AI.wav",
+          "sha256": "6770fe39bd9aa68b6dabf543e70ac7c97b0d42a8d2e9dc8212361a9023eb0949",
+          "size_bytes": 3379868
+        },
+        "reference": {
+          "path": "outputs/stage27-six-yuyan/inputs/孙燕姿_参考_我怀念的.wav",
+          "sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 128.674,
+        "speaker_cosine": 0.8118895888328552,
+        "f0_pearson": 0.9786364497506432,
+        "common_voiced_coverage": 0.8288100208768268,
+        "mps_allocated_peak_gib": 3.5339815616607666,
+        "mps_driver_peak_gib": 5.25213623046875,
+        "CER": null
+      }
+    },
+    {
+      "key": "jolin",
+      "artist": "蔡依林",
+      "reference_song": "天空",
+      "reuse_reference_from": "work/stage9-jolin-clips",
+      "reference_sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+      "reference_interval_seconds": [
+        200.127415,
+        215.127415
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage27-yuyan-jolin-clips",
+      "run_id": "stage27-yuyan-jolin",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage27-six-yuyan/蔡依林_寓言_AI.wav",
+          "sha256": "31072f0383bcb3f2d88bf097fa20df5c9d5a1aff65f4a44e27ca86974b981f10",
+          "size_bytes": 3379280
+        },
+        "mix": {
+          "path": "outputs/stage27-six-yuyan/蔡依林_寓言_mix_AI.wav",
+          "sha256": "166188afdef6194e1f95350f4ec90f8a545834373f36f8bd816d6a303730b781",
+          "size_bytes": 3379868
+        },
+        "reference": {
+          "path": "outputs/stage27-six-yuyan/inputs/蔡依林_参考_天空.wav",
+          "sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 145.904,
+        "speaker_cosine": 0.7743690609931946,
+        "f0_pearson": 0.9790301510817718,
+        "common_voiced_coverage": 0.826722338204593,
+        "mps_allocated_peak_gib": 3.5590672492980957,
+        "mps_driver_peak_gib": 5.252105712890625,
+        "CER": null
+      }
+    },
+    {
+      "key": "elva",
+      "artist": "萧亚轩",
+      "reference_song": "错的人",
+      "reuse_reference_from": "work/stage9-elva-clips",
+      "reference_sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+      "reference_interval_seconds": [
+        189.094785,
+        204.094785
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage27-yuyan-elva-clips",
+      "run_id": "stage27-yuyan-elva",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage27-six-yuyan/萧亚轩_寓言_AI.wav",
+          "sha256": "92f7d6a22509f048a3b1e0b0558a0ce04ee17901b00c1ef1d90a66563931704a",
+          "size_bytes": 3379280
+        },
+        "mix": {
+          "path": "outputs/stage27-six-yuyan/萧亚轩_寓言_mix_AI.wav",
+          "sha256": "c8ab618258302bf4cc8c10783892033ca4e13bc90a194d8c544a803d331e627b",
+          "size_bytes": 3379868
+        },
+        "reference": {
+          "path": "outputs/stage27-six-yuyan/inputs/萧亚轩_参考_错的人.wav",
+          "sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 138.115,
+        "speaker_cosine": 0.7277575731277466,
+        "f0_pearson": 0.980500779349217,
+        "common_voiced_coverage": 0.8282881002087683,
+        "mps_allocated_peak_gib": 3.5482637882232666,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      }
+    },
+    {
+      "key": "fish",
+      "artist": "梁静茹",
+      "reference_song": "崇拜",
+      "reuse_reference_from": "work/stage9-fish-clips",
+      "reference_sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+      "reference_interval_seconds": [
+        228.574104,
+        243.574104
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage27-yuyan-fish-clips",
+      "run_id": "stage27-yuyan-fish",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage27-six-yuyan/梁静茹_寓言_AI.wav",
+          "sha256": "505e52b8e2c1f998de914ea47aaf2213e94cfc6643564e6969258bd3e679ea63",
+          "size_bytes": 3379280
+        },
+        "mix": {
+          "path": "outputs/stage27-six-yuyan/梁静茹_寓言_mix_AI.wav",
+          "sha256": "854ef4caef1d9be39cb996f3bd7b9c213f70db35f3a90c3fc74324fc558643cc",
+          "size_bytes": 3379868
+        },
+        "reference": {
+          "path": "outputs/stage27-six-yuyan/inputs/梁静茹_参考_崇拜.wav",
+          "sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 149.213,
+        "speaker_cosine": 0.6698945164680481,
+        "f0_pearson": 0.9791744641077591,
+        "common_voiced_coverage": 0.831419624217119,
+        "mps_allocated_peak_gib": 3.5207979679107666,
+        "mps_driver_peak_gib": 5.2520904541015625,
+        "CER": null
+      }
+    },
+    {
+      "key": "rainie",
+      "artist": "杨丞琳",
+      "reference_song": "雨爱",
+      "reuse_reference_from": "work/stage9-rainie-clips",
+      "reference_sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+      "reference_interval_seconds": [
+        180.589705,
+        195.589705
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage27-yuyan-rainie-clips",
+      "run_id": "stage27-yuyan-rainie",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage27-six-yuyan/杨丞琳_寓言_AI.wav",
+          "sha256": "9ef8c787fff4eeecf5dcfe7f608c9d4baf2f168a6810290a6a7cc2e0b1b94096",
+          "size_bytes": 3379280
+        },
+        "mix": {
+          "path": "outputs/stage27-six-yuyan/杨丞琳_寓言_mix_AI.wav",
+          "sha256": "521275b05d85b70e96b33bb10289c69ef9e51049d67ebafb4ad4d2d9906cbcd5",
+          "size_bytes": 3379868
+        },
+        "reference": {
+          "path": "outputs/stage27-six-yuyan/inputs/杨丞琳_参考_雨爱.wav",
+          "sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 135.827,
+        "speaker_cosine": 0.7043847441673279,
+        "f0_pearson": 0.9764443219575543,
+        "common_voiced_coverage": 0.8272442588726514,
+        "mps_allocated_peak_gib": 3.5156712532043457,
+        "mps_driver_peak_gib": 5.252105712890625,
+        "CER": null
+      }
+    },
+    {
+      "key": "cyndi",
+      "artist": "王心凌",
+      "reference_song": "我会好好的",
+      "reuse_reference_from": "work/stage11-cyndi-reference",
+      "reference_sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+      "reference_interval_seconds": [
+        247.215374,
+        262.215374
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage27-yuyan-cyndi-clips",
+      "run_id": "stage27-yuyan-cyndi",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage27-six-yuyan/王心凌_寓言_AI.wav",
+          "sha256": "4371111836e76bca28b8ed3f6b61a55e5e47e74b41721b3b091234333e26729a",
+          "size_bytes": 3379280
+        },
+        "mix": {
+          "path": "outputs/stage27-six-yuyan/王心凌_寓言_mix_AI.wav",
+          "sha256": "9b503f7148f2222a80ec12f90d7ae6c24404d037adf2ac491fac08d02faf2f3e",
+          "size_bytes": 3379868
+        },
+        "reference": {
+          "path": "outputs/stage27-six-yuyan/inputs/王心凌_参考_我会好好的.wav",
+          "sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 133.717,
+        "speaker_cosine": 0.7201538681983948,
+        "f0_pearson": 0.9772102065053203,
+        "common_voiced_coverage": 0.8272442588726514,
+        "mps_allocated_peak_gib": 3.5405735969543457,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      }
+    }
+  ],
+  "audition_sample": {
+    "seed": 20261016,
+    "artist_keys": [
+      "jolin",
+      "rainie",
+      "fish",
+      "elva",
+      "cyndi"
+    ],
+    "human_audition": false
+  },
+  "source_title_on_page": "张韶涵《寓言》百万豪装录音棚大声听【Hi-res】",
+  "source_uploader": "JLRS-LeoFM",
+  "source_license": "unknown",
+  "source_selection": {
+    "chosen": {
+      "url": "https://www.bilibili.com/video/BV1wH4y157yR/",
+      "reason": "福茂官方YouTube MV与厂牌提供音源的CDN GET均HTTP 403且传输0字节，目录保留、不再用同一方式重试。本文件时长247.800秒，接近专辑曲长4分7秒；上传者JLRS-LeoFM，不是厂牌。HEAD后m4a精确51579354字节。许可证unknown。"
+    },
+    "alternatives_not_downloaded": [
+      {
+        "url": "https://www.youtube.com/watch?v=-4eJy_cpvoo",
+        "reason": "福茂唱片官方版MV。探测opus精确4185374字节。下载HTTP 403，传输0字节。"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=87OewfCp3W4",
+        "reason": "张韶涵频道厂牌提供音源，时长247秒。探测opus精确4152069字节。下载HTTP 403，传输0字节。"
+      },
+      {
+        "url": "https://www.bilibili.com/video/BV1C24y1178Q/",
+        "reason": "非厂牌上传，时长244.877秒，更接近MV剪辑；录音棚长度源已成功，未下载。"
+      },
+      {
+        "url": "https://www.bilibili.com/video/BV1kJ411v7Wo/",
+        "reason": "上传者自制修复MV，时长244.435秒；未下载。"
+      }
+    ]
+  },
+  "source_receipt": "work/acquisition/stage27-source-yuyan-bili/receipt.json",
+  "source_sha256": "3490cf7b77d8b22ba40b8eb098a19cd8971dd67cabaf1ffb6b2120bbd7970f7a",
+  "source_raw": "data/source/stage27-source-yuyan-bili.wav",
+  "source_stems": [
+    {
+      "path": "work/stage27-yuyan-prep/separated/UVR_Demucs_Model_1/stage27-source-yuyan-bili/vocals.wav",
+      "sha256": "70ef42c7d91b79f896aac573a31e471f019f33a4fd7d48def9008eb09ca4d1c6",
+      "duration": 247.8,
+      "sr": 44100,
+      "channels": 2
+    },
+    {
+      "path": "work/stage27-yuyan-prep/separated/UVR_Demucs_Model_1/stage27-source-yuyan-bili/no_vocals.wav",
+      "sha256": "14b893910a603abd0c9df6959bf9dd128228cfcfc3c00347910ff75a4f26c696",
+      "duration": 247.8,
+      "sr": 44100,
+      "channels": 2
+    }
+  ],
+  "source_start_seconds": 53.84,
+  "source_end_seconds": 73.0,
+  "duration_seconds": 19.16,
+  "chorus_evidence": {
+    "selected_interval_seconds": [
+      53.84,
+      73.0
+    ],
+    "transcript": "work/stage27-yuyan-asr/transcript.json",
+    "method": "Offline Whisper phrase timestamps and vocal RMS boundaries; not human audition"
+  },
+  "started_at": "2026-10-28T06:36:06.377335+00:00",
+  "completed_at": "2026-10-28T06:50:57.227481+00:00",
+  "batch_elapsed_seconds": 890.846309665998
+}

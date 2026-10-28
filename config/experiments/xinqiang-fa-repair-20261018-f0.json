@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "source_sha256": "b20f9deea8a013aa8701624e89a33167089efb3c4239d45099ce1f212e9704ca",
+  "frame_seconds": 0.01,
+  "method": "log-frequency interpolation between validated surrounding voiced frames",
+  "evidence": "work/xinqiang-fa-repair-20261018/spectrum-peaks.json",
+  "repairs": [
+    {
+      "start_frame": 507,
+      "end_frame_exclusive": 513,
+      "expected_original_hz_range": [
+        340,
+        365
+      ],
+      "expected_anchor_hz_range": [
+        455,
+        480
+      ],
+      "reason": "RMVPE switches to lower competing harmonic series while main melody remains about 470 Hz"
+    }
+  ]
+}

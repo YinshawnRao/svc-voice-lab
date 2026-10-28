@@ -1,0 +1,342 @@
+{
+  "id": "stage12-houlai",
+  "status": "POC_PASSED",
+  "created_at": "2026-10-18T07:13:27.446612+00:00",
+  "source_song": "后来",
+  "source_artist": "刘若英",
+  "source_url": "https://www.youtube.com/watch?v=t0igPuDjYUE",
+  "source_acquisition_id": "stage12-source-houlai",
+  "source_start_seconds": 159.1,
+  "duration_seconds": 28.0,
+  "steps": [
+    30
+  ],
+  "seed": 20261016,
+  "output_directory": "outputs/stage12-seven-houlai",
+  "roster_id": "seven-female-v1",
+  "roster_config": "config/default-roster.json",
+  "roster_config_sha256": "c228d2daea315fa2b0509c6a9bd23e49c8796a38b2ab9fe9528ac3eb2f8f8f8a",
+  "artists": [
+    {
+      "key": "stefanie",
+      "artist": "孙燕姿",
+      "reference_song": "我怀念的",
+      "reuse_reference_from": "work/stage9-stefanie-clips",
+      "reference_sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+      "reference_interval_seconds": [
+        202.307007,
+        217.307007
+      ],
+      "status": "POC_PASSED",
+      "clips": "work/stage12-houlai-stefanie-clips",
+      "run_id": "stage12-houlai-stefanie",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage12-seven-houlai/孙燕姿_后来_AI.wav",
+          "sha256": "3eec0d4ca26a6d6071865d37eaf2e0c3d6c613bd74947ad718fe1eef9a3a78ee",
+          "size_bytes": 4937808
+        },
+        "mix": {
+          "path": "outputs/stage12-seven-houlai/孙燕姿_后来_mix_AI.wav",
+          "sha256": "15715f337225e1bcb48f255b07a99c05c1362fd8679e16fb6db0c4147255a937",
+          "size_bytes": 4939244
+        },
+        "reference": {
+          "path": "outputs/stage12-seven-houlai/inputs/孙燕姿_参考_我怀念的.wav",
+          "sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 368.938,
+        "speaker_cosine": 0.8091235756874084,
+        "f0_pearson": 0.9566901812616616,
+        "common_voiced_coverage": 0.8653571428571428,
+        "mps_allocated_peak_gib": 3.5644991397857666,
+        "mps_driver_peak_gib": 5.048980712890625,
+        "CER": null
+      },
+      "human_audition": false
+    },
+    {
+      "key": "jolin",
+      "artist": "蔡依林",
+      "reference_song": "天空",
+      "reuse_reference_from": "work/stage9-jolin-clips",
+      "reference_sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+      "reference_interval_seconds": [
+        200.127415,
+        215.127415
+      ],
+      "status": "POC_PASSED",
+      "clips": "work/stage12-houlai-jolin-clips",
+      "run_id": "stage12-houlai-jolin",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage12-seven-houlai/蔡依林_后来_AI.wav",
+          "sha256": "5b2da51c040210e08e26f62e7942c0254619f97645f2347f39b0ba614fb65ad3",
+          "size_bytes": 4937808
+        },
+        "mix": {
+          "path": "outputs/stage12-seven-houlai/蔡依林_后来_mix_AI.wav",
+          "sha256": "34ec6664a54944cafdec3cb317533866fe0bfd2a87aa191b3506e4ccc4eeb62e",
+          "size_bytes": 4939244
+        },
+        "reference": {
+          "path": "outputs/stage12-seven-houlai/inputs/蔡依林_参考_天空.wav",
+          "sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 239.509,
+        "speaker_cosine": 0.8223981261253357,
+        "f0_pearson": 0.9825390306153322,
+        "common_voiced_coverage": 0.8657142857142858,
+        "mps_allocated_peak_gib": 3.5337371826171875,
+        "mps_driver_peak_gib": 5.252105712890625,
+        "CER": null
+      },
+      "human_audition": false
+    },
+    {
+      "key": "elva",
+      "artist": "萧亚轩",
+      "reference_song": "错的人",
+      "reuse_reference_from": "work/stage9-elva-clips",
+      "reference_sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+      "reference_interval_seconds": [
+        189.094785,
+        204.094785
+      ],
+      "status": "POC_PASSED",
+      "clips": "work/stage12-houlai-elva-clips",
+      "run_id": "stage12-houlai-elva",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage12-seven-houlai/萧亚轩_后来_AI.wav",
+          "sha256": "7e738f84d076729583f2c9d930eaf708c33b0a9744ef35f0d170f7fa41d5bcdb",
+          "size_bytes": 4937808
+        },
+        "mix": {
+          "path": "outputs/stage12-seven-houlai/萧亚轩_后来_mix_AI.wav",
+          "sha256": "8f9926caec0d23299ac7a32354a899cd4556f41a486b231e87b984f7fad3e4c5",
+          "size_bytes": 4939244
+        },
+        "reference": {
+          "path": "outputs/stage12-seven-houlai/inputs/萧亚轩_参考_错的人.wav",
+          "sha256": "8afea8aeb88919b0436cc9f525ef11040520a2d0d14eab75dca3cd1e36326b4b",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 337.297,
+        "speaker_cosine": 0.8795952200889587,
+        "f0_pearson": 0.9880626162289902,
+        "common_voiced_coverage": 0.8660714285714286,
+        "mps_allocated_peak_gib": 3.5271456241607666,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      },
+      "human_audition": false
+    },
+    {
+      "key": "fish",
+      "artist": "梁静茹",
+      "reference_song": "崇拜",
+      "reuse_reference_from": "work/stage9-fish-clips",
+      "reference_sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+      "reference_interval_seconds": [
+        228.574104,
+        243.574104
+      ],
+      "status": "POC_PASSED",
+      "clips": "work/stage12-houlai-fish-clips",
+      "run_id": "stage12-houlai-fish",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage12-seven-houlai/梁静茹_后来_AI.wav",
+          "sha256": "bfe339d8e53abe749f7a5880dc863b18bc0e3cfa9d8be9c1c5ebc16e38bfe5e2",
+          "size_bytes": 4937808
+        },
+        "mix": {
+          "path": "outputs/stage12-seven-houlai/梁静茹_后来_mix_AI.wav",
+          "sha256": "3dd0bdd8be2ddfa9e9971575bb28f8ea67025a55b572aa289c3f2d540a6c98b0",
+          "size_bytes": 4939244
+        },
+        "reference": {
+          "path": "outputs/stage12-seven-houlai/inputs/梁静茹_参考_崇拜.wav",
+          "sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 345.232,
+        "speaker_cosine": 0.8039001226425171,
+        "f0_pearson": 0.9869241976092799,
+        "common_voiced_coverage": 0.8671428571428571,
+        "mps_allocated_peak_gib": 3.5491182804107666,
+        "mps_driver_peak_gib": 5.04901123046875,
+        "CER": null
+      },
+      "human_audition": false
+    },
+    {
+      "key": "angela",
+      "artist": "张韶涵",
+      "reference_song": "亲爱的那不是爱情",
+      "reuse_reference_from": "work/stage9-angela-clips",
+      "reference_sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+      "reference_interval_seconds": [
+        41.227755,
+        56.227755
+      ],
+      "status": "POC_PASSED",
+      "clips": "work/stage12-houlai-angela-clips",
+      "run_id": "stage12-houlai-angela",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage12-seven-houlai/张韶涵_后来_AI.wav",
+          "sha256": "08fb29930ed67afc1074568058aa06449d42808a1dd5590dfc00ae1be0b774c0",
+          "size_bytes": 4937808
+        },
+        "mix": {
+          "path": "outputs/stage12-seven-houlai/张韶涵_后来_mix_AI.wav",
+          "sha256": "988cfda031a8820caac38a0cb4c67aca2f4ef1da189fe81a9ff346f140e655d9",
+          "size_bytes": 4939244
+        },
+        "reference": {
+          "path": "outputs/stage12-seven-houlai/inputs/张韶涵_参考_亲爱的那不是爱情.wav",
+          "sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 263.656,
+        "speaker_cosine": 0.8360771536827087,
+        "f0_pearson": 0.9906252513393005,
+        "common_voiced_coverage": 0.8635714285714285,
+        "mps_allocated_peak_gib": 3.5161590576171875,
+        "mps_driver_peak_gib": 5.252105712890625,
+        "CER": null
+      },
+      "human_audition": false
+    },
+    {
+      "key": "rainie",
+      "artist": "杨丞琳",
+      "reference_song": "雨爱",
+      "reuse_reference_from": "work/stage9-rainie-clips",
+      "reference_sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+      "reference_interval_seconds": [
+        180.589705,
+        195.589705
+      ],
+      "status": "POC_PASSED",
+      "clips": "work/stage12-houlai-rainie-clips",
+      "run_id": "stage12-houlai-rainie",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage12-seven-houlai/杨丞琳_后来_AI.wav",
+          "sha256": "4fac127f01bfeb614e6bfbc971e57a8c299945c9242de1ceb3532d5e97096345",
+          "size_bytes": 4937808
+        },
+        "mix": {
+          "path": "outputs/stage12-seven-houlai/杨丞琳_后来_mix_AI.wav",
+          "sha256": "937ed48cd93cb32cbfbaf21428224c70e59e0348dc5bec0650cc8b18a4a763bf",
+          "size_bytes": 4939244
+        },
+        "reference": {
+          "path": "outputs/stage12-seven-houlai/inputs/杨丞琳_参考_雨爱.wav",
+          "sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 218.147,
+        "speaker_cosine": 0.7970840334892273,
+        "f0_pearson": 0.9864242338704168,
+        "common_voiced_coverage": 0.8660714285714286,
+        "mps_allocated_peak_gib": 3.5117645263671875,
+        "mps_driver_peak_gib": 5.2521209716796875,
+        "CER": null
+      },
+      "human_audition": false
+    },
+    {
+      "key": "cyndi",
+      "artist": "王心凌",
+      "reference_song": "我会好好的",
+      "reuse_reference_from": "work/stage11-cyndi-reference",
+      "reference_sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+      "reference_interval_seconds": [
+        247.215374,
+        262.215374
+      ],
+      "status": "POC_PASSED",
+      "clips": "work/stage12-houlai-cyndi-clips",
+      "run_id": "stage12-houlai-cyndi",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage12-seven-houlai/王心凌_后来_AI.wav",
+          "sha256": "80f9c5f3ab431f4e8a94f537e59e5771abf99c5e675a4135969e4574e38c9529",
+          "size_bytes": 4937808
+        },
+        "mix": {
+          "path": "outputs/stage12-seven-houlai/王心凌_后来_mix_AI.wav",
+          "sha256": "89269da0703a49b40b18758255ee2faa93efb5988f12780892d9ed6c9b93b922",
+          "size_bytes": 4939244
+        },
+        "reference": {
+          "path": "outputs/stage12-seven-houlai/inputs/王心凌_参考_我会好好的.wav",
+          "sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 240.46,
+        "speaker_cosine": 0.7388176321983337,
+        "f0_pearson": 0.9527674149911862,
+        "common_voiced_coverage": 0.8646428571428572,
+        "mps_allocated_peak_gib": 3.5425262451171875,
+        "mps_driver_peak_gib": 5.252105712890625,
+        "CER": null
+      },
+      "human_audition": false
+    }
+  ],
+  "human_audition": false,
+  "source_receipt": "work/acquisition/stage12-source-houlai/receipt.json",
+  "source_sha256": "784a2c229766139cde97fa5f41f814145ca2b5afaee6ea9da6bd588b5e061728",
+  "source_raw": "data/source/stage12-source-houlai.wav",
+  "source_stems": [
+    {
+      "path": "work/stage12-houlai-prep/separated/UVR_Demucs_Model_1/stage12-source-houlai/vocals.wav",
+      "sha256": "0bae73cdbf7f443caed873bfadc63d47a4fb168215621de17d15dff12cf257dc",
+      "duration": 340.1143083900227,
+      "sr": 44100,
+      "channels": 2
+    },
+    {
+      "path": "work/stage12-houlai-prep/separated/UVR_Demucs_Model_1/stage12-source-houlai/no_vocals.wav",
+      "sha256": "5b3f79ed278c32e4d3efac60ce5b97a680423839315c7873dd427e591fab5dbf",
+      "duration": 340.1143083900227,
+      "sr": 44100,
+      "channels": 2
+    }
+  ],
+  "chorus_evidence": {
+    "selected_interval_seconds": [
+      159.1,
+      187.1
+    ],
+    "transcript": "work/stage12-houlai-asr/transcript.json",
+    "method": "Offline Whisper phrase timestamps and vocal RMS boundaries; not human audition",
+    "refined_transcript": "work/stage12-houlai-asr-refine/transcript.json",
+    "rms_evidence": "reports/evidence/stage12/houlai-boundary-rms.json",
+    "selection_note": "Post-verse full chorus: refined ASR onset159.2; choose159.1 before onset, vocal tail decays below0.003 RMS at186.6, choose187.1; 28s includes both halves and tail, before188s instrumental activity."
+  },
+  "started_at": "2026-10-18T07:19:00.482590+00:00",
+  "completed_at": "2026-10-18T07:55:20.154065+00:00",
+  "batch_elapsed_seconds": 2179.6457557499525
+}

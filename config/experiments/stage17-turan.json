@@ -1,0 +1,347 @@
+{
+  "id": "stage17-turan",
+  "status": "POC_PASSED",
+  "created_at": "2026-10-18T10:45:52.275386+00:00",
+  "source_song": "突然想起你",
+  "source_artist": "萧亚轩",
+  "source_url": "https://www.youtube.com/watch?v=KUf5MMj1wKw",
+  "source_acquisition_id": "stage17-source-turan",
+  "source_start_seconds": 48.45,
+  "duration_seconds": 44.8,
+  "steps": [
+    30
+  ],
+  "seed": 20261016,
+  "output_directory": "outputs/stage17-six-turan",
+  "roster_id": "seven-female-v1",
+  "roster_config": "config/default-roster.json",
+  "roster_config_sha256": "c228d2daea315fa2b0509c6a9bd23e49c8796a38b2ab9fe9528ac3eb2f8f8f8a",
+  "roster_snapshot": "reports/evidence/stage17/default-roster.json",
+  "source_segment_policy": {
+    "effective_date": "2026-10-18",
+    "scope": "all_song_experiments",
+    "mode": "single_complete_chorus",
+    "fixed_duration_seconds": null,
+    "require_duration_confirmation": false,
+    "selection_policy": "Agent selects one complete chorus with intact phrases and a natural ending; record source start, end, duration and selection evidence in the experiment manifest.",
+    "shared_across_artists": true,
+    "override_policy": "An explicit user request for a full song, another segment or a duration overrides that experiment only, unless the user explicitly changes global defaults."
+  },
+  "authorization": {
+    "user_request": "新开一期实验，让四大三小其中的6个人唱“突然想起你”",
+    "authorized_artist_keys": [
+      "stefanie",
+      "jolin",
+      "fish",
+      "angela",
+      "rainie",
+      "cyndi"
+    ],
+    "excluded_original_artist": "elva",
+    "selection_basis": "Follow prior six-singer experiments: exclude original singer 萧亚轩; six remaining default roster artists"
+  },
+  "artists": [
+    {
+      "key": "stefanie",
+      "artist": "孙燕姿",
+      "reference_song": "我怀念的",
+      "reuse_reference_from": "work/stage9-stefanie-clips",
+      "reference_sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+      "reference_interval_seconds": [
+        202.307007,
+        217.307007
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage17-turan-stefanie-clips",
+      "run_id": "stage17-turan-stefanie",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage17-six-turan/孙燕姿_突然想起你_AI.wav",
+          "sha256": "77ab7a1fd75f0ab02b95279eeb4962eb7ceec24ab06db569b37bf0805c48686a",
+          "size_bytes": 7901264
+        },
+        "mix": {
+          "path": "outputs/stage17-six-turan/孙燕姿_突然想起你_mix_AI.wav",
+          "sha256": "d7b29a9e85b5ff1b348f3ccb6eb84df82972050b38252ee5b46849129cf76834",
+          "size_bytes": 7902764
+        },
+        "reference": {
+          "path": "outputs/stage17-six-turan/inputs/孙燕姿_参考_我怀念的.wav",
+          "sha256": "9408bd9fb6b169949aca1ed3f3872950eebc8aa65d0b2d4f6796d922275a1e90",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 247.071,
+        "speaker_cosine": 0.8581274151802063,
+        "f0_pearson": 0.9812547618808326,
+        "common_voiced_coverage": 0.8386160714285714,
+        "mps_allocated_peak_gib": 3.5941426753997803,
+        "mps_driver_peak_gib": 5.25213623046875,
+        "CER": null
+      }
+    },
+    {
+      "key": "jolin",
+      "artist": "蔡依林",
+      "reference_song": "天空",
+      "reuse_reference_from": "work/stage9-jolin-clips",
+      "reference_sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+      "reference_interval_seconds": [
+        200.127415,
+        215.127415
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage17-turan-jolin-clips",
+      "run_id": "stage17-turan-jolin",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage17-six-turan/蔡依林_突然想起你_AI.wav",
+          "sha256": "07c073e89921afe93f679d72902182bb2ae0e9fa42e743b67e9289a88f4c5cac",
+          "size_bytes": 7901264
+        },
+        "mix": {
+          "path": "outputs/stage17-six-turan/蔡依林_突然想起你_mix_AI.wav",
+          "sha256": "01de0a3ba3d9587bd720254e3ea5fc7890ed2ad912971434149779d9b5b28258",
+          "size_bytes": 7902764
+        },
+        "reference": {
+          "path": "outputs/stage17-six-turan/inputs/蔡依林_参考_天空.wav",
+          "sha256": "227b1821945f3363fc6fc5205d4ae9a764bcab71941d7501b2d9f08f28a6d09d",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 239.86,
+        "speaker_cosine": 0.7948334217071533,
+        "f0_pearson": 0.9821712624350921,
+        "common_voiced_coverage": 0.8377232142857143,
+        "mps_allocated_peak_gib": 3.6045799255371094,
+        "mps_driver_peak_gib": 5.25213623046875,
+        "CER": null
+      }
+    },
+    {
+      "key": "fish",
+      "artist": "梁静茹",
+      "reference_song": "崇拜",
+      "reuse_reference_from": "work/stage9-fish-clips",
+      "reference_sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+      "reference_interval_seconds": [
+        228.574104,
+        243.574104
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage17-turan-fish-clips",
+      "run_id": "stage17-turan-fish",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage17-six-turan/梁静茹_突然想起你_AI.wav",
+          "sha256": "a235b0a41773b0dfc68a59ec37ba75ccaf470c4df02790d4eb65e7befd451f98",
+          "size_bytes": 7901264
+        },
+        "mix": {
+          "path": "outputs/stage17-six-turan/梁静茹_突然想起你_mix_AI.wav",
+          "sha256": "6acb6a30c0c9efd385cbf403cbdaec1aedab06ce4308ef9e6964f1aa2cf83b54",
+          "size_bytes": 7902764
+        },
+        "reference": {
+          "path": "outputs/stage17-six-turan/inputs/梁静茹_参考_崇拜.wav",
+          "sha256": "7568492206fccb0735866a933d398f0703c9e68f970ced542c3128e1222b44a7",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 235.727,
+        "speaker_cosine": 0.846168577671051,
+        "f0_pearson": 0.9831898601390048,
+        "common_voiced_coverage": 0.8383928571428572,
+        "mps_allocated_peak_gib": 3.5979878902435303,
+        "mps_driver_peak_gib": 5.25213623046875,
+        "CER": null
+      }
+    },
+    {
+      "key": "angela",
+      "artist": "张韶涵",
+      "reference_song": "亲爱的那不是爱情",
+      "reuse_reference_from": "work/stage9-angela-clips",
+      "reference_sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+      "reference_interval_seconds": [
+        41.227755,
+        56.227755
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage17-turan-angela-clips",
+      "run_id": "stage17-turan-angela",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage17-six-turan/张韶涵_突然想起你_AI.wav",
+          "sha256": "aef33a1db67d1dcd2b65e9564489a0208af3bd7d56e9184635562f58b1c8ec01",
+          "size_bytes": 7901264
+        },
+        "mix": {
+          "path": "outputs/stage17-six-turan/张韶涵_突然想起你_mix_AI.wav",
+          "sha256": "baf9be5175e7a4b33fe69ccdaf7aa81c6f05db1d7eadcfd15d96eaad00b976b1",
+          "size_bytes": 7902764
+        },
+        "reference": {
+          "path": "outputs/stage17-six-turan/inputs/张韶涵_参考_亲爱的那不是爱情.wav",
+          "sha256": "5d2273361c5cf81c97dd358f366d3964d0610be7b0c32a53dedcd73386f7b51c",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 233.931,
+        "speaker_cosine": 0.8973171710968018,
+        "f0_pearson": 0.9823200869839592,
+        "common_voiced_coverage": 0.8375,
+        "mps_allocated_peak_gib": 3.5923118591308594,
+        "mps_driver_peak_gib": 5.25213623046875,
+        "CER": null
+      }
+    },
+    {
+      "key": "rainie",
+      "artist": "杨丞琳",
+      "reference_song": "雨爱",
+      "reuse_reference_from": "work/stage9-rainie-clips",
+      "reference_sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+      "reference_interval_seconds": [
+        180.589705,
+        195.589705
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage17-turan-rainie-clips",
+      "run_id": "stage17-turan-rainie",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage17-six-turan/杨丞琳_突然想起你_AI.wav",
+          "sha256": "36c7ebde28b738a43f95c249987ded88b76596ab34b50ea2b727e1c5863c0b30",
+          "size_bytes": 7901264
+        },
+        "mix": {
+          "path": "outputs/stage17-six-turan/杨丞琳_突然想起你_mix_AI.wav",
+          "sha256": "ad15fd87e38f82307979e3af1591560e07e46271e8a037c3f6935f1b163f7d10",
+          "size_bytes": 7902764
+        },
+        "reference": {
+          "path": "outputs/stage17-six-turan/inputs/杨丞琳_参考_雨爱.wav",
+          "sha256": "68ae5886f22d9b48b76cce0cb48b78057f6b9424211fc0915392ce034d77484e",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 233.601,
+        "speaker_cosine": 0.8429440855979919,
+        "f0_pearson": 0.9794511734929239,
+        "common_voiced_coverage": 0.8368303571428571,
+        "mps_allocated_peak_gib": 3.5979881286621094,
+        "mps_driver_peak_gib": 5.252105712890625,
+        "CER": null
+      }
+    },
+    {
+      "key": "cyndi",
+      "artist": "王心凌",
+      "reference_song": "我会好好的",
+      "reuse_reference_from": "work/stage11-cyndi-reference",
+      "reference_sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+      "reference_interval_seconds": [
+        247.215374,
+        262.215374
+      ],
+      "status": "POC_PASSED",
+      "human_audition": false,
+      "clips": "work/stage17-turan-cyndi-clips",
+      "run_id": "stage17-turan-cyndi",
+      "deliverables": {
+        "dry": {
+          "path": "outputs/stage17-six-turan/王心凌_突然想起你_AI.wav",
+          "sha256": "5e68a15f0e998dc7654797f8cfda5ebbdaf9db8612d5e0401882bd3afd48d8fe",
+          "size_bytes": 7901264
+        },
+        "mix": {
+          "path": "outputs/stage17-six-turan/王心凌_突然想起你_mix_AI.wav",
+          "sha256": "512f99875472d6a966ff3990b962e59dc25cb83a57251d4f12de2b6c86bbcccc",
+          "size_bytes": 7902764
+        },
+        "reference": {
+          "path": "outputs/stage17-six-turan/inputs/王心凌_参考_我会好好的.wav",
+          "sha256": "c8462086f546e7c54a53b3514fa36de82786930db14cb5200e9c9f4683282fd5",
+          "size_bytes": 1323078
+        }
+      },
+      "metrics": {
+        "inference_seconds": 231.334,
+        "speaker_cosine": 0.7948694825172424,
+        "f0_pearson": 0.9813589055445922,
+        "common_voiced_coverage": 0.8361607142857143,
+        "mps_allocated_peak_gib": 3.5906639099121094,
+        "mps_driver_peak_gib": 5.25213623046875,
+        "CER": null
+      }
+    }
+  ],
+  "audition_sample": {
+    "seed": 20261016,
+    "method": "random.Random(seed).sample(authorized_artist_keys, 5)",
+    "artist_keys": [
+      "jolin",
+      "rainie",
+      "angela",
+      "fish",
+      "cyndi"
+    ],
+    "human_audition": "PENDING",
+    "all_six_available": true
+  },
+  "source_selection": {
+    "uploader": "Timeless Music",
+    "license": "unknown",
+    "reason": "Original MV candidate, titled official KARAOKE; uploader official identity not independently verified. Public restriction; private snapshot size probe PASS. Confirm vocal content with offline ASR before chorus conversion.",
+    "vocal_content_confirmation": "Offline separated-vocal ASR identified coherent verse, complete chorus and adlibs. Source is not treated as a pure backing track."
+  },
+  "source_receipt": "work/acquisition/stage17-source-turan/receipt.json",
+  "source_sha256": "f7fb6ea3e346c43c9a4ca50dac1923320b02c417a603c83b5100dd80b0d85409",
+  "source_raw": "data/source/stage17-source-turan.wav",
+  "source_stems": [
+    {
+      "path": "work/stage17-turan-prep/separated/UVR_Demucs_Model_1/stage17-source-turan/vocals.wav",
+      "sha256": "a42fe781d00c48d8bfe34c14bb2dff3b0cae0d2c287628b6d9c0e3c1832a1a79",
+      "duration": 236.5417006802721,
+      "sr": 44100,
+      "channels": 2
+    },
+    {
+      "path": "work/stage17-turan-prep/separated/UVR_Demucs_Model_1/stage17-source-turan/no_vocals.wav",
+      "sha256": "25f34e7c4b8fdaddb559f4293686c6b42965a9b4b47e26bc6b371e41da02f873",
+      "duration": 236.5417006802721,
+      "sr": 44100,
+      "channels": 2
+    }
+  ],
+  "source_end_seconds": 93.25,
+  "chorus_evidence": {
+    "selected_interval_seconds": [
+      48.45,
+      93.25
+    ],
+    "transcript": "work/stage17-turan-asr/transcript.json",
+    "method": "Offline Whisper phrase timestamps and vocal RMS boundaries; not human audition",
+    "refinement_transcript": "work/stage17-turan-asr-refine/transcript.json",
+    "onset_transcript": "work/stage17-turan-asr-first-phrase/transcript.json",
+    "tail_transcript": "work/stage17-turan-asr-tail/transcript.json",
+    "rms_evidence": "reports/evidence/stage17/turan-boundary-rms.json",
+    "selection_basis": "First complete chorus and trailing vocal adlibs. Short onset at48.45s identifies the first full chorus phrase; preceding phrase ends before48.4s vocal trough. Full/refine/tail ASR agree final main chorus phrase ends about86.4s; preserve trailing adlibs identified through~93s. End93.25s is near the93.1s local vocal-energy trough before renewed activity at93.5s. Keep natural phrase lengths; selected duration44.8s; no fixed30s cut.",
+    "limitations": "Machine ASR is approximate and contains character errors, not human audition or independently verified lyrics. Final boundary requires user listening; CER=N/A."
+  },
+  "started_at": "2026-10-18T10:52:56.435962+00:00",
+  "completed_at": "2026-10-18T11:17:53.527022+00:00",
+  "batch_elapsed_seconds": 1497.0613581660436
+}

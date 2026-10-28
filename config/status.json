@@ -1,0 +1,698 @@
+{
+  "as_of": "2026-10-28",
+  "scope": "六位固定参考音色演唱张韶涵《寓言》完整副歌，30步单版",
+  "host_mps_tensor_probe": "PASSED",
+  "data": "INPUTS_PRESENT; SEPARATED; REFERENCE_CANDIDATES_PENDING_AUDITION",
+  "poc_passed": [
+    "seed-vc"
+  ],
+  "projects": {
+    "demucs": "LOCAL_SEPARATION_PASSED; UVR_Demucs_Model_1 MPS",
+    "seed-vc": "POC_PASSED; six singers, 30 steps; human audition pending",
+    "applio": "RESEARCHED_NOT_DEPLOYED",
+    "rvc": "BLOCKED_UPSTREAM_PLATFORM",
+    "so-vits-svc": "RESEARCHED_NOT_DEPLOYED",
+    "so-vits-svc-fork": "RESEARCHED_NOT_DEPLOYED",
+    "soulx-singer": "RESEARCHED_NOT_DEPLOYED",
+    "gpt-sovits": "DEFERRED_TASK_MISMATCH",
+    "reflow-vae-svc": "RESEARCHED_NOT_DEPLOYED",
+    "applio-app": "RESEARCHED_NOT_DEPLOYED"
+  },
+  "next": [
+    "用户试听六位《寓言》副歌；技术校验不代表听感认可"
+  ],
+  "media_acquisition": "READY; see reports/07_media_acquisition.md for per-platform runtime evidence",
+  "deliverables": [
+    "outputs/stage27-six-yuyan/孙燕姿_寓言_mix_AI.wav",
+    "outputs/stage27-six-yuyan/孙燕姿_寓言_AI.wav",
+    "outputs/stage27-six-yuyan/蔡依林_寓言_mix_AI.wav",
+    "outputs/stage27-six-yuyan/蔡依林_寓言_AI.wav",
+    "outputs/stage27-six-yuyan/萧亚轩_寓言_mix_AI.wav",
+    "outputs/stage27-six-yuyan/萧亚轩_寓言_AI.wav",
+    "outputs/stage27-six-yuyan/梁静茹_寓言_mix_AI.wav",
+    "outputs/stage27-six-yuyan/梁静茹_寓言_AI.wav",
+    "outputs/stage27-six-yuyan/杨丞琳_寓言_mix_AI.wav",
+    "outputs/stage27-six-yuyan/杨丞琳_寓言_AI.wav",
+    "outputs/stage27-six-yuyan/王心凌_寓言_mix_AI.wav",
+    "outputs/stage27-six-yuyan/王心凌_寓言_AI.wav"
+  ],
+  "recommendation": "后续默认30步单版，仅在用户明确要求对比时生成多版本；已有A/B成品保留。",
+  "manual_items": [
+    "试听音色、咬字和高音",
+    "如需CER，提供独立校对歌词"
+  ],
+  "user_feedback": {
+    "date": "2026-10-16",
+    "scope": "20-second A/B listening",
+    "observation": "用户表示听不出两个版本的区别，要求完整歌曲用于试听；不代表认可目标音色或整体质量"
+  },
+  "short_deliverables": [
+    "outputs/stage2-seed20/seed-vc_A_AI.wav",
+    "outputs/stage2-seed20/seed-vc_A_mix_AI.wav",
+    "outputs/stage2-seed20/seed-vc_B_AI.wav",
+    "outputs/stage2-seed20/seed-vc_B_mix_AI.wav"
+  ],
+  "short_listening_page": "outputs/stage2-seed20/listen.html",
+  "listening_page": "outputs/stage27-six-yuyan/listen.html",
+  "full_deliverables": [
+    "outputs/stage3-seed-full/seed-vc_A_AI.wav",
+    "outputs/stage3-seed-full/seed-vc_A_mix_AI.wav",
+    "outputs/stage3-seed-full/seed-vc_B_AI.wav",
+    "outputs/stage3-seed-full/seed-vc_B_mix_AI.wav"
+  ],
+  "full_listening_page": "outputs/stage3-seed-full/listen.html",
+  "latest_experiment": "config/experiments/stage27-yuyan.json",
+  "angela_deliverables": [
+    "outputs/stage4-angela-tinghai/seed-vc_A_AI.wav",
+    "outputs/stage4-angela-tinghai/seed-vc_A_mix_AI.wav",
+    "outputs/stage4-angela-tinghai/seed-vc_B_AI.wav",
+    "outputs/stage4-angela-tinghai/seed-vc_B_mix_AI.wav"
+  ],
+  "angela_listening_page": "outputs/stage4-angela-tinghai/listen.html",
+  "rainie_deliverables": [
+    "outputs/stage5-rainie-tinghai/seed-vc_A_AI.wav",
+    "outputs/stage5-rainie-tinghai/seed-vc_A_mix_AI.wav",
+    "outputs/stage5-rainie-tinghai/seed-vc_B_AI.wav",
+    "outputs/stage5-rainie-tinghai/seed-vc_B_mix_AI.wav"
+  ],
+  "rainie_listening_page": "outputs/stage5-rainie-tinghai/listen.html",
+  "listening_pages": {
+    "寓言": "outputs/stage27-six-yuyan/listen.html"
+  },
+  "previous_deliverables": [
+    "outputs/stage5-rainie-tinghai/seed-vc_A_AI.wav",
+    "outputs/stage5-rainie-tinghai/seed-vc_A_mix_AI.wav",
+    "outputs/stage5-rainie-tinghai/seed-vc_B_AI.wav",
+    "outputs/stage5-rainie-tinghai/seed-vc_B_mix_AI.wav",
+    "outputs/stage4-angela-tinghai/seed-vc_A_AI.wav",
+    "outputs/stage4-angela-tinghai/seed-vc_A_mix_AI.wav",
+    "outputs/stage4-angela-tinghai/seed-vc_B_AI.wav",
+    "outputs/stage4-angela-tinghai/seed-vc_B_mix_AI.wav",
+    "outputs/stage6-jolin-tinghai/seed-vc_A_AI.wav",
+    "outputs/stage6-jolin-tinghai/seed-vc_A_mix_AI.wav",
+    "outputs/stage6-jolin-tinghai/seed-vc_B_AI.wav",
+    "outputs/stage6-jolin-tinghai/seed-vc_B_mix_AI.wav"
+  ],
+  "previous_listening_pages": {
+    "rainie": "outputs/stage5-rainie-tinghai/listen.html",
+    "angela": "outputs/stage4-angela-tinghai/listen.html",
+    "jolin": "outputs/stage6-jolin-tinghai/listen.html"
+  },
+  "generation_default": {
+    "diffusion_steps": 30,
+    "versions": 1,
+    "show_version_labels": false,
+    "dry_filename": "seed-vc_AI.wav",
+    "mix_filename": "seed-vc_mix_AI.wav"
+  },
+  "user_feedback_history": [
+    {
+      "date": "2026-10-16",
+      "scope": "后续实验默认设置",
+      "observation": "用户多轮听不出A/B区别，决定后续只用原A的30步设置，不再单独区分版本；不是整体音色质量认可"
+    },
+    {
+      "date": "2026-10-18",
+      "scope": [
+        "stage10-xinqiang:angela,elva",
+        "stage10-xiaoxingyun:angela,elva"
+      ],
+      "user_statement": "这2首歌我觉得效果都很好",
+      "authorization": "补充两首歌其余五位，使用本轮指定参考；新生成尚未试听认可"
+    }
+  ],
+  "stage8_deliverables": [
+    "outputs/stage8-stefanie-tinghai/seed-vc_A_AI.wav",
+    "outputs/stage8-stefanie-tinghai/seed-vc_A_mix_AI.wav",
+    "outputs/stage8-stefanie-tinghai/seed-vc_B_AI.wav",
+    "outputs/stage8-stefanie-tinghai/seed-vc_B_mix_AI.wav",
+    "outputs/stage8-elva-tinghai/seed-vc_A_AI.wav",
+    "outputs/stage8-elva-tinghai/seed-vc_A_mix_AI.wav",
+    "outputs/stage8-elva-tinghai/seed-vc_B_AI.wav",
+    "outputs/stage8-elva-tinghai/seed-vc_B_mix_AI.wav",
+    "outputs/stage8-fish-tinghai/seed-vc_A_AI.wav",
+    "outputs/stage8-fish-tinghai/seed-vc_A_mix_AI.wav",
+    "outputs/stage8-fish-tinghai/seed-vc_B_AI.wav",
+    "outputs/stage8-fish-tinghai/seed-vc_B_mix_AI.wav",
+    "outputs/stage8-cyndi-tinghai/seed-vc_A_AI.wav",
+    "outputs/stage8-cyndi-tinghai/seed-vc_A_mix_AI.wav",
+    "outputs/stage8-cyndi-tinghai/seed-vc_B_AI.wav",
+    "outputs/stage8-cyndi-tinghai/seed-vc_B_mix_AI.wav"
+  ],
+  "stage9_deliverables": [
+    "outputs/stage9-seven-ruguoniyetingshuo/孙燕姿_如果你也听说_mix_AI.wav",
+    "outputs/stage9-seven-ruguoniyetingshuo/孙燕姿_如果你也听说_AI.wav",
+    "outputs/stage9-seven-ruguoniyetingshuo/蔡依林_如果你也听说_mix_AI.wav",
+    "outputs/stage9-seven-ruguoniyetingshuo/蔡依林_如果你也听说_AI.wav",
+    "outputs/stage9-seven-ruguoniyetingshuo/萧亚轩_如果你也听说_mix_AI.wav",
+    "outputs/stage9-seven-ruguoniyetingshuo/萧亚轩_如果你也听说_AI.wav",
+    "outputs/stage9-seven-ruguoniyetingshuo/梁静茹_如果你也听说_mix_AI.wav",
+    "outputs/stage9-seven-ruguoniyetingshuo/梁静茹_如果你也听说_AI.wav",
+    "outputs/stage9-seven-ruguoniyetingshuo/张韶涵_如果你也听说_mix_AI.wav",
+    "outputs/stage9-seven-ruguoniyetingshuo/张韶涵_如果你也听说_AI.wav",
+    "outputs/stage9-seven-ruguoniyetingshuo/杨丞琳_如果你也听说_mix_AI.wav",
+    "outputs/stage9-seven-ruguoniyetingshuo/杨丞琳_如果你也听说_AI.wav",
+    "outputs/stage9-seven-ruguoniyetingshuo/王心凌_如果你也听说_mix_AI.wav",
+    "outputs/stage9-seven-ruguoniyetingshuo/王心凌_如果你也听说_AI.wav"
+  ],
+  "stage9_listening_page": "outputs/stage9-seven-ruguoniyetingshuo/listen.html",
+  "stage9_experiment": "config/experiments/seven-ruguoniyetingshuo.json",
+  "previous_group_listening_pages": {
+    "stefanie": "outputs/stage8-stefanie-tinghai/listen.html",
+    "elva": "outputs/stage8-elva-tinghai/listen.html",
+    "fish": "outputs/stage8-fish-tinghai/listen.html",
+    "cyndi": "outputs/stage8-cyndi-tinghai/listen.html"
+  },
+  "latest_experiments": [
+    "config/experiments/stage27-yuyan.json"
+  ],
+  "stage10_deliverables": [
+    "outputs/stage10-xinqiang/张韶涵_心墙_mix_AI.wav",
+    "outputs/stage10-xinqiang/张韶涵_心墙_AI.wav",
+    "outputs/stage10-xinqiang/萧亚轩_心墙_mix_AI.wav",
+    "outputs/stage10-xinqiang/萧亚轩_心墙_AI.wav",
+    "outputs/stage10-xiaoxingyun/张韶涵_小幸运_mix_AI.wav",
+    "outputs/stage10-xiaoxingyun/张韶涵_小幸运_AI.wav",
+    "outputs/stage10-xiaoxingyun/萧亚轩_小幸运_mix_AI.wav",
+    "outputs/stage10-xiaoxingyun/萧亚轩_小幸运_AI.wav"
+  ],
+  "stage10_experiments": [
+    "config/experiments/stage10-xinqiang.json",
+    "config/experiments/stage10-xiaoxingyun.json"
+  ],
+  "default_roster": "config/default-roster.json",
+  "active_experiment": null,
+  "stage11_deliverables": [
+    "outputs/stage10-xinqiang/张韶涵_心墙_mix_AI.wav",
+    "outputs/stage10-xinqiang/张韶涵_心墙_AI.wav",
+    "outputs/stage10-xinqiang/萧亚轩_心墙_mix_AI.wav",
+    "outputs/stage10-xinqiang/萧亚轩_心墙_AI.wav",
+    "outputs/stage10-xinqiang/孙燕姿_心墙_mix_AI.wav",
+    "outputs/stage10-xinqiang/孙燕姿_心墙_AI.wav",
+    "outputs/stage10-xinqiang/蔡依林_心墙_mix_AI.wav",
+    "outputs/stage10-xinqiang/蔡依林_心墙_AI.wav",
+    "outputs/stage10-xinqiang/梁静茹_心墙_mix_AI.wav",
+    "outputs/stage10-xinqiang/梁静茹_心墙_AI.wav",
+    "outputs/stage10-xinqiang/王心凌_心墙_mix_AI.wav",
+    "outputs/stage10-xinqiang/王心凌_心墙_AI.wav",
+    "outputs/stage10-xinqiang/杨丞琳_心墙_mix_AI.wav",
+    "outputs/stage10-xinqiang/杨丞琳_心墙_AI.wav",
+    "outputs/stage10-xiaoxingyun/张韶涵_小幸运_mix_AI.wav",
+    "outputs/stage10-xiaoxingyun/张韶涵_小幸运_AI.wav",
+    "outputs/stage10-xiaoxingyun/萧亚轩_小幸运_mix_AI.wav",
+    "outputs/stage10-xiaoxingyun/萧亚轩_小幸运_AI.wav",
+    "outputs/stage10-xiaoxingyun/孙燕姿_小幸运_mix_AI.wav",
+    "outputs/stage10-xiaoxingyun/孙燕姿_小幸运_AI.wav",
+    "outputs/stage10-xiaoxingyun/蔡依林_小幸运_mix_AI.wav",
+    "outputs/stage10-xiaoxingyun/蔡依林_小幸运_AI.wav",
+    "outputs/stage10-xiaoxingyun/梁静茹_小幸运_mix_AI.wav",
+    "outputs/stage10-xiaoxingyun/梁静茹_小幸运_AI.wav",
+    "outputs/stage10-xiaoxingyun/王心凌_小幸运_mix_AI.wav",
+    "outputs/stage10-xiaoxingyun/王心凌_小幸运_AI.wav",
+    "outputs/stage10-xiaoxingyun/杨丞琳_小幸运_mix_AI.wav",
+    "outputs/stage10-xiaoxingyun/杨丞琳_小幸运_AI.wav"
+  ],
+  "stage11_experiments": [
+    "config/experiments/stage11-xinqiang.json",
+    "config/experiments/stage11-xiaoxingyun.json"
+  ],
+  "stage11_listening_pages": {
+    "心墙": "outputs/stage10-xinqiang/listen.html",
+    "小幸运": "outputs/stage10-xiaoxingyun/listen.html"
+  },
+  "stage12_deliverables": [
+    "outputs/stage12-seven-houlai/孙燕姿_后来_mix_AI.wav",
+    "outputs/stage12-seven-houlai/孙燕姿_后来_AI.wav",
+    "outputs/stage12-seven-houlai/蔡依林_后来_mix_AI.wav",
+    "outputs/stage12-seven-houlai/蔡依林_后来_AI.wav",
+    "outputs/stage12-seven-houlai/萧亚轩_后来_mix_AI.wav",
+    "outputs/stage12-seven-houlai/萧亚轩_后来_AI.wav",
+    "outputs/stage12-seven-houlai/梁静茹_后来_mix_AI.wav",
+    "outputs/stage12-seven-houlai/梁静茹_后来_AI.wav",
+    "outputs/stage12-seven-houlai/张韶涵_后来_mix_AI.wav",
+    "outputs/stage12-seven-houlai/张韶涵_后来_AI.wav",
+    "outputs/stage12-seven-houlai/杨丞琳_后来_mix_AI.wav",
+    "outputs/stage12-seven-houlai/杨丞琳_后来_AI.wav",
+    "outputs/stage12-seven-houlai/王心凌_后来_mix_AI.wav",
+    "outputs/stage12-seven-houlai/王心凌_后来_AI.wav"
+  ],
+  "stage12_experiments": [
+    "config/experiments/stage12-houlai.json"
+  ],
+  "stage12_listening_pages": {
+    "后来": "outputs/stage12-seven-houlai/listen.html"
+  },
+  "stage13_deliverables": [
+    "outputs/stage13-seven-pugongying/孙燕姿_蒲公英的约定_mix_AI.wav",
+    "outputs/stage13-seven-pugongying/孙燕姿_蒲公英的约定_AI.wav",
+    "outputs/stage13-seven-pugongying/蔡依林_蒲公英的约定_mix_AI.wav",
+    "outputs/stage13-seven-pugongying/蔡依林_蒲公英的约定_AI.wav",
+    "outputs/stage13-seven-pugongying/萧亚轩_蒲公英的约定_mix_AI.wav",
+    "outputs/stage13-seven-pugongying/萧亚轩_蒲公英的约定_AI.wav",
+    "outputs/stage13-seven-pugongying/梁静茹_蒲公英的约定_mix_AI.wav",
+    "outputs/stage13-seven-pugongying/梁静茹_蒲公英的约定_AI.wav",
+    "outputs/stage13-seven-pugongying/张韶涵_蒲公英的约定_mix_AI.wav",
+    "outputs/stage13-seven-pugongying/张韶涵_蒲公英的约定_AI.wav",
+    "outputs/stage13-seven-pugongying/杨丞琳_蒲公英的约定_mix_AI.wav",
+    "outputs/stage13-seven-pugongying/杨丞琳_蒲公英的约定_AI.wav",
+    "outputs/stage13-seven-pugongying/王心凌_蒲公英的约定_mix_AI.wav",
+    "outputs/stage13-seven-pugongying/王心凌_蒲公英的约定_AI.wav"
+  ],
+  "stage13_experiments": [
+    "config/experiments/stage13-pugongying.json"
+  ],
+  "stage13_listening_pages": {
+    "蒲公英的约定": "outputs/stage13-seven-pugongying/listen.html"
+  },
+  "stage14_deliverables": [
+    "outputs/stage14-seven-shouxindetaiyang/萧亚轩_手心的太阳_mix_AI.wav",
+    "outputs/stage14-seven-shouxindetaiyang/萧亚轩_手心的太阳_AI.wav",
+    "outputs/stage14-seven-shouxindetaiyang/王心凌_手心的太阳_mix_AI.wav",
+    "outputs/stage14-seven-shouxindetaiyang/王心凌_手心的太阳_AI.wav"
+  ],
+  "stage14_experiments": [
+    "config/experiments/stage14-shouxin.json"
+  ],
+  "stage14_listening_pages": {
+    "手心的太阳": "outputs/stage14-seven-shouxindetaiyang/listen.html"
+  },
+  "shouxin_user_feedback": {
+    "date": "2026-10-18",
+    "quote": "效果还挺好，现在继续生成剩下的4个人的版本，在同一个目录",
+    "approved_artist_keys": [
+      "elva",
+      "cyndi"
+    ],
+    "new_artist_audition": "PENDING"
+  },
+  "previous_experiment_handoffs": [
+    {
+      "scope": "六位歌手演唱张韶涵《手心的太阳》完整副歌，补齐四位，30步单版",
+      "deliverables": [
+        "outputs/stage14-seven-shouxindetaiyang/孙燕姿_手心的太阳_mix_AI.wav",
+        "outputs/stage14-seven-shouxindetaiyang/孙燕姿_手心的太阳_AI.wav",
+        "outputs/stage14-seven-shouxindetaiyang/蔡依林_手心的太阳_mix_AI.wav",
+        "outputs/stage14-seven-shouxindetaiyang/蔡依林_手心的太阳_AI.wav",
+        "outputs/stage14-seven-shouxindetaiyang/萧亚轩_手心的太阳_mix_AI.wav",
+        "outputs/stage14-seven-shouxindetaiyang/萧亚轩_手心的太阳_AI.wav",
+        "outputs/stage14-seven-shouxindetaiyang/梁静茹_手心的太阳_mix_AI.wav",
+        "outputs/stage14-seven-shouxindetaiyang/梁静茹_手心的太阳_AI.wav",
+        "outputs/stage14-seven-shouxindetaiyang/杨丞琳_手心的太阳_mix_AI.wav",
+        "outputs/stage14-seven-shouxindetaiyang/杨丞琳_手心的太阳_AI.wav",
+        "outputs/stage14-seven-shouxindetaiyang/王心凌_手心的太阳_mix_AI.wav",
+        "outputs/stage14-seven-shouxindetaiyang/王心凌_手心的太阳_AI.wav"
+      ],
+      "latest_experiment": "config/experiments/stage15-shouxin.json",
+      "latest_experiments": [
+        "config/experiments/stage15-shouxin.json"
+      ],
+      "listening_page": "outputs/stage14-seven-shouxindetaiyang/listen.html",
+      "listening_pages": {
+        "手心的太阳": "outputs/stage14-seven-shouxindetaiyang/listen.html"
+      },
+      "next": [
+        "用户试听新增孙燕姿、蔡依林、梁静茹、杨丞琳版本；原萧亚轩、王心凌已获认可"
+      ],
+      "projects": {
+        "demucs": "LOCAL_SEPARATION_PASSED; UVR_Demucs_Model_1 MPS",
+        "seed-vc": "POC_PASSED; Shou Xin De Tai Yang six singers, four added; original two user-approved",
+        "applio": "RESEARCHED_NOT_DEPLOYED",
+        "rvc": "BLOCKED_UPSTREAM_PLATFORM",
+        "so-vits-svc": "RESEARCHED_NOT_DEPLOYED",
+        "so-vits-svc-fork": "RESEARCHED_NOT_DEPLOYED",
+        "soulx-singer": "RESEARCHED_NOT_DEPLOYED",
+        "gpt-sovits": "DEFERRED_TASK_MISMATCH",
+        "reflow-vae-svc": "RESEARCHED_NOT_DEPLOYED",
+        "applio-app": "RESEARCHED_NOT_DEPLOYED"
+      }
+    },
+    {
+      "scope": "六位固定参考音色演唱孙燕姿《我要的幸福》完整副歌，30步单版",
+      "deliverables": [
+        "outputs/stage16-six-xingfu/蔡依林_我要的幸福_mix_AI.wav",
+        "outputs/stage16-six-xingfu/蔡依林_我要的幸福_AI.wav",
+        "outputs/stage16-six-xingfu/萧亚轩_我要的幸福_mix_AI.wav",
+        "outputs/stage16-six-xingfu/萧亚轩_我要的幸福_AI.wav",
+        "outputs/stage16-six-xingfu/梁静茹_我要的幸福_mix_AI.wav",
+        "outputs/stage16-six-xingfu/梁静茹_我要的幸福_AI.wav",
+        "outputs/stage16-six-xingfu/张韶涵_我要的幸福_mix_AI.wav",
+        "outputs/stage16-six-xingfu/张韶涵_我要的幸福_AI.wav",
+        "outputs/stage16-six-xingfu/杨丞琳_我要的幸福_mix_AI.wav",
+        "outputs/stage16-six-xingfu/杨丞琳_我要的幸福_AI.wav",
+        "outputs/stage16-six-xingfu/王心凌_我要的幸福_mix_AI.wav",
+        "outputs/stage16-six-xingfu/王心凌_我要的幸福_AI.wav"
+      ],
+      "latest_experiment": "config/experiments/stage16-xingfu.json",
+      "latest_experiments": [
+        "config/experiments/stage16-xingfu.json"
+      ],
+      "listening_page": "outputs/stage16-six-xingfu/listen.html",
+      "listening_pages": {
+        "我要的幸福": "outputs/stage16-six-xingfu/listen.html"
+      },
+      "next": [
+        "用户试听六位《我要的幸福》副歌；技术校验不代表听感认可"
+      ],
+      "projects": {
+        "demucs": "LOCAL_SEPARATION_PASSED; UVR_Demucs_Model_1 MPS",
+        "seed-vc": "POC_PASSED; My Desired Happiness six singers, 30 steps; human audition pending",
+        "applio": "RESEARCHED_NOT_DEPLOYED",
+        "rvc": "BLOCKED_UPSTREAM_PLATFORM",
+        "so-vits-svc": "RESEARCHED_NOT_DEPLOYED",
+        "so-vits-svc-fork": "RESEARCHED_NOT_DEPLOYED",
+        "soulx-singer": "RESEARCHED_NOT_DEPLOYED",
+        "gpt-sovits": "DEFERRED_TASK_MISMATCH",
+        "reflow-vae-svc": "RESEARCHED_NOT_DEPLOYED",
+        "applio-app": "RESEARCHED_NOT_DEPLOYED"
+      }
+    },
+    {
+      "scope": "六位固定参考音色演唱萧亚轩《突然想起你》完整副歌，30步单版",
+      "deliverables": [
+        "outputs/stage17-six-turan/孙燕姿_突然想起你_mix_AI.wav",
+        "outputs/stage17-six-turan/孙燕姿_突然想起你_AI.wav",
+        "outputs/stage17-six-turan/蔡依林_突然想起你_mix_AI.wav",
+        "outputs/stage17-six-turan/蔡依林_突然想起你_AI.wav",
+        "outputs/stage17-six-turan/梁静茹_突然想起你_mix_AI.wav",
+        "outputs/stage17-six-turan/梁静茹_突然想起你_AI.wav",
+        "outputs/stage17-six-turan/张韶涵_突然想起你_mix_AI.wav",
+        "outputs/stage17-six-turan/张韶涵_突然想起你_AI.wav",
+        "outputs/stage17-six-turan/杨丞琳_突然想起你_mix_AI.wav",
+        "outputs/stage17-six-turan/杨丞琳_突然想起你_AI.wav",
+        "outputs/stage17-six-turan/王心凌_突然想起你_mix_AI.wav",
+        "outputs/stage17-six-turan/王心凌_突然想起你_AI.wav"
+      ],
+      "latest_experiment": "config/experiments/stage17-turan.json",
+      "latest_experiments": [
+        "config/experiments/stage17-turan.json"
+      ],
+      "listening_page": "outputs/stage17-six-turan/listen.html",
+      "listening_pages": {
+        "突然想起你": "outputs/stage17-six-turan/listen.html"
+      },
+      "next": [
+        "用户试听六位《突然想起你》副歌；技术校验不代表听感认可"
+      ],
+      "projects": {
+        "demucs": "LOCAL_SEPARATION_PASSED; UVR_Demucs_Model_1 MPS",
+        "seed-vc": "POC_PASSED; Suddenly Missing You six singers, 30 steps; human audition pending",
+        "applio": "RESEARCHED_NOT_DEPLOYED",
+        "rvc": "BLOCKED_UPSTREAM_PLATFORM",
+        "so-vits-svc": "RESEARCHED_NOT_DEPLOYED",
+        "so-vits-svc-fork": "RESEARCHED_NOT_DEPLOYED",
+        "soulx-singer": "RESEARCHED_NOT_DEPLOYED",
+        "gpt-sovits": "DEFERRED_TASK_MISMATCH",
+        "reflow-vae-svc": "RESEARCHED_NOT_DEPLOYED",
+        "applio-app": "RESEARCHED_NOT_DEPLOYED"
+      }
+    },
+    {
+      "scope": "六位固定参考音色演唱蔡依林《我知道你很难过》完整副歌，30步单版",
+      "deliverables": [
+        "outputs/stage18-six-nanguo/孙燕姿_我知道你很难过_mix_AI.wav",
+        "outputs/stage18-six-nanguo/孙燕姿_我知道你很难过_AI.wav",
+        "outputs/stage18-six-nanguo/萧亚轩_我知道你很难过_mix_AI.wav",
+        "outputs/stage18-six-nanguo/萧亚轩_我知道你很难过_AI.wav",
+        "outputs/stage18-six-nanguo/梁静茹_我知道你很难过_mix_AI.wav",
+        "outputs/stage18-six-nanguo/梁静茹_我知道你很难过_AI.wav",
+        "outputs/stage18-six-nanguo/张韶涵_我知道你很难过_mix_AI.wav",
+        "outputs/stage18-six-nanguo/张韶涵_我知道你很难过_AI.wav",
+        "outputs/stage18-six-nanguo/杨丞琳_我知道你很难过_mix_AI.wav",
+        "outputs/stage18-six-nanguo/杨丞琳_我知道你很难过_AI.wav",
+        "outputs/stage18-six-nanguo/王心凌_我知道你很难过_mix_AI.wav",
+        "outputs/stage18-six-nanguo/王心凌_我知道你很难过_AI.wav"
+      ],
+      "latest_experiment": "config/experiments/stage18-nanguo.json",
+      "latest_experiments": [
+        "config/experiments/stage18-nanguo.json"
+      ],
+      "listening_page": "outputs/stage18-six-nanguo/listen.html",
+      "listening_pages": {
+        "我知道你很难过": "outputs/stage18-six-nanguo/listen.html"
+      },
+      "next": [
+        "用户试听六位《我知道你很难过》副歌；技术校验不代表听感认可"
+      ],
+      "projects": {
+        "demucs": "LOCAL_SEPARATION_PASSED; UVR_Demucs_Model_1 MPS",
+        "seed-vc": "POC_PASSED; I Know You're Feeling Blue six singers, 30 steps; human audition pending",
+        "applio": "RESEARCHED_NOT_DEPLOYED",
+        "rvc": "BLOCKED_UPSTREAM_PLATFORM",
+        "so-vits-svc": "RESEARCHED_NOT_DEPLOYED",
+        "so-vits-svc-fork": "RESEARCHED_NOT_DEPLOYED",
+        "soulx-singer": "RESEARCHED_NOT_DEPLOYED",
+        "gpt-sovits": "DEFERRED_TASK_MISMATCH",
+        "reflow-vae-svc": "RESEARCHED_NOT_DEPLOYED",
+        "applio-app": "RESEARCHED_NOT_DEPLOYED"
+      }
+    },
+    {
+      "scope": "六位固定参考音色演唱王心凌《我会好好的》副歌前31秒，30步单版",
+      "deliverables": [
+        "outputs/stage19-six-haohao/孙燕姿_我会好好的_mix_AI.wav",
+        "outputs/stage19-six-haohao/孙燕姿_我会好好的_AI.wav",
+        "outputs/stage19-six-haohao/蔡依林_我会好好的_mix_AI.wav",
+        "outputs/stage19-six-haohao/蔡依林_我会好好的_AI.wav",
+        "outputs/stage19-six-haohao/萧亚轩_我会好好的_mix_AI.wav",
+        "outputs/stage19-six-haohao/萧亚轩_我会好好的_AI.wav",
+        "outputs/stage19-six-haohao/梁静茹_我会好好的_mix_AI.wav",
+        "outputs/stage19-six-haohao/梁静茹_我会好好的_AI.wav",
+        "outputs/stage19-six-haohao/张韶涵_我会好好的_mix_AI.wav",
+        "outputs/stage19-six-haohao/张韶涵_我会好好的_AI.wav",
+        "outputs/stage19-six-haohao/杨丞琳_我会好好的_mix_AI.wav",
+        "outputs/stage19-six-haohao/杨丞琳_我会好好的_AI.wav"
+      ],
+      "latest_experiment": "config/experiments/stage19-haohao.json",
+      "latest_experiments": [
+        "config/experiments/stage19-haohao.json"
+      ],
+      "listening_page": "outputs/stage19-six-haohao/listen.html",
+      "listening_pages": {
+        "我会好好的": "outputs/stage19-six-haohao/listen.html"
+      },
+      "next": [
+        "用户试听六位《我会好好的》副歌；技术校验不代表听感认可"
+      ],
+      "projects": {
+        "demucs": "LOCAL_SEPARATION_PASSED; UVR_Demucs_Model_1 MPS",
+        "seed-vc": "POC_PASSED; I'll Be Fine six singers, 30 steps; human audition pending",
+        "applio": "RESEARCHED_NOT_DEPLOYED",
+        "rvc": "BLOCKED_UPSTREAM_PLATFORM",
+        "so-vits-svc": "RESEARCHED_NOT_DEPLOYED",
+        "so-vits-svc-fork": "RESEARCHED_NOT_DEPLOYED",
+        "soulx-singer": "RESEARCHED_NOT_DEPLOYED",
+        "gpt-sovits": "DEFERRED_TASK_MISMATCH",
+        "reflow-vae-svc": "RESEARCHED_NOT_DEPLOYED",
+        "applio-app": "RESEARCHED_NOT_DEPLOYED"
+      }
+    },
+    {
+      "scope": "六位固定参考音色演唱梁静茹《勇气》完整副歌，30步单版",
+      "deliverables": [
+        "outputs/stage20-six-yongqi/孙燕姿_勇气_mix_AI.wav",
+        "outputs/stage20-six-yongqi/孙燕姿_勇气_AI.wav",
+        "outputs/stage20-six-yongqi/蔡依林_勇气_mix_AI.wav",
+        "outputs/stage20-six-yongqi/蔡依林_勇气_AI.wav",
+        "outputs/stage20-six-yongqi/萧亚轩_勇气_mix_AI.wav",
+        "outputs/stage20-six-yongqi/萧亚轩_勇气_AI.wav",
+        "outputs/stage20-six-yongqi/张韶涵_勇气_mix_AI.wav",
+        "outputs/stage20-six-yongqi/张韶涵_勇气_AI.wav",
+        "outputs/stage20-six-yongqi/杨丞琳_勇气_mix_AI.wav",
+        "outputs/stage20-six-yongqi/杨丞琳_勇气_AI.wav",
+        "outputs/stage20-six-yongqi/王心凌_勇气_mix_AI.wav",
+        "outputs/stage20-six-yongqi/王心凌_勇气_AI.wav"
+      ],
+      "latest_experiment": "config/experiments/stage20-yongqi.json",
+      "latest_experiments": [
+        "config/experiments/stage20-yongqi.json"
+      ],
+      "listening_page": "outputs/stage20-six-yongqi/listen.html",
+      "listening_pages": {
+        "我会好好的": "outputs/stage19-six-haohao/listen.html",
+        "勇气": "outputs/stage20-six-yongqi/listen.html"
+      },
+      "next": [
+        "用户试听六位《勇气》副歌；技术校验不代表听感认可"
+      ],
+      "projects": {
+        "demucs": "LOCAL_SEPARATION_PASSED; UVR_Demucs_Model_1 MPS",
+        "seed-vc": "POC_PASSED; Courage six singers, 30 steps; human audition pending",
+        "applio": "RESEARCHED_NOT_DEPLOYED",
+        "rvc": "BLOCKED_UPSTREAM_PLATFORM",
+        "so-vits-svc": "RESEARCHED_NOT_DEPLOYED",
+        "so-vits-svc-fork": "RESEARCHED_NOT_DEPLOYED",
+        "soulx-singer": "RESEARCHED_NOT_DEPLOYED",
+        "gpt-sovits": "DEFERRED_TASK_MISMATCH",
+        "reflow-vae-svc": "RESEARCHED_NOT_DEPLOYED",
+        "applio-app": "RESEARCHED_NOT_DEPLOYED"
+      }
+    },
+    {
+      "scope": "七位固定参考音色演唱林凡《一个人生活》完整副歌，30步单版",
+      "deliverables": [
+        "outputs/stage21-seven-yigeren/孙燕姿_一个人生活_mix_AI.wav",
+        "outputs/stage21-seven-yigeren/孙燕姿_一个人生活_AI.wav",
+        "outputs/stage21-seven-yigeren/蔡依林_一个人生活_mix_AI.wav",
+        "outputs/stage21-seven-yigeren/蔡依林_一个人生活_AI.wav",
+        "outputs/stage21-seven-yigeren/萧亚轩_一个人生活_mix_AI.wav",
+        "outputs/stage21-seven-yigeren/萧亚轩_一个人生活_AI.wav",
+        "outputs/stage21-seven-yigeren/梁静茹_一个人生活_mix_AI.wav",
+        "outputs/stage21-seven-yigeren/梁静茹_一个人生活_AI.wav",
+        "outputs/stage21-seven-yigeren/张韶涵_一个人生活_mix_AI.wav",
+        "outputs/stage21-seven-yigeren/张韶涵_一个人生活_AI.wav",
+        "outputs/stage21-seven-yigeren/杨丞琳_一个人生活_mix_AI.wav",
+        "outputs/stage21-seven-yigeren/杨丞琳_一个人生活_AI.wav",
+        "outputs/stage21-seven-yigeren/王心凌_一个人生活_mix_AI.wav",
+        "outputs/stage21-seven-yigeren/王心凌_一个人生活_AI.wav"
+      ],
+      "latest_experiment": "config/experiments/stage21-yigeren.json",
+      "latest_experiments": [
+        "config/experiments/stage21-yigeren.json"
+      ],
+      "listening_page": "outputs/stage21-seven-yigeren/listen.html",
+      "listening_pages": {
+        "我会好好的": "outputs/stage19-six-haohao/listen.html",
+        "勇气": "outputs/stage20-six-yongqi/listen.html",
+        "一个人生活": "outputs/stage21-seven-yigeren/listen.html"
+      },
+      "next": [
+        "用户试听七位《一个人生活》副歌；技术校验不代表听感认可"
+      ],
+      "projects": {
+        "demucs": "LOCAL_SEPARATION_PASSED; UVR_Demucs_Model_1 MPS",
+        "seed-vc": "POC_PASSED; Living Alone seven singers, 30 steps; human audition pending",
+        "applio": "RESEARCHED_NOT_DEPLOYED",
+        "rvc": "BLOCKED_UPSTREAM_PLATFORM",
+        "so-vits-svc": "RESEARCHED_NOT_DEPLOYED",
+        "so-vits-svc-fork": "RESEARCHED_NOT_DEPLOYED",
+        "soulx-singer": "RESEARCHED_NOT_DEPLOYED",
+        "gpt-sovits": "DEFERRED_TASK_MISMATCH",
+        "reflow-vae-svc": "RESEARCHED_NOT_DEPLOYED",
+        "applio-app": "RESEARCHED_NOT_DEPLOYED"
+      }
+    },
+    {
+      "scope": "六位固定参考音色演唱杨丞琳《只想爱你》完整副歌，30步单版",
+      "deliverables": [
+        "outputs/stage23-six-zhixiangaini/孙燕姿_只想爱你_mix_AI.wav",
+        "outputs/stage23-six-zhixiangaini/孙燕姿_只想爱你_AI.wav",
+        "outputs/stage23-six-zhixiangaini/蔡依林_只想爱你_mix_AI.wav",
+        "outputs/stage23-six-zhixiangaini/蔡依林_只想爱你_AI.wav",
+        "outputs/stage23-six-zhixiangaini/萧亚轩_只想爱你_mix_AI.wav",
+        "outputs/stage23-six-zhixiangaini/萧亚轩_只想爱你_AI.wav",
+        "outputs/stage23-six-zhixiangaini/梁静茹_只想爱你_mix_AI.wav",
+        "outputs/stage23-six-zhixiangaini/梁静茹_只想爱你_AI.wav",
+        "outputs/stage23-six-zhixiangaini/张韶涵_只想爱你_mix_AI.wav",
+        "outputs/stage23-six-zhixiangaini/张韶涵_只想爱你_AI.wav",
+        "outputs/stage23-six-zhixiangaini/王心凌_只想爱你_mix_AI.wav",
+        "outputs/stage23-six-zhixiangaini/王心凌_只想爱你_AI.wav"
+      ],
+      "latest_experiment": "config/experiments/stage23-zhixiangaini.json",
+      "latest_experiments": [
+        "config/experiments/stage23-zhixiangaini.json"
+      ],
+      "listening_page": "outputs/stage23-six-zhixiangaini/listen.html",
+      "listening_pages": {
+        "只想爱你": "outputs/stage23-six-zhixiangaini/listen.html"
+      },
+      "next": [
+        "用户试听六位《只想爱你》副歌；技术校验不代表听感认可"
+      ],
+      "projects": {
+        "demucs": "LOCAL_SEPARATION_PASSED; UVR_Demucs_Model_1 MPS",
+        "seed-vc": "POC_PASSED; six singers, 30 steps; human audition pending",
+        "applio": "RESEARCHED_NOT_DEPLOYED",
+        "rvc": "BLOCKED_UPSTREAM_PLATFORM",
+        "so-vits-svc": "RESEARCHED_NOT_DEPLOYED",
+        "so-vits-svc-fork": "RESEARCHED_NOT_DEPLOYED",
+        "soulx-singer": "RESEARCHED_NOT_DEPLOYED",
+        "gpt-sovits": "DEFERRED_TASK_MISMATCH",
+        "reflow-vae-svc": "RESEARCHED_NOT_DEPLOYED",
+        "applio-app": "RESEARCHED_NOT_DEPLOYED"
+      }
+    },
+    {
+      "scope": "七位固定参考音色演唱4 In Love《再见中国海》完整副歌，30步单版",
+      "deliverables": [
+        "outputs/stage24-seven-zaijianzhongguohai/孙燕姿_再见中国海_mix_AI.wav",
+        "outputs/stage24-seven-zaijianzhongguohai/孙燕姿_再见中国海_AI.wav",
+        "outputs/stage24-seven-zaijianzhongguohai/蔡依林_再见中国海_mix_AI.wav",
+        "outputs/stage24-seven-zaijianzhongguohai/蔡依林_再见中国海_AI.wav",
+        "outputs/stage24-seven-zaijianzhongguohai/萧亚轩_再见中国海_mix_AI.wav",
+        "outputs/stage24-seven-zaijianzhongguohai/萧亚轩_再见中国海_AI.wav",
+        "outputs/stage24-seven-zaijianzhongguohai/梁静茹_再见中国海_mix_AI.wav",
+        "outputs/stage24-seven-zaijianzhongguohai/梁静茹_再见中国海_AI.wav",
+        "outputs/stage24-seven-zaijianzhongguohai/张韶涵_再见中国海_mix_AI.wav",
+        "outputs/stage24-seven-zaijianzhongguohai/张韶涵_再见中国海_AI.wav",
+        "outputs/stage24-seven-zaijianzhongguohai/杨丞琳_再见中国海_mix_AI.wav",
+        "outputs/stage24-seven-zaijianzhongguohai/杨丞琳_再见中国海_AI.wav",
+        "outputs/stage24-seven-zaijianzhongguohai/王心凌_再见中国海_mix_AI.wav",
+        "outputs/stage24-seven-zaijianzhongguohai/王心凌_再见中国海_AI.wav"
+      ],
+      "latest_experiment": "config/experiments/stage24-zaijianzhongguohai.json",
+      "latest_experiments": [
+        "config/experiments/stage24-zaijianzhongguohai.json"
+      ],
+      "listening_page": "outputs/stage24-seven-zaijianzhongguohai/listen.html",
+      "listening_pages": {
+        "只想爱你": "outputs/stage23-six-zhixiangaini/listen.html",
+        "再见中国海": "outputs/stage24-seven-zaijianzhongguohai/listen.html"
+      },
+      "next": [
+        "用户试听七位《再见中国海》副歌；技术校验不代表听感认可"
+      ],
+      "projects": {
+        "demucs": "LOCAL_SEPARATION_PASSED; UVR_Demucs_Model_1 MPS",
+        "seed-vc": "POC_PASSED; seven singers, 30 steps; human audition pending",
+        "applio": "RESEARCHED_NOT_DEPLOYED",
+        "rvc": "BLOCKED_UPSTREAM_PLATFORM",
+        "so-vits-svc": "RESEARCHED_NOT_DEPLOYED",
+        "so-vits-svc-fork": "RESEARCHED_NOT_DEPLOYED",
+        "soulx-singer": "RESEARCHED_NOT_DEPLOYED",
+        "gpt-sovits": "DEFERRED_TASK_MISMATCH",
+        "reflow-vae-svc": "RESEARCHED_NOT_DEPLOYED",
+        "applio-app": "RESEARCHED_NOT_DEPLOYED"
+      }
+    },
+    {
+      "scope": "六位固定参考音色演唱梁静茹《爱你不是两三天》完整副歌，30步单版",
+      "deliverables": [
+        "outputs/stage25-six-ainibushiliangsantian/孙燕姿_爱你不是两三天_mix_AI.wav",
+        "outputs/stage25-six-ainibushiliangsantian/孙燕姿_爱你不是两三天_AI.wav",
+        "outputs/stage25-six-ainibushiliangsantian/蔡依林_爱你不是两三天_mix_AI.wav",
+        "outputs/stage25-six-ainibushiliangsantian/蔡依林_爱你不是两三天_AI.wav",
+        "outputs/stage25-six-ainibushiliangsantian/萧亚轩_爱你不是两三天_mix_AI.wav",
+        "outputs/stage25-six-ainibushiliangsantian/萧亚轩_爱你不是两三天_AI.wav",
+        "outputs/stage25-six-ainibushiliangsantian/张韶涵_爱你不是两三天_mix_AI.wav",
+        "outputs/stage25-six-ainibushiliangsantian/张韶涵_爱你不是两三天_AI.wav",
+        "outputs/stage25-six-ainibushiliangsantian/杨丞琳_爱你不是两三天_mix_AI.wav",
+        "outputs/stage25-six-ainibushiliangsantian/杨丞琳_爱你不是两三天_AI.wav",
+        "outputs/stage25-six-ainibushiliangsantian/王心凌_爱你不是两三天_mix_AI.wav",
+        "outputs/stage25-six-ainibushiliangsantian/王心凌_爱你不是两三天_AI.wav"
+      ],
+      "latest_experiment": "config/experiments/stage25-ainibushiliangsantian.json",
+      "latest_experiments": [
+        "config/experiments/stage25-ainibushiliangsantian.json"
+      ],
+      "listening_page": "outputs/stage25-six-ainibushiliangsantian/listen.html",
+      "listening_pages": {
+        "爱你不是两三天": "outputs/stage25-six-ainibushiliangsantian/listen.html"
+      },
+      "next": [
+        "用户试听六位《爱你不是两三天》副歌；技术校验不代表听感认可"
+      ],
+      "projects": {
+        "demucs": "LOCAL_SEPARATION_PASSED; UVR_Demucs_Model_1 MPS",
+        "seed-vc": "POC_PASSED; six singers, 30 steps; human audition pending",
+        "applio": "RESEARCHED_NOT_DEPLOYED",
+        "rvc": "BLOCKED_UPSTREAM_PLATFORM",
+        "so-vits-svc": "RESEARCHED_NOT_DEPLOYED",
+        "so-vits-svc-fork": "RESEARCHED_NOT_DEPLOYED",
+        "soulx-singer": "RESEARCHED_NOT_DEPLOYED",
+        "gpt-sovits": "DEFERRED_TASK_MISMATCH",
+        "reflow-vae-svc": "RESEARCHED_NOT_DEPLOYED",
+        "applio-app": "RESEARCHED_NOT_DEPLOYED"
+      }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+[
+  {
+    "id": "seed-vc",
+    "repo": "Plachtaa/seed-vc",
+    "files": [
+      "README.md",
+      "requirements-mac.txt",
+      "requirements.txt",
+      "inference.py",
+      "hf_utils.py",
+      "LICENSE"
+    ]
+  },
+  {
+    "id": "applio",
+    "repo": "IAHispano/Applio",
+    "files": [
+      "README.md",
+      "requirements.txt",
+      "requirements-macos.txt",
+      "pyproject.toml",
+      "LICENSE",
+      "requirements-engine.txt",
+      "run-install.sh",
+      "TERMS_OF_USE.md"
+    ]
+  },
+  {
+    "id": "rvc",
+    "repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+    "files": [
+      "README.md",
+      "docs/en/README.en.md",
+      "requirments_cpu_py312.txt",
+      "LICENSE"
+    ]
+  },
+  {
+    "id": "so-vits-svc",
+    "repo": "svc-develop-team/so-vits-svc",
+    "files": [
+      "README.md",
+      "requirements.txt",
+      "LICENSE"
+    ]
+  },
+  {
+    "id": "so-vits-svc-fork",
+    "repo": "voicepaw/so-vits-svc-fork",
+    "files": [
+      "README.md",
+      "pyproject.toml",
+      "LICENSE"
+    ]
+  },
+  {
+    "id": "soulx-singer",
+    "repo": "Soul-AILab/SoulX-Singer",
+    "files": [
+      "README.md",
+      "requirements.txt",
+      "LICENSE",
+      "preprocess/README.md",
+      "example/infer_svc.sh"
+    ]
+  },
+  {
+    "id": "gpt-sovits",
+    "repo": "RVC-Boss/GPT-SoVITS",
+    "files": [
+      "README.md",
+      "requirements.txt",
+      "install.sh",
+      "LICENSE"
+    ]
+  },
+  {
+    "id": "reflow-vae-svc",
+    "repo": "yxlllc/ReFlow-VAE-SVC",
+    "files": [
+      "README.md",
+      "requirements.txt",
+      "LICENSE"
+    ]
+  },
+  {
+    "id": "demucs",
+    "repo": "facebookresearch/demucs",
+    "files": [
+      "README.md",
+      "requirements.txt",
+      "setup.py",
+      "LICENSE"
+    ]
+  },
+  {
+    "id": "applio-app",
+    "repo": "IAHispano/Applio-App",
+    "files": [
+      "README.md",
+      "LICENSE",
+      "package.json"
+    ]
+  }
+]
